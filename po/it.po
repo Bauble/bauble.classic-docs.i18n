@@ -1,0 +1,2012 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008,2009
+# This file is distributed under the same license as the Bauble package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-24 20:01-0500\n"
+"PO-Revision-Date: 2015-06-24 20:24-0500\n"
+"Last-Translator: Mario Frasca <mario@anche.no>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# cae6f858f1d3479a9441a53ddef8cbfd
+#: ../source/index.rst:2
+msgid "Documentation for Bauble 1.0"
+msgstr "Documentazione per Bauble, versione 1.0"
+
+# 996e7b4597f94232a672a779baa7e5dc
+#: ../source/index.rst:7
+msgid ""
+"Bauble is an application for managing botanical specimen collections. With "
+"it you can create a searchable database of plant records."
+msgstr ""
+"Bauble è un programma per la gestione di collezioni botaniche. Utilizzando "
+"Bauble si può creare e gestire un database che descriva un erbario, un "
+"giardino, un orto botanico."
+
+# 8d88d7b06b0140a292aa388b6e18ba6d
+#: ../source/index.rst:10
+msgid ""
+"It is `open <http://www.opensource.org>`_ and `free <http://www.fsf.org>`_ "
+"and is released under the `GNU Public License <http://www.fsf.org/licensing/"
+"licenses/gpl.html>`_"
+msgstr ""
+"Bauble è software `aperto <http://www.opensource.org>`_ e `libero <http://"
+"www.fsf.org>`_ ed è distribuito secondo la licenza pubblica GNU, nota col "
+"suo acronimo inglese `GPL <http://www.fsf.org/licensing/licenses/gpl.html>`_"
+
+# dac3bffaec504634952d55fde91b76f2
+#: ../source/index.rst:20
+msgid "Installing Bauble"
+msgstr "Installare Bauble"
+
+# 0452ef2f5340433fbfa8fa144f1aac39
+#: ../source/index.rst:29
+msgid "Using Bauble"
+msgstr ""
+
+# 6b8a469254fa400b93acbd13c3b93cd9
+#: ../source/index.rst:44
+msgid "Bauble Development"
+msgstr ""
+
+# bf1676fb65f341f38f551f2b5c6151a0
+#: ../source/index.rst:55
+msgid "Supporting Bauble"
+msgstr ""
+
+# 92c890c741d34c1d86924bb21c3dc1c1
+#: ../source/index.rst:59
+msgid ""
+"If you're using Bauble, or if you feel like helping its development anyway, "
+"please consider `donating <https://pledgie.com/campaigns/29188>`_"
+msgstr ""
+
+# 152fee4017284b80aa8af2373d76881b
+#: ../source/peptalk.rst:2
+msgid "not-so-brief list of highlights, meant to whet your appetite."
+msgstr ""
+
+# d328a97ec6734f9398861edbd06dbed6
+#: ../source/peptalk.rst:4
+msgid ""
+"When you first start Bauble, and connect to a database, Bauble will "
+"initialize the database not only with all tables it needs to run, but it "
+"will also populate the taxon tables for ranks family and genus, using the "
+"data from the “RBG Kew's Family and Genera list from Vascular Plant Families "
+"and Genera compiled by R. K. Brummitt and published by the Royal Botanic "
+"Gardens, Kew in 1992”.  In 2015 we have reviewed the data regarding the "
+"Orchidaceae, using “Tropicos, botanical information system at the Missouri "
+"Botanical Garden - www.tropicos.org” as a source."
+msgstr ""
+
+# 73f01ce5049e439bb3698797a89e8d34
+#: ../source/peptalk.rst:13
+msgid ""
+"Bauble will let you import any data you put in an intermediate json format. "
+"What you import will complete what you already have in the database. If you "
+"need help, you can ask some Bauble professional to help you transform your "
+"data into Bauble's intermediate json format."
+msgstr ""
+
+# 7c70217fc4914eb1b44bd6417911d138
+#: ../source/peptalk.rst:18
+msgid ""
+"Bauble will allow you define synonyms for species, genera, families. Also "
+"this information can be represented in its intermediate json format and be "
+"imported in an existing Bauble database."
+msgstr ""
+
+# bcea334d423c47de823fa68cb9e13463
+#: ../source/peptalk.rst:22
+msgid ""
+"Bauble implements the concept of 'accession', intermediate between physical "
+"plant (or a group thereof) and abstract taxon. Each accession can associate "
+"the same plants to different taxa, if two taxonomists do not agree on the "
+"identification: each taxonomist can have their say and do not need overwrite "
+"each other's work. All verifications can be found back in the database, with "
+"timestamp and signature."
+msgstr ""
+
+# 283d48bd7adf4c71ad757844b355683b
+#: ../source/peptalk.rst:29
+msgid ""
+"Bauble allows you associate pictures to physical plants, this can help "
+"recognize the plant in case a sticker is lost, or help taxonomic "
+"identification if a taxonomist is not available at all times."
+msgstr ""
+
+# 597be1aac7b7454a99e9155675a54266
+#: ../source/peptalk.rst:33
+msgid ""
+"Bauble will let you export a report in whatever textual format you need. It "
+"uses a powerful templating engine named 'mako', which will allow you export "
+"the data in a selection to whatever format you need. Once installed, a "
+"couple of examples are available in the mako subdirectory."
+msgstr ""
+
+# 5b894547aac049b0bad6521851244ea7
+#: ../source/peptalk.rst:38
+msgid ""
+"You can associate notes to plants, accessions, species, .... Notes can be "
+"categorized and used in searches or reports."
+msgstr ""
+
+# 17a26562ad1d4e65af5b4ea52d84dcf1
+#: ../source/peptalk.rst:41
+msgid "Management of plant locations."
+msgstr ""
+
+# 0dd4f080268b41369c89e22ebfea41d6
+#: ../source/peptalk.rst:43
+msgid ""
+"All changes in the database is stored in the database, as history log. All "
+"changes are 'signed' and time-stamped.  Bauble makes it easy to retrieve the "
+"list of all changes in the last working day or week, or in any specific "
+"period in the past."
+msgstr ""
+
+# 1ac85af0ef8a405d8b7183bbde138621
+#: ../source/peptalk.rst:48
+msgid ""
+"Bauble allows you search the database using simple keywords, e.g.: the name "
+"of the location or a genus name, or you can write more complex queries, "
+"which do not reach the complexity of SQL but allow you a decent level of "
+"detail localizing your data."
+msgstr ""
+
+# 9e601e71a82e48da80a1f3d54d94875b
+#: ../source/peptalk.rst:53
+msgid ""
+"Bauble is not a database management system, so it does not reinvent the "
+"wheel. It works storing its data in a SQL database, and it will connect to "
+"any database management systen which accepts a SQLAlchemy connector. This "
+"means any reasonably modern database system and includes MySQL, PostgreSQL, "
+"Oracle. It can also work with sqlite, which, for single user purposes is "
+"quite sufficient and efficient. If you connect Bauble to a real database "
+"system, you can consider making the database part of a LAMP system (Linux-"
+"Apache-MySQL-Php) and include your live data on your institution web site."
+msgstr ""
+
+# 62d6e83946fe499cb9ab1aad87c7beaf
+#: ../source/peptalk.rst:63
+msgid ""
+"The program was born in English and all its technical and user documentation "
+"is still only in that language, but the program itself has been translated "
+"and can be used in various other languages, including Spanish (86%), "
+"Portuguese (100%), French (42%), to name some Southern American languages, "
+"as well as Swedish (100%) and Czech (100%)."
+msgstr ""
+
+# 2b5f140c01e4447ea15e922dfdbdd315
+#: ../source/peptalk.rst:69
+msgid ""
+"Installing Bauble on Windows is an easy and linear process, it will not take "
+"longer than 10 minutes. Bauble was born on Linux and installing it on "
+"ubuntu, fedora or debian is also rather simple. It has been recently "
+"successfully tested on MacOSX 10.9."
+msgstr ""
+
+# ccf2c549466a41a19226a1ed54b5c90a
+#: ../source/peptalk.rst:74
+msgid ""
+"The installation process will produce an updatable installation, where "
+"updating it will take less than one minute. Depending on the amount of "
+"feedback we receive, we will produce updates every few days or once in a "
+"while."
+msgstr ""
+
+# 545edbb9f09041daad3b793c13615eb6
+#: ../source/peptalk.rst:79
+msgid ""
+"Bauble is continuously and extensively unit tested, something that makes "
+"regression of functionality close to impossible. Every update is "
+"automatically quality checked, on the Travis Continuous Integration service. "
+"Integration of TravisCI with the github platform will make it difficult for "
+"us to release anything which has a single failing unit test."
+msgstr ""
+
+# 5ee5e07358d54b0ca250995240941fa8
+#: ../source/peptalk.rst:85
+msgid ""
+"Most changes and additions we make, come with some extra unit test, which "
+"defines the behaviour and will make any undesired change easily visible."
+msgstr ""
+
+# d2c5a945c5a34876820131da4a45ccb2
+#: ../source/peptalk.rst:88
+msgid ""
+"Bauble is extensible through plugins and can be customized to suit the needs "
+"of the institution."
+msgstr ""
+
+# 0c39483182624320849b297715c7a4ac
+#: ../source/installing.rst:2
+msgid "Installation"
+msgstr ""
+
+# 25dee15a0c5d434d9c1d71daf0b3ecb3
+#: ../source/installing.rst:4
+msgid ""
+"bauble.classic is a cross-platform program and it will run on unix machines "
+"like Linux and MacOSX, as well as on Windows."
+msgstr ""
+
+# c4615d15efc5473daef47dda60078085
+#: ../source/installing.rst:7
+msgid ""
+"To install Bauble first requires that you install its dependencies that "
+"cannot be installed automatically.  These include virtualenvwrapper, PyGTK "
+"and pip. Python and GTK+, you probably already have. As long as you have "
+"these packages installed then Bauble should be able to install the rest of "
+"its dependencies by itself."
+msgstr ""
+
+# db7808253e9243ff887822af8ffe822f
+#: ../source/installing.rst:13
+msgid ""
+"If you follow these installation steps, you will end with Bauble running "
+"within a Python virtual environment, all Python dependencies installed "
+"locally, non conflicting with any other Python program you may have on your "
+"system."
+msgstr ""
+
+# 83326101e117408bab4c1c58a0a2e819
+#: ../source/installing.rst:18
+msgid ""
+"if you later choose to remove Bauble, you simply remove the virtual "
+"environment, which is a directory, with all of its content."
+msgstr ""
+
+# 8b606422a63148ab8ee2f68ddcd76081
+#: ../source/installing.rst:23
+msgid "Installing on Linux"
+msgstr ""
+
+# d46d459fbdb04e2abf265f1483789864
+#: ../source/installing.rst:25
+msgid "Download the `devinstall.sh` script and run it::"
+msgstr ""
+
+# da7dc1856d374337a04d9e1f1dddb185
+#: ../source/installing.rst:29
+msgid ""
+"Please not that the script will not help you install any extra database "
+"connector. This you will do in a later step."
+msgstr ""
+
+# 1da24d62cad947a7b5db6186f3de4e2e
+#: ../source/installing.rst:32
+msgid ""
+"You can study the script to see what steps if runs for you. In short it will "
+"install dependencies which can't be satisfied in a virtual environment, then "
+"it will create a virtual environment named `bacl`, download the sources and "
+"connect your git checkout to the `bauble-1.0` branch (this you can consider "
+"a production line), it then builds bauble, downloading all remaining "
+"dependencies, and finally it creates a startup script in your `~/bin` folder."
+msgstr ""
+
+# b85b987a13334d10a15b3e7793b1c943
+#: ../source/installing.rst:40
+msgid "If the script ends without error, you can now start bauble::"
+msgstr ""
+
+# 4311e0ce1d574ad98b7c5cfad12abcac
+#: ../source/installing.rst:44
+msgid "or update bauble to the latest released production patch::"
+msgstr ""
+
+# ffb3861d3fde485f82ff388f46d32bcd
+#: ../source/installing.rst:48
+msgid ""
+"The same script you can use to switch to a different production line, but at "
+"the moment there's only `bauble-1.0`."
+msgstr ""
+
+# a6ef2f504e4a4840acfacc56c8f82899
+#: ../source/installing.rst:51
+msgid ""
+"on Unity, open a terminal, start bauble, its icon will show up in the "
+"launcher, you can now `lock to launcher` it."
+msgstr ""
+
+# ba503aa7e1064dba9e5dde9bad95132b
+#: ../source/installing.rst:54
+msgid ""
+"If you would like to use the default `SQLite <http://sqlite.org/>`_ database "
+"or you don't know what this means then you can skip this step. If you would "
+"like to use a database backend other than the default SQLite backend then "
+"you will also need to install a database connector."
+msgstr ""
+
+# cfd1df5c0c6c4c8585c5ee4135d03d85
+#: ../source/installing.rst:59
+msgid ""
+"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
+"database then activate the virtual environment and install psycopg2 with the "
+"following commands::"
+msgstr ""
+
+# f2cc5eb306864de7a2776ab63a785959
+#: ../source/installing.rst:66
+msgid ""
+"You might need solve dependencies. How to do so, depends on which Linux "
+"flavour you are using. Check with your distribution documentation."
+msgstr ""
+
+# e299e44ebae94f17bfff5911679fb756
+# 495b7e27a5be4ce19306f55dceb279fc
+# 89e703bc943b490aa264a1c0b4d8e402
+# 2d6b0850d9844f7398cf6a30fa6d70a1
+#: ../source/installing.rst:70 ../source/installing.rst:115
+#: ../source/installing.rst:196 ../source/installing.rst:238
+msgid "Next..."
+msgstr ""
+
+# cbd45f02b79144b5b7f6262e3ae44de1
+# 97342946b0a94e5497fdff74d3ec5739
+# d8f7f38062ea4af2a81715ee57c183db
+# fde4672f719744bc901ed5fcd1521e45
+#: ../source/installing.rst:71 ../source/installing.rst:116
+#: ../source/installing.rst:197 ../source/installing.rst:239
+msgid ":ref:`connecting`."
+msgstr ""
+
+# 1df5e950a39544d583ef69b15e91b14f
+#: ../source/installing.rst:74
+msgid "Installing on MacOSX"
+msgstr ""
+
+# 523ff24cb5214d7283f7b797132a9def
+#: ../source/installing.rst:76
+msgid ""
+"Being MacOSX a unix environment, most things will work the same as on Linux "
+"(sort of)."
+msgstr ""
+
+# decb41740e6c425e80a3cb32e0f8aad2
+#: ../source/installing.rst:79
+msgid ""
+"One difficulty is that there are many more versions of MacOSX out there than "
+"one would want to support, and only the current and its immediately "
+"preceding release are kept up-to-date by Apple-the-firm."
+msgstr ""
+
+# a2b43d9666034daf8587daee5712613e
+#: ../source/installing.rst:83
+msgid ""
+"Last time we tested, some of the dependencies could not be installed on "
+"MacOSX 10.5 and we assume similar problems would present themselves on older "
+"OSX versions.  Bauble has been successfully tested with 10.7 and 10.9."
+msgstr ""
+
+# 4e011537e7f24c1897befc86fbb80c8b
+#: ../source/installing.rst:87
+msgid ""
+"First of all, you need things which are an integral part of a unix "
+"environment, but which are missing in a off-the-shelf mac:"
+msgstr ""
+
+# e1cecbfb904a477c8ab43681858e6e1d
+#: ../source/installing.rst:90
+msgid ""
+"developers tools: xcode. check the wikipedia page for the version supported "
+"on your mac."
+msgstr ""
+
+# f2b876d1ccde4c928bbaa90a75d20284
+#: ../source/installing.rst:92
+msgid "package manager: homebrew (tigerbrew for older OSX versions)."
+msgstr ""
+
+# cc6fd028ff584a19a2266a2310c5bb1b
+#: ../source/installing.rst:94
+msgid "with the above installed, run::"
+msgstr ""
+
+# 0fbb4f0a361d4740ae881ab9e983e866
+#: ../source/installing.rst:98
+msgid ""
+"make sure you understand the problems it reports, and correct them. pygtk "
+"will need xquartz and brew will not solve the dependency automatically. "
+"either install xquartz using brew or the way you prefer::"
+msgstr ""
+
+# 1aececf69f3c4274b9177918c89acb9a
+#: ../source/installing.rst:104
+msgid "then install the remaining dependencies::"
+msgstr ""
+
+# c1e3e78257d9421a9fb6b99f586bcb83
+#: ../source/installing.rst:109
+msgid "follow all instructions on how to activate what you have installed."
+msgstr ""
+
+# a94bd3732d634aaab37f8cd90d344313
+#: ../source/installing.rst:111
+msgid ""
+"the rest is just as on a normal unix machine, and we have a `devinstall.sh` "
+"script for it. Read the above Linux instructions, follow them, enjoy."
+msgstr ""
+
+# 64cd295581f44ce2b1540915441cb18d
+#: ../source/installing.rst:119
+msgid "Installing on Windows"
+msgstr ""
+
+# 135c7549c54a4dd1985d1e49e343a244
+#: ../source/installing.rst:121
+msgid ""
+"The Windows installer used to be a \"batteries-included\" installer, "
+"installing everything needed to run Bauble.  The current maintainer of "
+"bauble.classic cannot run Windows applications. If you want to run the "
+"latest version of bauble on Windows: download and install the dependencies "
+"and then install Bauble from the source package."
+msgstr ""
+
+# 492fc55db60d4443aec4392604abe211
+#: ../source/installing.rst:127
+msgid "Please report any trouble and help with packaging will be very welcome."
+msgstr ""
+
+# c94f13d6b9f1475fbfac801f083f437a
+#: ../source/installing.rst:130
+msgid ""
+"Bauble has been tested with and is known to work on W-XP, W-7 and W-8. "
+"Although it should work fine on other versions Windows it has not been "
+"thoroughly tested."
+msgstr ""
+
+# dbdbfcbb2238432ea2cc4467773019a8
+#: ../source/installing.rst:134
+msgid "the installation steps on Windows:"
+msgstr ""
+
+# 261585d355804224853475f274e35827
+#: ../source/installing.rst:136
+msgid ""
+"download and install ``git`` (comes with a unix-like ``sh`` and includes "
+"``vi``)."
+msgstr ""
+
+# 187199a9efdf49d9b3122d41b1f3bdb9
+#: ../source/installing.rst:139
+msgid "download and install Python 2.x (32bit) from:"
+msgstr ""
+
+# 662f63c139734c67b6cfaf911778e787
+#: ../source/installing.rst:141
+msgid "http://www.python.org"
+msgstr ""
+
+# 652278cb426844128c0761d0c554af47
+#: ../source/installing.rst:143
+msgid ""
+"Bauble has been developed and tested using Python 2.x.  It will definitely "
+"`not` run on Python 3.x.  If you are interested in helping port to Python 3."
+"x, please contact the Bauble maintainers."
+msgstr ""
+
+# 30d421d1a8ca46e1ac8bc377ac2da908
+#: ../source/installing.rst:147
+msgid "when installing Python, do put Python in the PATH."
+msgstr ""
+
+# 47fc986288784a85a338b1a2eaaa1f4f
+#: ../source/installing.rst:149
+msgid ""
+"download ``pygtk`` from the following source. (this requires 32bit python). "
+"be sure you download the \"all in one\" version. make a complete install, "
+"selecting everything:"
+msgstr ""
+
+# 46180ef2f74440c19c638a963e5e5a8f
+#: ../source/installing.rst:153
+msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+msgstr ""
+
+# 5dbc27448cbe4074a34574458d63ec9d
+#: ../source/installing.rst:155
+msgid ""
+"(optional) download and install a database connector other than ``sqlite3``."
+msgstr ""
+
+# 93131a697059435086f4a01c8a58f5f0
+#: ../source/installing.rst:158
+msgid ""
+"On Windows, it is NOT easy to install ``psycopg2`` from sources, using pip, "
+"so \"avoid the gory details\" and use a pre-compiled pagkage from:"
+msgstr ""
+
+# c681a62ecfc74fe5be42375414a1e792
+#: ../source/installing.rst:161
+msgid "http://initd.org/psycopg/docs/install.html"
+msgstr ""
+
+# 47d246cc16de4474bad2923f7fa6e575
+#: ../source/installing.rst:163
+msgid "download and run the batch file::"
+msgstr ""
+
+# 0d20daa77835433a87cdbf1b33ca27e5
+#: ../source/installing.rst:167
+msgid ""
+"this will pull the `bauble.classic` repository on github to your home "
+"directory, under `Local\\\\github\\\\Bauble`, checkout the `bauble-1.0` "
+"production line, create a virtual environment and install bauble into it."
+msgstr ""
+
+# 172c9afa3f25491eaa4592c70217608a
+#: ../source/installing.rst:171
+msgid ""
+"you can also run `devinstall.bat` passing it as argument the numerical part "
+"of the production line you want to follow."
+msgstr ""
+
+# 85f6524b9d8549859f11fef08dc79756
+#: ../source/installing.rst:174
+msgid ""
+"the following, you will do regularly, to stay up-to-date with the "
+"development line you chose to follow::"
+msgstr ""
+
+# 8ead276aaa034e4787dcd8769564f372
+#: ../source/installing.rst:183
+msgid ""
+"you can now start bauble using the `bauble.lnk` shortcut that the "
+"installation procedure copies to the `Scripts` directory of the virtual "
+"environment::"
+msgstr ""
+
+# 8fdc53212e964444a69324b295908fd3
+#: ../source/installing.rst:189
+msgid ""
+"If you would like to generate and print PDF reports using Bauble's default "
+"report generator then you will need to download and install `Apache FOP "
+"<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive you "
+"will need to include the directory you extracted to in your PATH."
+msgstr ""
+
+# 20606041151d4e5d9327018db1aa5f8c
+#: ../source/installing.rst:202
+msgid "Troubleshooting the Install"
+msgstr ""
+
+# dbc9deb3268d462b9187475f7311ea88
+#: ../source/installing.rst:204
+msgid "What are the packages that are installed by Bauble:"
+msgstr ""
+
+# 6c82aafa00444278915071e065f62882
+#: ../source/installing.rst:206
+msgid "The following packages are required by Bauble"
+msgstr ""
+
+# 083760e655924a90aee2abce8b5db36d
+#: ../source/installing.rst:208
+msgid "SQLAlchemy"
+msgstr ""
+
+# c1a8b5e5542e45f08daddd43c1ba2ec5
+#: ../source/installing.rst:209
+msgid "lxml"
+msgstr ""
+
+# aafdef759cf84cf0958b53f7461fb5b9
+#: ../source/installing.rst:211
+msgid "The following packages are optional:"
+msgstr ""
+
+# c215658ad8d1443285023f4455ee9600
+#: ../source/installing.rst:213
+msgid "Mako - required by the template based report generator"
+msgstr ""
+
+# 5b905a767daa4e36acb2d3deafd4b30f
+#: ../source/installing.rst:214
+msgid "gdata - required by the Picasa photos InfoBox"
+msgstr ""
+
+# 17ec2a796f2c44cb874fe959a93ffb19
+#: ../source/installing.rst:217
+msgid "Couldn't install lxml."
+msgstr ""
+
+# b0c024d57e6046e496d7f7a21cf39b4e
+#: ../source/installing.rst:219
+msgid ""
+"The lxml packages have to be compile with a C compiler. If you don't have a "
+"Make sure the libxml and libxsl packages are installed.  Installing the "
+"Cython packages.  On Linux you will have to install the gcc package.  On "
+"Windows there should be a precompiled version available at http://pypi."
+"python.org/pypi/lxml/2.1.1"
+msgstr ""
+
+# 9860aab957cd4099a6a77d4dd1e3a895
+#: ../source/installing.rst:226
+msgid "Couldn't install gdata."
+msgstr ""
+
+# 9f83616807a841af92d494c16e592471
+#: ../source/installing.rst:228
+msgid ""
+"For some reason the Google's gdata package lists itself in the Python "
+"Package Index but doesn't work properly with the easy_install command.  You "
+"can download the latest gdata package from:"
+msgstr ""
+
+# 9e4aec3918134f82a9a184b004679c10
+#: ../source/installing.rst:233
+msgid "http://code.google.com/p/gdata-python-client/downloads/list"
+msgstr ""
+
+# 31d2b74b646f44afa9c6362940a7fbcf
+#: ../source/installing.rst:235
+msgid ""
+"Unzip it and run ``python setup.py installw` in the folder you unzip it to."
+msgstr ""
+
+# bfe0ed66266f42978c1e9c2fca69c3c6
+#: ../source/started.rst:2
+msgid "Getting Started"
+msgstr ""
+
+# d91c72afdc0048568e50e02b9b74a5ed
+#: ../source/started.rst:7
+msgid "Connecting to a database"
+msgstr ""
+
+# cebde9fa54434e1ba7d3b9634eb81925
+#: ../source/started.rst:9
+msgid ""
+"When you start Bauble the first thing that comes up is the connection dialog."
+msgstr ""
+
+# f61f2bf24c034cb09d6c0a496c59cda3
+#: ../source/started.rst:13
+msgid "From this dialog you can select the different connection parameters."
+msgstr ""
+
+# 54931b4df22e4a80b75a3d7a76ecc03c
+#: ../source/started.rst:15
+msgid ""
+"If this is the first time that you are starting Bauble then you will not "
+"having any connections to choose from.  Click on the add button to create a "
+"new connection."
+msgstr ""
+
+# 342c21d850e44c2fa5a53fd709de4b87
+#: ../source/started.rst:19
+msgid ""
+"If you plan to associate pictures to plants, specify also the *pictures "
+"root* folder. This is explained in further detail in the Plants section."
+msgstr ""
+
+# d245d2316f8b400d9980541af0cb3449
+#: ../source/started.rst:22
+msgid ""
+"By default Bauble uses the file-based SQLite database.  If you use the "
+"default filename then Bauble creates a database file with the same name as "
+"the connection in ``~/.bauble`` on Linux/MacOSX or in ``AppData\\Roaming"
+"\\Bauble`` on Windows."
+msgstr ""
+
+# b14a5e07ade8470e88a032836f24b004
+#: ../source/started.rst:27
+msgid ""
+"Bauble allows you to connect to any existing database. If you connect to an "
+"empty database a message will popup asking asking you if you would like to "
+"inizialize it as a new database."
+msgstr ""
+
+# 92528896504548279b3250084e37c11f
+#: ../source/started.rst:31
+msgid ""
+"If you are connecting to an existing database you can continue to Inserting "
+"or Searching, otherwise read on to the following section."
+msgstr ""
+
+# 9cd781a058f641348abfa3905caab293
+#: ../source/started.rst:35
+msgid "Creating a new database"
+msgstr ""
+
+# 8d200a5bf935421aa7f722cc3265e032
+#: ../source/started.rst:37
+msgid ""
+"To inizialize a database you have to first connect to a database. See :ref:"
+"`connecting`."
+msgstr ""
+
+# 3c11276ca4024a99844b1f22a73c28c6
+#: ../source/started.rst:40
+msgid ""
+"If you are connecting using the default SQLite database backend then Bauble "
+"can handle everything that needs to be done to create a database that Bauble "
+"will then initialize."
+msgstr ""
+
+# f0d14f86a8d24c2395e88c6226e9b2bc
+#: ../source/started.rst:44
+msgid ""
+"If you are connecting to a server based database like `PostgreSQL <http://"
+"www.postgresql.org>`_ will have to manually create the database, user and "
+"permissions for the database while Bauble will create the tables and import "
+"the default data set.  Creating a database on a server based database is "
+"beyond the scope of this manual. If you just got the chills or sick at your "
+"stomach I recommend you just stick with SQLite."
+msgstr ""
+
+# f7c69e4800564af3a73bc2d3f8413a25
+#: ../source/started.rst:51
+msgid ""
+"If you have connected to a database that has not yet been initialized by "
+"Bauble then you will get the following dialog\\:"
+msgstr ""
+
+# 003a508d090d459ea7176e3b70827ffa
+#: ../source/started.rst:56
+msgid ""
+"Be careful because if you have entered the wrong connection parameters it is "
+"possible to overwrite an existing database at this connection."
+msgstr ""
+
+# a37c9070636b4159a8a68e37c1999573
+#: ../source/started.rst:59
+msgid ""
+"If you are sure you want to create a database at this connection then select "
+"\"Yes\". Bauble will then start creating the database tables and importing "
+"the default data. This can take a minute or two so while all of the default "
+"data is imported into the database so be patient."
+msgstr ""
+
+# 3090da4eacc440babcf4bcfacb4c5494
+#: ../source/started.rst:64
+msgid ""
+"Once the default database has been created then you are ready to start "
+"inserting and subsequently searching..."
+msgstr ""
+
+# 581a9f66c56048d38029875e5a1650f6
+#: ../source/searching.rst:2
+msgid "Searching in Bauble"
+msgstr ""
+
+# 6a17b49a5a3c4ce8ab6047d489dd38d6
+#: ../source/searching.rst:4
+msgid ""
+"Searching allows you to view, browse and create reports from your data. You "
+"can perform searches by either entering the queries in the main search entry "
+"or by using the Query Builder to create the queries for you. The results of "
+"Bauble searches are listed in the main window."
+msgstr ""
+
+# 3e3afccd80024160a59044afa9e1a1e4
+#: ../source/searching.rst:11
+msgid "The Query Builder"
+msgstr ""
+
+# f754025b328145199dd879f668ad228d
+#: ../source/searching.rst:13
+msgid ""
+"The Query Builder can help you build complex search queries through a point "
+"and click interface.  To open the Query Builder click the to the left of the "
+"search entry or select :menuselection:`Tools-->Query Builder` from the menu."
+msgstr ""
+
+# bcf8bd49df42444dae862f5103d80b07
+#: ../source/searching.rst:18
+msgid ""
+"After opening the Query Builder you must select a search domain.  The search "
+"domain will determine the type of data that is returned and the properties "
+"that you can search.  The search domain is similar to a table in the "
+"database and the properties would be the columns on the table.  Often the "
+"table/domain and properties/columns are the same but not always."
+msgstr ""
+
+# ff400a2a20024a809891b332c743f6f2
+#: ../source/searching.rst:25
+msgid ""
+"Once a search domain is selected you can then select a property of the "
+"domain to compare values to.  The search operator can then be changed for "
+"how you want to make the search comparison.  Finally you must enter a value "
+"to compare to the search property.  If the search property you have selected "
+"can only have specific values then a list of possible values will be "
+"provided for you to choose from."
+msgstr ""
+
+# 4f849132b9e44a7ea19a73f930c084f4
+#: ../source/searching.rst:32
+msgid ""
+"If multiple search properties are necessary then clicking on the plus sign "
+"will add more search properties.  Select And/Or next to the property name "
+"choose how the properties will be combined in the search query."
+msgstr ""
+
+# dc42ead99dee4dda8f47a6e715857fd5
+#: ../source/searching.rst:37
+msgid "When you are done building your query click OK to perform the search."
+msgstr ""
+
+# 46b2fb292fa5481d86444edd92a4420b
+#: ../source/searching.rst:41
+msgid "The Query Language"
+msgstr ""
+
+# 7398f8d8b08d471d96dc3f52c7013d66
+#: ../source/searching.rst:43
+msgid ""
+"Three are three types of search queries available in Bauble. You can search "
+"by value, expression or query."
+msgstr ""
+
+# ddb200fdd1ff4315920698e799972758
+#: ../source/searching.rst:46
+msgid ""
+"All searches are case insensitive so searching for Maxillaria and maxillaria "
+"will return the same results."
+msgstr ""
+
+# c45a60055a4f4ad7a37681e9c78ce086
+#: ../source/searching.rst:51
+msgid "Search by Value"
+msgstr ""
+
+# e65749ee28be4215811179e9e988bc99
+#: ../source/searching.rst:53
+msgid ""
+"Search by value is the simplest way to search. You just type in a string and "
+"see what matches. Which fields/columns are search for your string depends on "
+"how the different plugins are configured. For example, by default the "
+"PlantPlugin search the family name, the genus name, the species and "
+"infraspecific species names, vernacular names and geography. So if you want "
+"to search in the notes field of any of these types then searching by value "
+"is not the search you're looking for."
+msgstr ""
+
+# 27c4690b244a4957b3ad62fbbbd83d59
+#: ../source/searching.rst:62
+msgid ""
+"Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
+"2003.2.1"
+msgstr ""
+
+# 508a2da230c94f35b3ff756ca20b61a0
+#: ../source/searching.rst:65
+msgid ""
+"Search string are separated by spaces. For example if you enter the search "
+"string ``Block 10`` then Bauble will search for the strings Block and 10 and "
+"return all the results that match either of these strings. If you want to "
+"search for Block 10 as a while string then you should quote the string like "
+"``\"Block 10\"``."
+msgstr ""
+
+# 34c1e86a1cc74533a9f827cee83d0fbd
+#: ../source/searching.rst:73
+msgid "Search by Expression"
+msgstr ""
+
+# ce8eb98bcff545b7ad14edd2cc59b250
+#: ../source/searching.rst:75
+msgid ""
+"Searching with expression gives you a little more control over what you are "
+"searching for. It can narrow the search down to a specific domain. "
+"Expression consist of a domain, an operator and a value. For example the "
+"search: ``gen=Maxillaria`` would return all the genera that match the name "
+"Maxillaria. In this case the domain is gen, the operator is = and the value "
+"is Maxillaria."
+msgstr ""
+
+# d7614b8647a740599ebee1eef1802bf8
+#: ../source/searching.rst:82
+msgid ""
+"The search string ``gen like max%`` would return all the genera whose names "
+"start with \"Max\". In this case the domain again is gen, the operator is "
+"like, which allows for \"fuzzy\" searching and the value is max%. The "
+"percent sign is used as a wild card so if you search for max% then it search "
+"for all value that start with max. If you search for %max it searches for "
+"all values that end in max. The string %max%a would search for all value "
+"that contain max and end in a."
+msgstr ""
+
+# 2a17a02c438c48c2a3cd9327189f1b2d
+#: ../source/searching.rst:90
+msgid ""
+"For more information about the different search domain and their short-hand "
+"aliases, see search-domains_ ."
+msgstr ""
+
+# 61326e3b42ce439aa82cd448ce1d2c2a
+#: ../source/searching.rst:93
+msgid ""
+"If expression are invalid they are usually used as search by value searchs. "
+"For example the search string ``gen=`` will execute a search by value for "
+"the string gen and the search string ``gen like`` will search for the string "
+"gen and the string like."
+msgstr ""
+
+# 8a3f929862f141c6873f8892e46ce2bf
+#: ../source/searching.rst:100
+msgid "Search by Query"
+msgstr ""
+
+# 7ee80881e3fc430eaea603fe37c03867
+#: ../source/searching.rst:102
+msgid ""
+"Queries allow the most control over searching. With queries you can search "
+"across relations, specific columns and join search using boolean operators "
+"like AND and OR."
+msgstr ""
+
+# 61bced81486f41bb94cd170ded8c6450
+#: ../source/searching.rst:107
+msgid "An example of a query would be:"
+msgstr ""
+
+# 69dcdcbc23814f1f8412b0b466ecc43c
+#: ../source/searching.rst:107
+msgid ""
+"``plant where accession.species.genus.family=Fabaceae and location.site="
+"\"Block 10\"``"
+msgstr ""
+
+# 43e5e61fd0d345348cf25743eafad699
+#: ../source/searching.rst:109
+msgid ""
+"This query would return all the plants whose family are Fabaceae and are "
+"located in Block 10."
+msgstr ""
+
+# 320a8ddaf9ee450993cab699d5fe5092
+#: ../source/searching.rst:112
+msgid ""
+"Searching with queries usually requires some knowledge of the Bauble "
+"internals and database table layouts."
+msgstr ""
+
+# e4f9ec5299e147008d2aad959548ef16
+#: ../source/searching.rst:115
+msgid "A couple of useful examples:"
+msgstr ""
+
+# 08aa535d97884e36b156979825d9d411
+#: ../source/searching.rst:117
+msgid "Which locations are in use: ``location where plants.id!=0``"
+msgstr ""
+
+# 102a9c80e37f445c900db50c68bc110e
+#: ../source/searching.rst:120
+msgid ""
+"Which genera are associated to at least one accession: ``genus where species."
+"accession.id!=0``"
+msgstr ""
+
+# 4b3371d9e5fc40588bc48992ea688cda
+#: ../source/searching.rst:126
+msgid "Domains"
+msgstr ""
+
+# d1c8460060e54e2797dbfbed9457a89d
+#: ../source/searching.rst:128
+msgid ""
+"The following are the common search domain and the columns they search by "
+"default. The default columns are used when searching by value and "
+"expression. The queries do not use the default columns."
+msgstr ""
+
+# b514af36a0fc41e7a246dab1797ed019
+#: ../source/searching.rst:134
+msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
+msgstr ""
+
+# 15b500408ae94eb2ba0bec7da6176b81
+#: ../source/searching.rst:136
+msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
+msgstr ""
+
+# 624d54dfc3a643359ba262f3294df5c4
+#: ../source/searching.rst:138
+msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
+msgstr ""
+
+# 83d66d3afaec4630a374bb0d2f793b58
+#: ../source/searching.rst:140
+msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
+msgstr ""
+
+# 8e0fe68bb7ae4f8da584af80a6c20616
+#: ../source/searching.rst:142
+msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
+msgstr ""
+
+# e1cc50ca6e32445fb3d1f320e158c594
+#: ../source/searching.rst:144
+msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
+msgstr ""
+
+# ef8e028c04054ec2a293050885a5ace6
+#: ../source/searching.rst:146
+msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
+msgstr ""
+
+# cfc467e6223d42309c5d4c715cb864e8
+#: ../source/editing.rst:2
+msgid "Editing and Inserting Data"
+msgstr ""
+
+# 2f4221e27bfe4562953b352bf5c3bf9e
+#: ../source/editing.rst:4
+msgid ""
+"The main way that we add or change information in Bauble is by using the "
+"editors.  Each basic type of data has its own editor.  For example there is "
+"a Family editor, a Genus editor, an Accession editor, etc."
+msgstr ""
+
+# 92bdcaefb24a43ec9c6268f46a2a9787
+#: ../source/editing.rst:8
+msgid ""
+"To create a new record click on the :menuselection:`Insert` menu on the "
+"menubar and then select the type of record your would like to create.  This "
+"will open a new blank editor for the type."
+msgstr ""
+
+# 46ccd686558e4ca5adb80fc26f15070c
+#: ../source/editing.rst:12
+msgid ""
+"To edit an existing record in the database right click on an item in the "
+"search results and select :menuselection:`Edit` from the popup menu.  This "
+"will open an editor that will allow you to change the values on the record "
+"that you selected."
+msgstr ""
+
+# 0f6e022271f84ded8cdad615651e2492
+#: ../source/editing.rst:17
+msgid ""
+"Most types also have children which you can add by right clicking on the "
+"parent and selecting \"Add ???...\" on the context menu.  For example, a "
+"Family has Genus children: you can add a Genus to a Family by right clicking "
+"on a Family and selecting \"Add genus\"."
+msgstr ""
+
+# 584129bae2774124aaf0922eae36f0fc
+#: ../source/editing.rst:24
+msgid "Notes"
+msgstr ""
+
+# cb51513fb2c641b58927f700b7cd28a0
+#: ../source/editing.rst:25
+msgid ""
+"Almost all of the editors in Bauble have a *Notes* tab which should work the "
+"same regardless of which editor you are using."
+msgstr ""
+
+# 9d4591c570e140d3a88fe9c32937d074
+#: ../source/editing.rst:28
+msgid ""
+"If you enter a web address in a note then the link will show up in the Links "
+"box when the item your are editing is selected in the search results."
+msgstr ""
+
+# 8451ec4edb21477cb4b858696f512ac9
+#: ../source/editing.rst:31
+msgid ""
+"You can browse the notes for an item in the database using the Notes box at "
+"the bottom of the screen.  The Notes box will be desensitized if the "
+"selected item does not have any notes."
+msgstr ""
+
+# 64b3c734729642c68111285d6a8bae2b
+#: ../source/editing.rst:37
+msgid "Family"
+msgstr ""
+
+# 67ea920300894854af391cccc603ab22
+#: ../source/editing.rst:38
+msgid "The Family editor allows you to add or change a botanical family."
+msgstr ""
+
+# 3ce1362caac94f75bd5394c979edd804
+#: ../source/editing.rst:40
+msgid ""
+"The *Family* field on the editor will change the name of the family. The "
+"Family field is required."
+msgstr ""
+
+# 7e7ee7bbb20f4b5bb019f74bb070517e
+#: ../source/editing.rst:43
+msgid ""
+"The *Qualifier* field will change the family qualifier.  The value can "
+"either be *sensu lato*, *sensu stricto* or nothing."
+msgstr ""
+
+# 790c2110787c4161bd60606a8376ed62
+#: ../source/editing.rst:46
+msgid ""
+"*Synonyms* allow you to add other families that are synonyms with the family "
+"you are currently editing.  To add a new synonyms type in a family name in "
+"the entry.  You must select a family name from the list of completions.  "
+"Once you have selcted a family name that you want to add as a synonym click "
+"on the Add button next to the synonym list and it will add the selected "
+"synonym to the list.  To remove a synonym select the synonym from the list "
+"and click on the Remove button."
+msgstr ""
+
+# f6fe162130bf485bbf91e00a28aaa8c2
+# 02de3d36583a42348ffcdc4e10136467
+# 22759556d4734e1c975958989af25a50
+#: ../source/editing.rst:54 ../source/editing.rst:89 ../source/editing.rst:113
+msgid ""
+"To cancel your changes without saving then click on the *Cancel* button."
+msgstr ""
+
+# f5d9e5f372184524ae529239936fc00f
+#: ../source/editing.rst:56
+msgid "To save the family you are working on then click *OK*."
+msgstr ""
+
+# 6a7fb6619172463690e31fff39568c95
+#: ../source/editing.rst:58
+msgid ""
+"To save the family you are working on and add a genus to it then click on "
+"the *Add Genera* button."
+msgstr ""
+
+# e43f426a2f4649a793ac79cedfbe1c20
+#: ../source/editing.rst:61
+msgid ""
+"To add another family when you are finished editing the current one click on "
+"the *Next* button on the bottom.  This will save the current family and open "
+"a new blank family editor."
+msgstr ""
+
+# 6ada4c98b51d4f0bbf194776b90868c8
+#: ../source/editing.rst:67
+msgid "Genus"
+msgstr ""
+
+# b984e04915aa42bfa43ed5c9b3145c85
+#: ../source/editing.rst:69
+msgid "The Genus editor allows you to add or change a botanical genus."
+msgstr ""
+
+# a2ee6d8b3668428bbcd7f05db05f821e
+#: ../source/editing.rst:71
+msgid ""
+"The *Family* field on the genus editor allows you to choose the family for "
+"the genus.  When you begin type a family name it will show a list of "
+"families to choose from.  The family name must already exist in the database "
+"before you can set it as the family for the genus."
+msgstr ""
+
+# c7806595e7cb48bc8473fe1592fe3ab2
+#: ../source/editing.rst:76
+msgid "The *Genus* field allows you to set the genus for this entry."
+msgstr ""
+
+# 5b5312fc76a44e1bb49f345a78207e1e
+#: ../source/editing.rst:78
+msgid ""
+"The *Author* field allows you to set the name or abbreviation of the "
+"author(s) for the genus."
+msgstr ""
+
+# 61fda98a7c9b41089ad9da86ac92636a
+#: ../source/editing.rst:81
+msgid ""
+"*Synonyms* allow you to add other genera that are synonyms with the genus "
+"you are currently editing.  To add a new synonyms type in a genus name in "
+"the entry.  You must select a genus name from the list of completions.  Once "
+"you have selcted a genus name that you want to add as a synonym click on the "
+"Add button next to the synonym list and it will add the selected synonym to "
+"the list.  To remove a synonym select the synonym from the list and click on "
+"the Remove button."
+msgstr ""
+
+# 2846c46f56f147debd3dbacf9636090e
+#: ../source/editing.rst:91
+msgid "To save the genus you are working on then click *OK*."
+msgstr ""
+
+# 07ac9a6d430444a3a69426274887cf9d
+#: ../source/editing.rst:93
+msgid ""
+"To save the genus you are working on and add a species to it then click on "
+"the *Add Species* button."
+msgstr ""
+
+# fdd9f19eb0714961adbb410293416ff2
+#: ../source/editing.rst:96
+msgid ""
+"To add another genus when you are finished editing the current one click on "
+"the *Next* button on the bottom.  This will save the current genus and open "
+"a new blank genus editor."
+msgstr ""
+
+# 253a0207b4584c3ca0be41c0137fa8bc
+#: ../source/editing.rst:102
+msgid "Species/Taxon"
+msgstr ""
+
+# 92bf25ffa8534c449b3230cd2dc91e56
+#: ../source/editing.rst:104
+msgid ""
+"For historical reasons called a `species`, but by this we mean a `taxon` at "
+"rank `species` or lower.  It represents a unique name in the database.  The "
+"species editor will allow you to construct the name as well as associate "
+"metadata with the taxon such as its distribution, synonyms and other "
+"information."
+msgstr ""
+
+# 47961feadab4435b99c4eeab9972d6ad
+#: ../source/editing.rst:110
+msgid ""
+"The *Infraspecific parts* in the species editor will allow you to specify "
+"the `taxon` further than at `species` rank."
+msgstr ""
+
+# ce519b7e77aa4974bf2442732704651f
+#: ../source/editing.rst:115
+msgid "To save the species you are working on then click *OK*."
+msgstr ""
+
+# 21778b2d420240cb8c9658b00ad314ee
+#: ../source/editing.rst:117
+msgid ""
+"To save the species you are working on and add an accession to it then click "
+"on the *Add Accession* button."
+msgstr ""
+
+# 140744406b5b45369d786e97087db5c4
+#: ../source/editing.rst:120
+msgid ""
+"To add another species when you are finished editing the current one click "
+"on the *Next* button on the bottom.  This will save the current species and "
+"open a new blank species editor."
+msgstr ""
+
+# 9a30f8bb2d7e4ee3a857b2559267f2ca
+#: ../source/editing.rst:125
+msgid "Accessions"
+msgstr ""
+
+# 7307625ed588474a859e54d838a56a33
+#: ../source/editing.rst:127
+msgid ""
+"The Accession editor allows us to add an accession to a species.  In Bauble "
+"an accession represents a group of plants or clones.  The accession would "
+"refer maybe a group of seed or cuttings from a species.  A plant would be an "
+"individual from that accesssion, i.e. a specific plant in a specific "
+"location."
+msgstr ""
+
+# a24b3ac906fe4bceb0f87ec8db63d520
+#: ../source/editing.rst:134
+msgid "Accession Source"
+msgstr ""
+
+# 8ce290d30b384ad6bed75929a8b053a8
+#: ../source/editing.rst:135
+msgid ""
+"The source of the accessions lets you add more information about where this "
+"accession came from.  At the moment the type of the source can be either a "
+"Collection or a Donation."
+msgstr ""
+
+# 8a0678399baf42648f447185b13ecca2
+#: ../source/editing.rst:141
+msgid "Collection"
+msgstr ""
+
+# c24a7c64fab147d9b4ca8c0da1008f8a
+#: ../source/editing.rst:142
+msgid "A Collection."
+msgstr ""
+
+# dda5469ad9074e13b432a7a309c71d60
+#: ../source/editing.rst:146
+msgid "Donation"
+msgstr ""
+
+# a7f7bf86dc40416d8246107a8581da86
+#: ../source/editing.rst:147
+msgid "A Donation."
+msgstr ""
+
+# c2a937f040e04719977d6e14597a909e
+#: ../source/editing.rst:151
+msgid "Plant"
+msgstr ""
+
+# 09495f1ce7944eb19101caf9e19f2665
+#: ../source/editing.rst:152
+msgid "The Plant editor."
+msgstr ""
+
+# 0fbc1144e11646c8a003ace9c26d581e
+#: ../source/editing.rst:155
+msgid "Creating multiple plants"
+msgstr ""
+
+# 48678b7acc0b4185b0e73f15c65a84cb
+#: ../source/editing.rst:156
+msgid ""
+"You can create multiple Plants by using ranges in the code entry. This is "
+"only allowed when creating new plants and it is not possible when editing "
+"existing Plants in the database."
+msgstr ""
+
+# d460b84681cb4efcb20bf8f22caa4212
+#: ../source/editing.rst:160
+msgid ""
+"For example the range, 3-5 will create plant with code 3,4,5.  The range "
+"1,4-7,25 will create plants with codes 1,4,5,6,7,25."
+msgstr ""
+
+# 199a777fc3eb4fae97b76bfdcd783f62
+#: ../source/editing.rst:163
+msgid ""
+"When you enter the range in the plant code entry the entry will turn blue to "
+"indicate that you are now creating multiple plants.  Any fields that are set "
+"while in this mode will be copied to all the plants that are created."
+msgstr ""
+
+# fc6a40eec8f548388751c52dffe68b19
+#: ../source/editing.rst:169
+msgid "Pictures"
+msgstr ""
+
+# 6c2085bd8b6f4401bff5e9e4ccaca8c7
+#: ../source/editing.rst:171
+msgid ""
+"Just as almost all objects in the Bauble database can have *Notes* "
+"associated to them, Plants can have *Pictures*: next to the tab for Notes, "
+"the Plants editor contains an extra tab called \"Pictures\". You can "
+"associate as many pictures as you might need to a plant."
+msgstr ""
+
+# 176f476938174ef2a3a427601ac6dbf2
+#: ../source/editing.rst:176
+msgid ""
+"When you associate a picture to a plant, the file is copied in the "
+"*pictures* folder, and a miniature (500x500) is generated and copied in the "
+"`thumbnails` folder inside of the pictures folder."
+msgstr ""
+
+# db424a6f9f2248a5a1578f152d1ef6ec
+#: ../source/editing.rst:180
+msgid ""
+"As of Bauble-1.0.41, Pictures are not kept in the database. To ensure "
+"pictures are available on all terminals where you have installed and "
+"configured Bauble, you can use a file sharing service like Copy or Dropbox. "
+"The personal choice of the writer of this document is to use Copy, because "
+"it offers much more space and because of its \"Fair Storage\" policy."
+msgstr ""
+
+# 2268d64bb9794684b0670264d2c77627
+#: ../source/editing.rst:186
+msgid ""
+"Remember that you have configured the pictures root folder when you "
+"specified the details of your database connection. Again, you should make "
+"sure that the pictures root folder is shared with your file sharing service "
+"of choice."
+msgstr ""
+
+# 40d21d7e43f14875b754835ef656ab0f
+#: ../source/editing.rst:191
+msgid ""
+"When a Plant in the current selection is highlighted, its pictures are "
+"displayed in the pictures pane, the pane left of the information pane. When "
+"an accession in the selection is highlighted, any picture associated to the "
+"plants in the highlighted accession are displayed in the pictures pane."
+msgstr ""
+
+# 26fc5a44252a4d14a2ea54d758003c96
+#: ../source/editing.rst:197
+msgid "Locations"
+msgstr ""
+
+# 5891e77ba02c40009031d623963264c0
+#: ../source/editing.rst:198
+msgid "The Location editor"
+msgstr ""
+
+# 5a0d405330924c21999e77cbc38b39de
+#: ../source/editing.rst:201
+msgid "danger zone"
+msgstr ""
+
+# b9497a34045c4529a2f65e06845094d2
+#: ../source/editing.rst:203
+msgid ""
+"The location editor contains an initially hidden section named *danger "
+"zone*. The widgets contained in this section allow the user to merge the "
+"current location into a different location, letting the user correct "
+"spelling mistakes or implement policy changes."
+msgstr ""
+
+# 1a45fe246cef45b881a6790448f96786
+#: ../source/api.rst:2
+msgid "API Documentation"
+msgstr ""
+
+# 3de97bb234b1435bbe5f60d3b6c59a50
+#: ../source/api.rst:5
+msgid ":mod:`bauble`"
+msgstr ""
+
+# bbe8d97db03243e2a6c58978eea48d5a
+#: ../source/api.rst:17
+msgid ":mod:`bauble.db`"
+msgstr ""
+
+# c72e3585b3a6488a8453a76968c2a327
+#: ../source/api.rst:24
+msgid ""
+"All tables/mappers in Bauble which use the SQLAlchemy declarative plugin for "
+"declaring tables and mappers should derive from this class."
+msgstr ""
+
+# 18ed7e127c4041b0912b33780047691d
+#: ../source/api.rst:28
+msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+msgstr ""
+
+# de920b2014f644cba26d9d94bb820237
+#: ../source/api.rst:33
+msgid "The default metadata for all Bauble tables."
+msgstr ""
+
+# 0320ff21fc46445ea21885227278ffc4
+#: ../source/api.rst:35
+msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+msgstr ""
+
+# 4c62cc4d275346e99e7fbcfa4109fcce
+#: ../source/api.rst:49
+msgid ":mod:`bauble.connmgr`"
+msgstr ""
+
+# 3cbda719415948828227ff214567f69e
+#: ../source/api.rst:57
+msgid ":mod:`bauble.editor`"
+msgstr ""
+
+# f099cd1bb5814b20b541f1b733addf5c
+#: ../source/api.rst:78
+msgid ":mod:`bauble.i18n`"
+msgstr ""
+
+# 25c57b3d042949d98cb700224b0acdb1
+#: ../source/api.rst:83
+msgid ":mod:`bauble.ui`"
+msgstr ""
+
+# 4e719e439c994a29b35b96f043829c2a
+#: ../source/api.rst:91
+msgid ":mod:`bauble.meta`"
+msgstr ""
+
+# c055a602fba84df388cc4ab9259a873d
+#: ../source/api.rst:99
+msgid ":mod:`bauble.paths`"
+msgstr ""
+
+# c68fd5f0b3cf417391f3ab7801b78af1
+#: ../source/api.rst:108
+msgid ":mod:`bauble.pluginmgr`"
+msgstr ""
+
+# b53bd8e57e934db99567348b7bd49bd1
+#: ../source/api.rst:127
+msgid ":mod:`bauble.prefs`"
+msgstr ""
+
+# 96b540b951cb408d8e3fed59dcf20832
+#: ../source/api.rst:138
+msgid ":mod:`bauble.task`"
+msgstr ""
+
+# cc27e7cdde5a46e4b3737598c8ae0d28
+#: ../source/api.rst:147
+msgid ":mod:`bauble.types`"
+msgstr ""
+
+# 06572b9212554812bd89322cc790f7da
+#: ../source/api.rst:160
+msgid ":mod:`bauble.utils`"
+msgstr ""
+
+# 5bd77611d3ef4cf7bfd606e906244b65
+#: ../source/api.rst:212
+msgid ":mod:`bauble.view`"
+msgstr ""
+
+# 4c50409c849e4656a841bf165644aad3
+#: ../source/api.rst:238
+msgid ":mod:`bauble.search`"
+msgstr ""
+
+# 9a79826c9afc4bab9783b3052e4a68de
+#: ../source/api.rst:251
+msgid ":mod:`bauble.plugins.plants`"
+msgstr ""
+
+# 8b179cc5c6984fd499e8432ab16f3e17
+#: ../source/api.rst:286
+msgid ":mod:`bauble.plugins.garden`"
+msgstr ""
+
+# 4c792a40693944ccbf4c1e3bdd6488dd
+#: ../source/api.rst:324
+msgid ":mod:`bauble.plugins.abcd`"
+msgstr ""
+
+# 361293f1d99d458a821be721a36dbba5
+#: ../source/api.rst:333
+msgid ":mod:`bauble.plugins.imex`"
+msgstr ""
+
+# 148f17c03e2b471f8bf0f33d131cd362
+#: ../source/api.rst:337
+msgid ":mod:`bauble.plugins.report`"
+msgstr ""
+
+# 6074f31af64a43e69ffb2a05ac6239ec
+#: ../source/api.rst:341
+msgid ":mod:`bauble.plugins.report.xsl`"
+msgstr ""
+
+# dce2c1bc785d47e2890b4dd48b75908a
+#: ../source/api.rst:345
+msgid ":mod:`bauble.plugins.report.mako`"
+msgstr ""
+
+# cd031ce78b124ee79c0f6bb66c48e0f1
+#: ../source/api.rst:349
+msgid ":mod:`bauble.plugins.tag`"
+msgstr ""
+
+# 85243c7c6735494a9210a85c1977ac5c
+#: ../source/extending.rst:2
+msgid "Extending Bauble with Plugins"
+msgstr ""
+
+# 6d34096aaaa84274af4ee85ec0a1dd38
+#: ../source/extending.rst:4
+msgid ""
+"Nearly everything about Bauble is extensible through plugins. Plugins can "
+"create tables, define custom searchs, add menu items, create custom commands "
+"and more."
+msgstr ""
+
+# bdcd0eb38bae499a8b2c2a5c9bc83fba
+#: ../source/extending.rst:8
+msgid ""
+"To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` class."
+msgstr ""
+
+# d6d28720942444f1bb2f302d2566a0ff
+#: ../source/imex.rst:2
+msgid "Importing and Exporting Data"
+msgstr ""
+
+# 143a9429262a4c4cbc3f2109055177b2
+#: ../source/imex.rst:4
+msgid ""
+"Although Bauble can be extended through plugins to support alternate import "
+"and export formats, by default it can only import and export comma seperated "
+"values files or CSV."
+msgstr ""
+
+# 44455ba272274b85855b673c9bb1b7df
+#: ../source/imex.rst:8
+msgid ""
+"There is some support for exporting to the Access for Biological Collections "
+"Data it is limited."
+msgstr ""
+
+# 770322682de4494ca5b38127d98d1fa1
+#: ../source/imex.rst:11
+msgid ""
+"There is also limited support for exporting to an XML format that more or "
+"less reflects exactly the tables and row of the database."
+msgstr ""
+
+# 00f899ffd4ba482fb2af32103b28f3a4
+#: ../source/imex.rst:14
+msgid "Exporting ABCD and XML will not be covered here."
+msgstr ""
+
+# e2915e5c5ded4b38ba03b240d0e982b4
+#: ../source/imex.rst:16
+msgid ""
+"Importing files will most likely destroy any data you have in the database "
+"so make sure you have backed up your data."
+msgstr ""
+
+# 6dd910b281d547d485cc5300abb1b7fa
+#: ../source/imex.rst:20
+msgid "Importing from CSV"
+msgstr ""
+
+# 07050496674a4672bbb2f9196fce4b8f
+#: ../source/imex.rst:21
+msgid ""
+"In general it is best to only import CSV files into Bauble that were "
+"previously exported from Bauble. It is possible to import any CSV file but "
+"that is more advanced that this doc will cover."
+msgstr ""
+
+# c8b4c0906390450cb900fca98895503b
+#: ../source/imex.rst:25
+msgid ""
+"To import CSV files into Bauble select :menuselection:`Tools-->Export--"
+">Comma Seperated Values` from the menu."
+msgstr ""
+
+# 34f59929cab146d8bff02857d0e9fa67
+#: ../source/imex.rst:29
+msgid ""
+"After clicking OK on the dialog that ask if you are sure you know what "
+"you're doing a file chooser will open.  In the file chooser select the files "
+"you want to import."
+msgstr ""
+
+# 48c9cfe15f2f46b8bce29c25053f372a
+#: ../source/imex.rst:35
+msgid "Exporting to CSV"
+msgstr ""
+
+# e48d8ce8dbbf478abc863003ca072139
+#: ../source/imex.rst:37
+msgid ""
+"To export the Bauble data to CSV select :menuselection:`Tools-->Export--"
+">Comma Seperated Values` from the menu."
+msgstr ""
+
+# 3cd23887feac4053a5225479f68ddaa7
+#: ../source/imex.rst:40
+msgid ""
+"This tool will ask you to select a directory to export the CSV data. All of "
+"the tables in Bauble will be exported to files in the format tablename.txt "
+"where tablename is the name of the table where the data was exported from."
+msgstr ""
+
+# 72473376affd41b994a7f1cabfbfc4a5
+#: ../source/imex.rst:46
+msgid "Importing from JSON"
+msgstr ""
+
+# fefbf3cd65e646818ed4f8a0277208a0
+#: ../source/imex.rst:48
+msgid ""
+"This is *the* way to import data into an existing database, without "
+"destroying previous content. A typical example of this functionality would "
+"be importing your digital collection into a fresh, just initialized Bauble "
+"database. Converting a database into bauble json interchange format is "
+"beyond the scope of this manual, please contact one of the authors if you "
+"need any further help."
+msgstr ""
+
+# 8dd0c8bd3cec454a9db084500f285a23
+#: ../source/imex.rst:55
+msgid ""
+"Using the Bauble json interchange format, you can import data which you have "
+"exported from a different Bauble installation."
+msgstr ""
+
+# 4cc0035d27474fd9be322362d7338e8d
+#: ../source/imex.rst:59
+msgid "Exporting to JSON"
+msgstr ""
+
+# b15be3981b41470da91b6704f53bec34
+#: ../source/imex.rst:61
+msgid "This feature is still under development."
+msgstr ""
+
+# eb9fcc6a68ba4492816f6483147ea741
+#: ../source/imex.rst:65
+msgid ""
+"when you activate this export tool, you are given the choice to specify what "
+"to export. You can use the current selection to limit the span of the "
+"export, or you can start at the complete content of a domain, to be chosen "
+"among Species, Accession, Plant."
+msgstr ""
+
+# 73a13503000a4775908b598d679e282d
+#: ../source/imex.rst:70
+msgid ""
+"Exporting *Species* will only export the complete taxonomic information in "
+"your database. *Accession* will export all your accessions plus all the "
+"taxonomic information it refers to: unreferred to taxa will not be exported. "
+"*Plant* will export all living plants (some accession might not be "
+"included), all referred to locations and taxa."
+msgstr ""
+
+# 64217c6340b1431eb702d694fc071f55
+#: ../source/tagging.rst:2
+msgid "Tagging"
+msgstr ""
+
+# e5be8e074d814378b3d3b94d424f96dc
+#: ../source/tagging.rst:4
+msgid ""
+"Tagging is an easy way to give context to an object or create a collection "
+"of object that you want to recall later. For example if you want to collect "
+"a bunch of plants that you later want to create a report from you can tag "
+"them with the string \"for that report i was thinking about\". You can then "
+"select \"for that report i was thinking about\" from the tags menu to show "
+"you all the objects you tagged."
+msgstr ""
+
+# b7f7f1575cbf4000acb1a6d9d8809ca7
+#: ../source/tagging.rst:11
+msgid ""
+"Tagging can be done two ways. By selecting one or more items in the search "
+"results and pressing Ctrl-T or by selecting :menuselection:`Tag-->Tag "
+"Selection` from the menu. If you have selected multiple items then only that "
+"tags that are common to all the selected items will have a check next to it."
+msgstr ""
+
+# 7b4a34d1a9904f30b11a1da0563e1110
+#: ../source/building.rst:2
+msgid "Building the source"
+msgstr ""
+
+# 63c9733788724ed69e5f3114090a0920
+#: ../source/building.rst:4
+msgid ""
+"Building a python program is a bit of a contraddiction.  You don't normally "
+"`build` nor `compile` a python program, you run it in its environment, and "
+"python will process the modules loaded and produce faster-loading `compiled` "
+"python files.  You can, however, produce a Windows executable from a python "
+"script, executable containing the whole python environment and dependencies."
+msgstr ""
+
+# 8767d7e34ede46a890ac76464097e845
+#: ../source/building.rst:11
+msgid "Building (on Windows)"
+msgstr ""
+
+# cae2912faf8a4d35b3658263a7ca7afd
+#: ../source/building.rst:13
+msgid ""
+"In order to build a Bauble executable you will first need to download the "
+"source code.  For more information about download the Bauble source go to :"
+"doc:`devdl`."
+msgstr ""
+
+# c82d7f064a4a4d43a747b0742e887b06
+#: ../source/building.rst:17
+msgid ""
+"Follow all steps needed to set up a working Bauble environment from :doc:"
+"`installing`, but skip the final `install` step."
+msgstr ""
+
+# 1ed7f164ea0342c2a465d7db86c16b4c
+#: ../source/building.rst:20
+msgid ""
+"instead of `installing` Bauble, you produce a Windows executable.  This is "
+"achieved with the ``py2exe`` target, which is only available on Windows "
+"systems::"
+msgstr ""
+
+# 4d848d0dfffb447488f6301c3a3d713e
+#: ../source/building.rst:26
+msgid "At this point you can run Bauble.  To run the compiled executable run::"
+msgstr ""
+
+# 70138fc545184742bd086e7147daae46
+#: ../source/building.rst:30
+msgid "or copy the executable to wherever you think appropriate."
+msgstr ""
+
+# b48fa123ac124fb08e3efe5658c66779
+#: ../source/building.rst:32
+msgid ""
+"To optionally build an NSIS installer package you must install NSIS from "
+"`nsis.sourceforge.net <http://nsis.sourceforge.net/Download>`_.  After "
+"installing NSIS right click on ``.\\scripts\\build.nsi`` in Explorer and "
+"select *Compile NSIS Script*."
+msgstr ""
+
+# 063ee410894f4bb48413a933d9ee023c
+#: ../source/devdl.rst:2
+msgid "Downloading the source"
+msgstr ""
+
+# 265ad52a7b56464498b65f34c3c8a856
+#: ../source/devdl.rst:4
+msgid ""
+"The Bauble source can be downloaded from our source repository on `github "
+"<http://github.com/Bauble/bauble.classic>`_."
+msgstr ""
+
+# 4a426399a30449e8a1f8c0284c562efa
+#: ../source/devdl.rst:7
+msgid ""
+"If you want a particular version of Bauble, we release and maintain versions "
+"into branches. you should ``git checkout`` the branch corresponding to the "
+"version of your choice. Branch names for Bauble versions are of the form "
+"``bauble-x.y``, where x.y can be 1.0, for example. Our workflow is to commit "
+"to the `master` development branch or to a `patch` branch and to include the "
+"commits into a `release` branch when ready."
+msgstr ""
+
+# 5a292851a80c4e8c9076647172f35299
+#: ../source/devdl.rst:14
+msgid ""
+"To check out the most recent code from the source repository you will need "
+"to install the `Git <http://www.git.org>`_ version control system. Git is "
+"incuded in all reasonable Linux distributions and can be installed on all "
+"current operating systems."
+msgstr ""
+
+# 22174dfff9e34680a83ecdf802dbfbd6
+#: ../source/devdl.rst:19
+msgid ""
+"Once you have installed Git you can checkout the latest Bauble code with the "
+"following command::"
+msgstr ""
+
+# 769f49a8d3174b7aaeddf30a36eed38d
+#: ../source/devdl.rst:24
+msgid ""
+"For more information about other available code branches go to `bauble."
+"classic on github <http://www.github.com/Bauble/bauble.classic>`_."
+msgstr ""
+
+# 187a3fcddcce40fb800a9044aff69ad9
+#: ../source/report.rst:2
+msgid "Generating reports"
+msgstr ""
+
+# d25232abe8f147a585f6760341370af7
+#: ../source/report.rst:5
+msgid "Using the Mako Report Formatter"
+msgstr ""
+
+# fc7199311df74d7fa9357f799adf9020
+#: ../source/report.rst:7
+msgid ""
+"The Mako report formatter uses the Mako template language for generating "
+"reports. More information about Mako and its language can be found at "
+"`makotemplates.org <http://www.makotemplates.org>`_."
+msgstr ""
+
+# 83e21b70db77486cb9482b6bf148b7fa
+#: ../source/report.rst:11
+msgid ""
+"The Mako templating system should already be installed on your computer if "
+"Bauble is installed."
+msgstr ""
+
+# 7b459166756c4fcbbff2f4ced092062d
+#: ../source/report.rst:14
+msgid ""
+"Creating reports with Mako is similar in the way that you would create a web "
+"page from a template.  It is much simpler than the XSL Formatter(see below) "
+"and should be relatively easy to create template for anyone with a little "
+"but of programming experience."
+msgstr ""
+
+# 6f984eafceda426f940719abb72ab647
+#: ../source/report.rst:19
+msgid ""
+"The template generator will use the same file extension as the template "
+"which should indicate the type of output the template with create.  For "
+"example, to generate an HTML page from your template you should name the "
+"template something like `report.html`.  If the template will generate a "
+"comma seperated value file you should name the template `report.csv`."
+msgstr ""
+
+# cff279b830dc466cb9fd3239f4a777ef
+#: ../source/report.rst:26
+msgid ""
+"The template will receive a variable called `values` which will contain the "
+"list of values in the current search."
+msgstr ""
+
+# 07fa7ef66a9b474fa907983fb37e1bc8
+#: ../source/report.rst:29
+msgid ""
+"The type of each value in `values` will be the same as the search domain "
+"used in the search query.  For more information on search domains see :ref:"
+"`search-domains`."
+msgstr ""
+
+# 22a670cffa254161875eeb72a6b56d3c
+#: ../source/report.rst:33
+msgid ""
+"If the query does not have a search domain then the values could all be of a "
+"different type and the Mako template should prepared to handle them."
+msgstr ""
+
+# a7a84c41628c4100978b0a351747d3f1
+#: ../source/report.rst:39
+msgid "Using the XSL Report Formatter"
+msgstr ""
+
+# c2c9e79c547f46c28d221877735ef7c8
+#: ../source/report.rst:41
+msgid ""
+"The XSL report formatter requires an XSL to PDF renderer to convert the data "
+"to a PDF file. Apache FOP is is a free and open-source XSL->PDF renderer and "
+"is recommended."
+msgstr ""
+
+# 86f9296b04e34df489c39a5f140f9d19
+#: ../source/report.rst:45
+msgid ""
+"If using Linux, Apache FOP should be installable using your package "
+"manager.  On Debian/Ubuntu it is installable as ``fop`` in Synaptic or using "
+"the following command::"
+msgstr ""
+
+# 7b7b414bc2514480892fb204444d01a2
+#: ../source/report.rst:53
+msgid "Installing Apache FOP on Windows"
+msgstr ""
+
+# f07e1bce775843218faae6aff05d8a29
+#: ../source/report.rst:55
+msgid ""
+"You have two options for installing FOP on Windows. The easiest way is to "
+"download the prebuilt `ApacheFOP-0.95-1-setup.exe <http://code.google.com/p/"
+"apache-fop-installer/downloads/detail?name=ApacheFOP-0.95-1-setup."
+"exe&can=2&q=#makechanges>`_ installer."
+msgstr ""
+
+# a384439bc57b48b7898fd2a6faba5cab
+#: ../source/report.rst:58
+msgid ""
+"Alternatively you can download the `archive <http://www.apache.org/dist/"
+"xmlgraphics/fop/binaries/>`_.  After extracting the archive you must add the "
+"directory you extracted the archive to to your PATH environment variable."
+msgstr ""
+
+# af49dd5b490448109718de6cd76ec872
+#: ../source/users.rst:2
+msgid "Managing Users"
+msgstr ""
+
+# 30d9d518ae8e447dab1143891d2d9b3c
+#: ../source/users.rst:4
+msgid ""
+"The Bauble users plugin is only available on PostgreSQL based databases."
+msgstr ""
+
+# 57b4f62b97d24183995c4f4d3b7653d8
+#: ../source/users.rst:7
+msgid ""
+"The Bauble User's Plugin will allow you to create and manage the permissions "
+"of users for your Bauble database."
+msgstr ""
+
+# 23f01fce2e1b405cbfe4c2870a49a8e3
+#: ../source/users.rst:11
+msgid "Creating Users"
+msgstr ""
+
+# ab4ceb1118104e33a66f844fa93ab7e7
+#: ../source/users.rst:12
+msgid "To create a new user..."
+msgstr ""
+
+# 998eb750172c4cb4892620cac28f4d5c
+#: ../source/users.rst:16
+msgid "Permissions"
+msgstr ""
+
+# 365416c116264e87ac9b2db11a643629
+#: ../source/users.rst:17
+msgid "Bauble allows read, write and execute permissions."
+msgstr ""
