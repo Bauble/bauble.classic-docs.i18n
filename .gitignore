@@ -4,4 +4,5 @@
 */*/*/*~
 */*/*/*/*~
 build/
-source/
+_build/
+po/*.mo
