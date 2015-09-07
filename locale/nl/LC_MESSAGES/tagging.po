@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-07 07:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../tagging.rst:2
+msgid "Tagging"
+msgstr ""
+
+#: ../../tagging.rst:4
+msgid ""
+"Tagging is an easy way to give context to an object or create a collection "
+"of object that you want to recall later. For example if you want to collect "
+"a bunch of plants that you later want to create a report from you can tag "
+"them with the string \"for that report i was thinking about\". You can then "
+"select \"for that report i was thinking about\" from the tags menu to show "
+"you all the objects you tagged."
+msgstr ""
+
+#: ../../tagging.rst:11
+msgid ""
+"Tagging can be done two ways. By selecting one or more items in the search "
+"results and pressing Ctrl-T or by selecting :menuselection:`Tag-->Tag "
+"Selection` from the menu. If you have selected multiple items then only that"
+" tags that are common to all the selected items will have a check next to "
+"it."
+msgstr ""

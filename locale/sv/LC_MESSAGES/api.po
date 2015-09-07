@@ -1,0 +1,3426 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-07 07:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api.rst:2
+msgid "API Documentation"
+msgstr ""
+
+#: ../../api.rst:5
+msgid ":mod:`bauble`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble:1
+msgid "The top level module for Bauble."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.version:1
+msgid "str(object='') -> string"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.version:3
+msgid ""
+"Return a nice string representation of the object. If the argument is a "
+"string, the return value is the same object."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.gui:1
+msgid "bauble.gui is the instance :class:`bauble.ui.GUI`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.command_handler:1
+msgid "Call a command handler."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.command_handler:3
+msgid "The name of the command to call"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.command_handler:6
+msgid "The arg to pass to the command handler"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.main:1
+msgid "Run the main Bauble application."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.main:3
+msgid ""
+"the URI of the database to connect to.  For more information about database "
+"URIs see `<http://www.sqlalchemy.org/docs/05/dbengine.html#create-engine-"
+"url-arguments>`_"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.main_is_frozen:1
+msgid ""
+"Return True if we are running in a py2exe environment, else return False"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.quit:1
+msgid "Stop all tasks and quit Bauble."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/__init__.pydocstring
+#: of bauble.save_state:1
+msgid "Save the gui state and preferences."
+msgstr ""
+
+#: ../../api.rst:17
+msgid ":mod:`bauble.db`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.Session:1
+msgid ""
+"bauble.db.Session is created after the database has been opened with "
+":func:`bauble.db.open()`. bauble.db.Session should be used when you need to "
+"do ORM based activities on a bauble database.  To create a new Session "
+"use::Uncategorized"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.Session:6
+msgid "session = bauble.db.Session()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.Session:8
+msgid ""
+"When you are finished with the session be sure to close the session with "
+":func:`session.close()`. Failure to close sessions can lead to database "
+"deadlocks, particularly when using PostgreSQL based databases."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.engine:1
+msgid ""
+"A :class:`sqlalchemy.engine.base.Engine` used as the default connection to "
+"the database."
+msgstr ""
+
+#: ../../api.rst:24
+msgid ""
+"All tables/mappers in Bauble which use the SQLAlchemy declarative plugin for"
+" declaring tables and mappers should derive from this class."
+msgstr ""
+
+#: ../../api.rst:28
+msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+msgstr ""
+
+#: ../../api.rst:33
+msgid "The default metadata for all Bauble tables."
+msgstr ""
+
+#: ../../api.rst:35
+msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.MapperBase:1
+msgid ""
+"MapperBase adds the id, _created and _last_updated columns to all tables."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.MapperBase:4
+msgid ""
+"In general there is no reason to use this class directly other than to "
+"extend it to add more default columns to all the bauble tables."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`sqlalchemy.orm.deprecated_interfaces.MapperExtension`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.HistoryExtension:1
+msgid ""
+"HistoryExtension is a :class:`~sqlalchemy.orm.interfaces.MapperExtension` "
+"that is added to all clases that inherit from bauble.db.Base so that all "
+"inserts, updates, and deletes made to the mapped objects are recorded in the"
+" `history` table."
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+msgid "Bases: :class:`sqlalchemy.ext.declarative.api.Base`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:1
+msgid ""
+"The history table records ever changed made to every table that inherits "
+"from :ref:`Base`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:4
+msgid "history"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:7
+msgid "id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:8
+msgid "A unique identifier."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:9
+msgid "table_name: :class:`sqlalchemy.types.String`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:10
+msgid "The name of the table the change was made on."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:11
+msgid "table_id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:12
+msgid "The id in the table of the row that was changed."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:13
+msgid "values: :class:`sqlalchemy.types.String`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:14
+msgid "The changed values."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:15
+msgid "operation: :class:`sqlalchemy.types.String`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:16
+msgid "The type of change.  This is usually one of insert, update or delete."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:17
+msgid "user: :class:`sqlalchemy.types.String`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:18
+msgid "The name of the user who made the change."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:19
+msgid "timestamp: :class:`sqlalchemy.types.DateTime`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.History:20
+msgid "When the change was made."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.open:1
+msgid ""
+"Open a database connection.  This function sets bauble.db.engine to the "
+"opened engined."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.open:4
+msgid ""
+"Return bauble.db.engine if successful else returns None and bauble.db.engine"
+" remains unchanged."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.open:7
+msgid "The URI of the database to open."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.open:10
+msgid ""
+"Where the database we connect to should be verified as one created by "
+"Bauble.  This flag is used mostly for testing."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.open:15
+msgid ""
+"A flag to indicate whether the error dialogs should be displayed.  This is "
+"used mostly for testing."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.create:1
+msgid "Create new Bauble database at the current connection"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.create:3
+msgid ""
+"A flag that is passed to each plugins install() method to indicate where it "
+"should import its default data.  This is mainly used for testing.  The "
+"default value is True"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.verify_connection:1
+msgid ""
+"Test whether a connection to an engine is a valid Bauble database. This "
+"method will raise an error for the first problem it finds with the database."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.verify_connection:5
+msgid "the engine to test"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/db.pydocstring
+#: of bauble.db.verify_connection:7
+msgid ""
+"flag for whether or not to show message dialogs detailing the error, "
+"default=False"
+msgstr ""
+
+#: ../../api.rst:49
+msgid ":mod:`bauble.connmgr`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr:1
+msgid ""
+"The connection manager provides a GUI for creating and opening connections. "
+"This is the first thing displayed when Bauble starts."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager:1
+msgid "The main class that starts the connection manager GUI."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager:3
+msgid "the name of the connection to select from the list of connection names"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.check_parameters_valid:1
+msgid ""
+"check that all of the information in the current connection is valid and "
+"return true or false"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.check_parameters_valid:4
+msgid ""
+"NOTE: this was meant to be used to implement an eclipse style information "
+"box at the top of the dialog but it's not really used right now"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.compare_prefs_to_saved:1
+msgid "name is the name of the connection in the prefs"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.get_passwd:1
+msgid "Show a dialog with and entry and return the value entered."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.on_changed_name_combo:1
+msgid "the name changed so fill in everything else"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.on_changed_type_combo:1
+msgid "the type changed so change the params_box"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.on_dialog_response:1
+msgid "The dialog's response signal handler."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.on_remove_button_clicked:1
+msgid ""
+"remove the connection from connection list, this does not affect the "
+"database or its data"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.parameters_to_uri:1
+msgid "return connections paramaters as a uri"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.remove_connection:1
+msgid ""
+"if we restrict the user to only removing the current connection then it "
+"saves us the trouble of having to iter through the model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.save_current_to_prefs:1
+msgid "save connection parameters from the widgets in the prefs"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.set_active_connection_by_name:1
+msgid ""
+"sets the name of the connection in the name combo, this causes "
+"on_changed_name_combo to be fired which changes the param box type and set "
+"the connection parameters"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.start:1
+msgid "Show the connection manager."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.working_dbtypes:1
+msgid "get for self.working_dbtypes property"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/connmgr.pydocstring
+#: of bauble.connmgr.ConnectionManager.working_dbtypes:3
+msgid ""
+"this sets self._working_dbtypes to a dictionary where the keys are the "
+"database names and the values are the index in the connectiona manager's "
+"database types"
+msgstr ""
+
+#: ../../api.rst:57
+msgid ":mod:`bauble.editor`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.default_completion_cell_data_func:1
+msgid ""
+"the default completion cell data function for "
+"GenericEditorView.attach_completions"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.default_completion_match_func:1
+msgid ""
+"the default completion match function for "
+"GenericEditorView.attach_completions, does a case-insensitive string "
+"comparison of the the completions model[iter][0]"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.Validator:1
+msgid "The interface that other validators should implement."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.StringOrNoneValidator:1
+msgid ""
+"If the value is an empty string then return None, else return the str() of "
+"the value."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.UnicodeOrNoneValidator:1
+msgid ""
+"If the value is an empty unicode string then return None, else return the "
+"unicode() of the value. The default encoding is 'utf-8'."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.IntOrNoneStringValidator:1
+msgid ""
+"If the value is an int, long or can be cast to int then return the number, "
+"else return None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.FloatOrNoneStringValidator:1
+msgid ""
+"If the value is an int, long, float or can be cast to float then return the "
+"number, else return None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView:1
+msgid ""
+"A generic class meant (not) to be subclassed, to provide the view for the "
+"Bauble Model-View-Presenter pattern. The idea is that you subclass the "
+"Presenter alone, and that the View remains as 'stupid' as it is conceivable."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView:6
+msgid ""
+"The presenter should interact with the view by the sole interface, please "
+"consider all members of the view as private, this is particularly true for "
+"the ones having anything to do with GTK."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView:10
+msgid "a gtk.Builder UI definition"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView:12
+msgid ""
+"a gtk.Window or subclass to use as the parent window, if parent=None then "
+"bauble.gui.window is used"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.add_message_box:1
+msgid "add a message box to the message_box_parent container"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.add_message_box:3
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.add_message_box:3
+msgid "one of MESSAGE_BOX_INFO, MESSAGE_BOX_ERROR or MESSAGE_BOX_YESNO"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:1
+msgid ""
+"Attach an entry completion to a gtk.Entry.  The defaults values for this "
+"attach_completion assumes the completion popup only shows text and that the "
+"text is in the first column of the model."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:6
+msgid "Return the completion attached to the entry."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:8
+msgid ""
+"NOTE: If you are selecting completions from strings in your model you must "
+"set the text_column parameter to the column in the model that holds the "
+"strings or else when you select the string from the completions it won't get"
+" set properly in the entry even though you call entry.set_text()."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:14
+msgid "the name of the entry to attach the completion"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:16
+msgid "the function to use to display the rows in the completion popup"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:19
+msgid ""
+"a function that returns True/False if the value from the model should be "
+"shown in the completions"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:22
+msgid "default=2"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.attach_completion:24
+msgid "the value of the text-column property on the entry, default is -1"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.cleanup:1
+msgid "Should be called when after self.start() returns."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.cleanup:3
+msgid "By default all it does is call self.disconnect_all()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect:1
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_after:1
+msgid ""
+"Attach a signal handler for signal on obj.  For more information see "
+":meth:`gobject.connect_after`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect:4
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_after:4
+msgid "An instance of a subclass of gobject that will receive the signal"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect:7
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_after:7
+msgid "the name of the signal the object will receive"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect:9
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_after:9
+msgid "the function or method to call the object receives the signal"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect:12
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_after:12
+msgid "extra args to pass the the callback"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.connect_signals:1
+msgid "connect all signals declared in the glade file"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.disconnect_all:1
+msgid ""
+"Disconnects all the signal handlers attached with "
+":meth:`GenericEditorView.connect` or :meth:`GenericEditorView.connect_after`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.get_selection:1
+msgid "return the selection in the graphic interface"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.get_window:1
+msgid "Return the top level window for view"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.init_translatable_combo:1
+msgid ""
+"Initialize a gtk.ComboBox with translations values where model[row][0] is "
+"the value that will be stored in the database and model[row][1] is the value"
+" that will be visible in the gtk.ComboBox."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.init_translatable_combo:6
+msgid ""
+"A gtk.ComboBox initialized with this method should work with "
+"self.assign_simple_handler()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.init_translatable_combo:10
+msgid "a list of pairs, or a dictionary, of values->translation."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.on_dialog_close:1
+msgid ""
+"Called if self.get_window() is a gtk.Dialog and it receives the close "
+"signal."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.on_dialog_response:1
+msgid ""
+"Called if self.get_window() is a gtk.Dialog and it receives the response "
+"signal."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.on_window_delete:1
+msgid ""
+"Called when the window return by get_window() receives the delete event."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.restore_state:1
+msgid ""
+"Restore the state of the view, this is usually done by getting a value by "
+"the preferences and setting the equivalent in the interface"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.save_state:1
+msgid ""
+"Save the state of the view by setting a value in the preferences that will "
+"be called restored in restore_state e.g. prefs[pref_string] = pref_value"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_accept_buttons_sensitive:1
+msgid "set the sensitivity of all the accept/ok buttons"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:1
+msgid "a widget or name of a widget in self.widgets"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:2
+msgid "the value to put in the widgets"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:3
+msgid "whether the data in value uses pango markup"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:4
+msgid "the default value to put in the widget if value is None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:5
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:5
+msgid "the row index to use for those widgets who use a model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorView.set_widget_value:7
+msgid "This method calls bauble.utils.set_widget_value()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter:1
+msgid "The presenter of the Model View Presenter Pattern"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter:3
+msgid "an object instance mapped to an SQLAlchemy table"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter:4
+msgid "should be an instance of GenericEditorView"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter:6
+msgid ""
+"The presenter should usually be initialized in the following order: 1. "
+"initialize the widgets 2. refresh the view, put values from the model into "
+"the widgets 3. connect the signal handlers"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.add_problem:1
+msgid ""
+"Add problem_id to self.problems and change the background of widget(s) in "
+"problem_widgets."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.add_problem:4
+msgid "A unique id for the problem."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.add_problem:6
+msgid ""
+"either a widget or list of widgets whose background color should change to "
+"indicate a problem (default=None)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_completions_handler:1
+msgid "Dynamically handle completions on a gtk.Entry."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_completions_handler:3
+msgid "a gtk.Entry instance or widget name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_completions_handler:5
+msgid ""
+"the method to call when a list of completions is requested, returns a list "
+"of completions"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_completions_handler:8
+msgid "callback for when a value is selected from the list of completions"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_simple_handler:1
+msgid "Assign handlers to widgets to change fields in the model."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.assign_simple_handler:9
+msgid ""
+"Note: Where widget is a gtk.ComboBox or gtk.ComboBoxEntry then the value is "
+"assumed to be stored in model[row][0]"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.cleanup:1
+msgid ""
+"Revert any changes the presenter might have done to the widgets so that next"
+" time the same widgets are open everything will be normal."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.cleanup:5
+msgid "By default it only calls self.view.cleanup()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.clear_problems:1
+msgid "Clear all the problems from all widgets associated with the presenter"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.commit_changes:1
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor.commit_changes:1
+msgid "Commit the changes to self.session()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.has_problems:1
+msgid ""
+"Return True/False depending on if widget has any problems attached to it. if"
+" no widget is specified, result is True if there is any problem at all."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.init_enum_combo:1
+msgid ""
+"Initialize a gtk.ComboBox widget with name widget_name from enum values in "
+"self.model.field"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.is_dirty:1
+msgid "is the presenter dirty?"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.is_dirty:3
+msgid ""
+"the presenter is dirty depending on whether it has changed anything that "
+"needs to be committed.  This doesn't necessarily imply that the session is "
+"not dirty nor is it required to change back to True if the changes are "
+"committed."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_check_toggled:1
+msgid "handle toggled signal on check buttons"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_datetime_entry_changed:1
+msgid "handle 'changed' signal on datetime entry widgets."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_group_changed:1
+msgid "handle group-changed signal on radio-button"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_text_entry_changed:1
+msgid "handle 'changed' signal on generic text entry widgets."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_textbuffer_changed:1
+msgid "handle 'changed' signal on textbuffer widgets."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.on_unique_text_entry_changed:1
+msgid "handle 'changed' signal on text entry widgets with an uniqueness"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.refresh_view:1
+msgid "fill the values in the widgets as the field values in the model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.refresh_view:3
+msgid ""
+"for radio button groups, we have several widgets all referring to the same "
+"model attribute."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.remove_problem:1
+msgid ""
+"Remove problem_id from self.problems and reset the background color of the "
+"widget(s) in problem_widgets.  If problem_id is None and problem_widgets is "
+"None then method won't do anything."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.remove_problem:5
+msgid ""
+"the problem to remove, if None then remove any problem from the "
+"problem_widget(s)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.remove_problem:8
+msgid ""
+"a gtk.Widget instance to remove the problem from, if None then remove all "
+"occurrences of problem_id regardless of the widget"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.set_model_attr:1
+msgid ""
+"It is best to use this method to set values on the model rather than setting"
+" them directly.  Derived classes can override this method to take action "
+"when the model changes."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.set_model_attr:5
+msgid "the attribute on self.model to set"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.set_model_attr:6
+msgid "the value the attribute will be set to"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.set_model_attr:7
+msgid "validates the value before setting it"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericEditorPresenter.start:1
+msgid "run the dialog associated to the view"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor:1
+msgid ""
+"GenericModelViewPresenterEditor assume that model is an instance of object "
+"mapped to a SQLAlchemy table"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor:4
+msgid ""
+"The editor creates its own session and merges the model into it.  If the "
+"model is already in another session that original session will not be "
+"effected."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor:8
+msgid ""
+"When creating a subclass of this editor then you should explicitly close the"
+" session when you are finished with it."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor:11
+msgid ""
+"an instance of an object mapped to a SQLAlchemy Table, the model will be "
+"copied and merged into self.session so that the original model will not be "
+"changed"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor:15
+msgid "the parent windows for the view or None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.GenericModelViewPresenterEditor.attach_response:1
+msgid "Attach a response to dialog when keyname and mask are pressed"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.NotesPresenter:1
+msgid ""
+"The NotesPresenter provides a generic presenter for editor notes on an item "
+"in the database.  This presenter requires that the notes property provide a "
+"specific interface."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.NotesPresenter:5
+msgid "the parent presenter of this presenter"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.NotesPresenter:6
+msgid "the string name of the notes property of the presenter.model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.NotesPresenter:8
+msgid "the gtk.Container to add the notes editor box to"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/editor.pydocstring
+#: of bauble.editor.NotesPresenter.add_note:1
+msgid "Add a new note to the model."
+msgstr ""
+
+#: ../../api.rst:78
+msgid ":mod:`bauble.i18n`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/i18n.pydocstring
+#: of bauble.i18n:1
+msgid ""
+"The i18n module defines the _() function for creating translatable strings."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/i18n.pydocstring
+#: of bauble.i18n:3
+msgid ""
+"_() is added to the Python builtins so there is no reason to import this "
+"module more than once in an application.  It is usually imported in "
+":mod:`bauble`"
+msgstr ""
+
+#: ../../api.rst:83
+msgid ":mod:`bauble.ui`"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.add_menu:1
+msgid "add a menu to the menubar"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.add_to_history:1
+msgid ""
+"add text to history, if text is already in the history then set its index to"
+" index parameter"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.add_to_insert_menu:1
+msgid "add an editor to the insert menu"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.add_to_insert_menu:3
+msgid "the editor to add to the menu"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.add_to_insert_menu:4
+msgid "the label for the menu item"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.build_tools_menu:1
+msgid "Build the tools menu from the tools provided by the plugins."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.build_tools_menu:3
+msgid "This method is generally called after plugin initialization"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.clear_menu:1
+msgid "remove all the menus items from a menu"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.create_main_menu:1
+msgid ""
+"get the main menu from the UIManager XML description, add its actions and "
+"return the menubar"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.get_view:1
+msgid "return the current view in the view box"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.on_file_menu_open:1
+msgid "Open the connection manager."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.on_tools_menu_item_activate:1
+msgid "Start a tool on the Tool menu."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.save_state:1
+msgid "this is usually called from bauble.py when it shuts down"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.set_view:1
+msgid "set the view, if view is None then remove any views currently set"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.set_view:3
+msgid "default=None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.show_message_box:1
+msgid "Show an info message in the message drop down box"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/ui.pydocstring
+#: of bauble.ui.GUI.statusbar_clear:1
+msgid ""
+"Call gtk.Statusbar.pop() for each context_id that had previously been "
+"pushed() onto the the statusbar stack.  This might not clear all the "
+"messages in the statusbar but it's the best we can do without knowing how "
+"many messages are in the stack."
+msgstr ""
+
+#: ../../api.rst:91
+msgid ":mod:`bauble.meta`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.get_default:1
+msgid ""
+"Get a BaubleMeta object with name.  If the default value is not None then a "
+"BaubleMeta object is returned with name and the default value given."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.get_default:5
+msgid ""
+"If a session instance is passed (session != None) then we don't commit the "
+"session."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:1
+msgid ""
+"The BaubleMeta class is used to set and retrieve meta information based on "
+"key/name values from the bauble meta table."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:4
+msgid "bauble"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:8
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:5
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:6
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/location.pydocstring
+#: of bauble.plugins.garden.Location:4
+msgid "*name*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:8
+msgid "The name of the data."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:10
+msgid "*value*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/meta.pydocstring
+#: of bauble.meta.BaubleMeta:11
+msgid "The value."
+msgstr ""
+
+#: ../../api.rst:99
+msgid ":mod:`bauble.paths`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/paths.pydocstring
+#: of bauble.paths:1
+msgid "Access to standard paths used by Bauble."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/paths.pydocstring
+#: of bauble.paths.main_dir:1
+msgid "Returns the path of the bauble executable."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/paths.pydocstring
+#: of bauble.paths.lib_dir:1
+msgid "Returns the path of the bauble module."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/paths.pydocstring
+#: of bauble.paths.locale_dir:1
+msgid "Returns the root path of the locale files"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/paths.pydocstring
+#: of bauble.paths.user_dir:1
+msgid "Returns the path to where Bauble settings should be saved."
+msgstr ""
+
+#: ../../api.rst:108
+msgid ":mod:`bauble.pluginmgr`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr:1
+msgid ""
+"Manage plugin registry, loading, initialization and installation.  The "
+"plugin manager should be started in the following order:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr:4
+msgid ""
+"1. load the plugins: search the plugin directory for plugins, populates the "
+"plugins dict (happens in load())"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr:7
+msgid ""
+"2. install the plugins if not in the registry, add properly installed "
+"plugins in to the registry (happens in load())"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr:10
+msgid "initialize the plugins (happens in init())"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.register_command:1
+msgid ""
+"Register command handlers.  If a command is a duplicate then it will "
+"overwrite the old command of the same name."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.register_command:4
+msgid "A class which extends pluginmgr.CommandHandler"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.load:1
+msgid ""
+"Search the plugin path for modules that provide a plugin. If path is a "
+"directory then search the directory for plugins. If path is None then use "
+"the default plugins path, bauble.plugins."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.load:5
+msgid ""
+"This method populates the pluginmgr.plugins dict and imports the plugins but"
+" doesn't do any plugin initialization."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.load:8
+msgid "the path where to look for the plugins"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.init:1
+msgid "Initialize the plugin manager."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.init:3
+msgid ""
+"1. Check for and install any plugins in the plugins dict that aren't in the "
+"registry. 2. Call each init() for each plugin the registry in order of "
+"dependency 3. Register the command handlers in the plugin's commands[]"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.init:8
+msgid ""
+"NOTE: This should be called after after Bauble has established a connection "
+"to a database with db.open()"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.install:1
+msgid ""
+"A list of plugins to install. If the string \"all\" is passed then install "
+"all plugins listed in the bauble.pluginmgr.plugins dict that aren't already "
+"listed in the plugin registry."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.install:6
+msgid ""
+"Flag passed to the plugin's install() method to indicate whether it should "
+"import its default data."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.install:10
+msgid "Force, don't ask questions."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:2
+msgid "tools:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:2
+msgid ""
+"a list of BaubleTool classes that this plugin provides, the tools' category "
+"and label will be used in Bauble's \"Tool\" menu"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:5
+msgid "depends:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:5
+msgid ""
+"a list of names classes that inherit from BaublePlugin that this plugin "
+"depends on"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:8
+msgid "cmds:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:8
+msgid ""
+"a map of commands this plugin handled with callbacks, e.g dict('cmd', lambda"
+" x: handler)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:12
+msgid "description:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin:11
+msgid "a short description of the plugin"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin.init:1
+msgid "init() is run when Bauble is first started"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/pluginmgr.pydocstring
+#: of bauble.pluginmgr.Plugin.install:1
+msgid ""
+"install() is run when a new plugin is installed, it is usually only run once"
+" for the lifetime of the plugin"
+msgstr ""
+
+#: ../../api.rst:122
+msgid ":mod:`bauble.prefs`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.default_prefs_file:1
+msgid "The default file for the preference settings file."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.config_version_pref:1
+msgid "The preferences key for the bauble version of the preferences file."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.date_format_pref:1
+msgid "The preferences key for the default data format."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.parse_dayfirst_pref:1
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.parse_yearfirst_pref:1
+msgid ""
+"The preferences key for to determine whether the date should come first when"
+" parsing date string.  For more information see the "
+":meth:`dateutil.parser.parse` method."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.parse_dayfirst_pref:5
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.parse_yearfirst_pref:5
+msgid "Values: True, False"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.units_pref:1
+msgid "The preferences key for the default units for Bauble."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/prefs.pydocstring
+#: of bauble.prefs.units_pref:3
+msgid "Values: metric, imperial"
+msgstr ""
+
+#: ../../api.rst:133
+msgid ":mod:`bauble.task`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/task.pydocstring
+#: of bauble.task:1
+msgid ""
+"The bauble.task module allows you to queue up long running tasks. The "
+"running tasks still block but allows the GUI to update."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/task.pydocstring
+#: of bauble.task.queue:1
+msgid "Run a task."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/task.pydocstring
+#: of bauble.task.queue:3
+msgid ""
+"task should be a generator with side effects. it does not matter what it "
+"yields, it is important that it does stop from time to time yielding "
+"whatever it wants to, and causing the side effect it has to cause."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/task.pydocstring
+#: of bauble.task.set_message:1
+msgid ""
+"A convenience function for setting a message on the statusbar. Returns the "
+"message id"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/task.pydocstring
+#: of bauble.task.clear_messages:1
+msgid ""
+"Clear all the messages from the statusbar that were set with "
+":func:`bauble.task.set_message`"
+msgstr ""
+
+#: ../../api.rst:141
+msgid ":mod:`bauble.types`"
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+msgid "Bases: :class:`sqlalchemy.sql.type_api.TypeDecorator`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/btypes.pydocstring
+#: of bauble.btypes.Enum:1
+msgid ""
+"A database independent Enum type. The value is stored in the database as a "
+"Unicode string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/btypes.pydocstring
+#: of bauble.btypes.Date:1
+msgid "A Date type that allows Date strings"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/btypes.pydocstring
+#: of bauble.btypes.DateTime:1
+msgid "A DateTime type that allows strings"
+msgstr ""
+
+#: ../../api.rst:154
+msgid ":mod:`bauble.utils`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils:1
+msgid "A common set of utility functions used throughout Bauble."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.find_dependent_tables:1
+msgid ""
+"Return an iterator with all tables that depend on table.  The tables are "
+"returned in the order that they depend on each other. For example you know "
+"that table[0] does not depend on tables[1]."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.find_dependent_tables:6
+msgid "The tables who dependencies we want to find"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.find_dependent_tables:8
+msgid ""
+"The :class:`sqlalchemy.engine.MetaData` object that holds the tables to "
+"search through.  If None then use bauble.db.metadata"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.tree_model_has:1
+msgid "Return True or False if value is in the tree."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.search_tree_model:1
+msgid ""
+"Return a iterable of gtk.TreeIter instances to all occurences of data in "
+"model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.search_tree_model:4
+msgid "a gtk.TreeModel or a gtk.TreeModelRow instance"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.search_tree_model:5
+msgid "the data to look for"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.search_tree_model:6
+msgid ""
+"the function to call on each row to check if it matches data, default is "
+"C{lambda row, data: row[0] == data}"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.clear_model:1
+msgid ""
+"a gtk Widget that has a gtk.TreeModel that can be retrieved with "
+"obj_with_mode.get_model"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.clear_model:4
+msgid ""
+"Remove the model from the object, deletes all the items in the model, clear "
+"the model and then delete the model and set the model on the object to None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_set_active_text:1
+msgid ""
+"does the same thing as set_combo_from_value but this looks more like a GTK+ "
+"method"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_combo_from_value:1
+msgid ""
+"Find value in combo model and set it as active, else raise ValueError "
+"cmp(row, value) is the a function to use for comparison"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_combo_from_value:4
+msgid ""
+"if more than one value is found in the combo then the first one in the list "
+"is set"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_get_value_iter:1
+msgid ""
+"Returns a gtk.TreeIter that points to first matching value in the combo's "
+"model."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_get_value_iter:4
+msgid "the combo where we should search"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_get_value_iter:5
+msgid "the value to search for"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_get_value_iter:6
+msgid ""
+"the method to use to compare rows in the combo model and value, the default "
+"is C{lambda row, value: row[0] == value}"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.combo_get_value_iter:9
+msgid ""
+"if more than one value is found in the combo then the first one in the list "
+"is returned"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:1
+msgid "an instance of gtk.Widget"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:2
+msgid "the value to put in the widget"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:3
+msgid "whether or not value is markup"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:4
+msgid "the default value to put in the widget if the value is None"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.set_widget_value:7
+msgid ""
+"any values passed in for widgets that expect a string will call the values "
+"__str__ method"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:1
+msgid "Create a message dialog."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:3
+msgid ""
+"The markup to use for the message. The value should be escaped in case it "
+"contains any HTML entities."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:5
+msgid "A GTK message type constant.  The default is gtk.MESSAGE_INFO."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:6
+msgid "A GTK buttons type constant.  The default is gtk.BUTTONS_OK."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:8
+msgid "The parent window for the dialog"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_dialog:10
+msgid "Returns a :class:`gtk.MessageDialog`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.message_dialog:1
+msgid ""
+"Create a message dialog with :func:`bauble.utils.create_message_dialog` and "
+"run and destroy it."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.message_dialog:4
+msgid "Returns the dialog's response."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_yes_no_dialog:1
+msgid "Create a dialog with yes/no buttons."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.yes_no_dialog:1
+msgid "Create and run a yes/no dialog."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.yes_no_dialog:3
+msgid "Return True if the dialog response equals gtk.RESPONSE_YES"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.yes_no_dialog:5
+msgid "the message to display in the dialog"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.yes_no_dialog:6
+msgid "the dialog's parent"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.yes_no_dialog:7
+msgid "the number of seconds before the yes button should become sensitive"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.create_message_details_dialog:1
+msgid "Create a message dialog with a details expander."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.message_details_dialog:1
+msgid "Create and run a message dialog with a details expander."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_text_combobox:1
+msgid "Configure a gtk.ComboBox as a text combobox"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_text_combobox:3
+msgid ""
+"NOTE: If you pass a cell_data_func that is a method of an object that holds "
+"a reference to combo then the object will not be properly garbage collected."
+"  To avoid this problem either don't pass a method of object or make the "
+"method static"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_text_combobox:8
+msgid "gtk.ComboBox"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_text_combobox:9
+msgid "list vales or gtk.ListStore"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_date_button:1
+msgid ""
+"Associate a button with entry so that when the button is clicked a date is "
+"inserted into the entry."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_date_button:4
+msgid "a bauble.editor.GenericEditorView"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_date_button:6
+msgid "the entry that the data goes into"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_date_button:8
+msgid "the button that enters the data in entry"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.setup_date_button:10
+msgid "the function that returns a string represention of the date"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.to_unicode:1
+msgid ""
+"Return obj converted to unicode.  If obj is already a unicode object it will"
+" not try to decode it to converted it to <encoding> but will just return the"
+" original obj"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.utf8:1
+msgid "This function is an alias for to_unicode(obj, 'utf-8')"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.xml_safe:1
+msgid ""
+"Return a string with character entities escaped safe for xml, if the str "
+"parameter is a string a string is returned, if str is a unicode object then "
+"a unicode object is returned"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.xml_safe_utf8:1
+msgid "This method is deprecated and just returns xml_safe(obj)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.natsort_key:1
+msgid "a key getter for sort and sorted function"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.natsort_key:3
+msgid ""
+"the sorting is done on return value of obj.__str__() so we can sort objects "
+"as well, i don't know if this will cause problems with unicode"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.natsort_key:6
+msgid "use like: sorted(some_list, key=utils.natsort_key)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.delete_or_expunge:1
+msgid ""
+"If the object is in object_session(obj).new then expunge it from the "
+"session.  If not then session.delete it."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.reset_sequence:1
+msgid ""
+"If column.sequence is not None or the column is an Integer and "
+"column.autoincrement is true then reset the sequence for the next available "
+"value for the column...if the column doesn't have a sequence then do nothing"
+" and return"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.reset_sequence:6
+msgid "The SQL statements are executed directly from db.engine"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.reset_sequence:8
+msgid ""
+"This function only works for PostgreSQL database.  It does nothing for other"
+" database engines."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.make_label_clickable:1
+msgid "a gtk.Label that has a gtk.EventBox as its parent"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.make_label_clickable:2
+msgid ""
+"callback to be called when the label is clicked on_clicked(label, event, "
+"data)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.enum_values_str:1
+msgid "a string if table.col where col is an enum type"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.enum_values_str:3
+msgid "return a string with of the values on an enum type join by a comma"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.which:1
+msgid "Return first occurence of file on the path."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.ilike:1
+msgid "Return a cross platform ilike function."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.range_builder:1
+msgid "Return a list of numbers from a string range of the form 1-3,4,5"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.topological_sort:1
+msgid "Perform topological sort."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.topological_sort:3
+msgid "a list of items to be sorted."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.topological_sort:5
+msgid ""
+"a list of pairs. If pair (a,b) is in it, it means that item a should appear "
+"before item b. Returns a list of the items in one of the possible orders, or"
+" None if partial_order contains a loop."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.get_distinct_values:1
+msgid "Return a list of all the distinct values in a table column"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.get_invalid_columns:1
+msgid ""
+"Return column names on a mapped object that have values which aren't valid "
+"for the model."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.get_invalid_columns:4
+msgid ""
+"Invalid columns meet the following criteria: - nullable columns with null "
+"values - ...what else?"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.get_urls:1
+msgid ""
+"Return tuples of http/https links and labels for the links.  To label a link"
+" prefix it with [label text], e.g. [BBG]http://belizebotanic.org"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.EventBox`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.GenericMessageBox:1
+msgid "Abstract class for showing a message box at the top of an editor."
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1
+msgid "Bases: :class:`bauble.utils.GenericMessageBox`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.MessageBox:1
+msgid "A MessageBox that can display a message label at the top of an editor."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.YesNoMessageBox:1
+msgid "A message box that can present a Yes or No question to the user"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/utils/__init__.pydocstring
+#: of bauble.utils.add_message_box:1
+msgid "the parent :class:`gtk.Box` width to add the message box to"
+msgstr ""
+
+#: ../../api.rst:204
+msgid ":mod:`bauble.view`"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.Action`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.Action:1
+msgid ""
+"An Action allows a label, tooltip, callback and accelerator to be called "
+"when specific items are selected in the SearchView"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.Notebook`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox:1
+msgid "Holds list of expanders with an optional tabbed layout."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox:3
+msgid ""
+"The default is to not use tabs. To create the InfoBox with tabs use "
+"InfoBox(tabbed=True).  When using tabs then you can either add expanders "
+"directly to the InfoBoxPage or using InfoBox.add_expander with the page_num "
+"argument."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox:8
+msgid ""
+"Also, it's not recommended to create a subclass of a subclass of InfoBox "
+"since if they both use bauble.utils.BuilderWidgets then the widgets will be "
+"parented to the infobox that is created first and the expanders of the "
+"second infobox will appear empty."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox.add_expander:1
+msgid "Add an expander to a page."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox.add_expander:3
+msgid "The expander to add."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox.add_expander:4
+msgid "The page number in the InfoBox to add the expander."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox.on_switch_page:1
+msgid "Called when a page is switched"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBox.update:1
+msgid "Update the current page with row."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.ScrolledWindow`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage:1
+msgid ""
+"A :class:`gtk.ScrolledWindow` that contains "
+":class:`bauble.view.InfoExpander` objects."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.add_expander:1
+msgid "Add an expander to the list of exanders in this infobox"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.add_expander:3
+msgid "the bauble.view.InfoExpander to add to this infobox"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.get_expander:1
+msgid "Returns an expander by the expander's label name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.get_expander:3
+msgid "the name of the expander to return"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.remove_expander:1
+msgid "Remove expander from the infobox by the expander's label bel"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.remove_expander:3
+msgid "the name of th expander to remove"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.remove_expander:5
+msgid "Return the expander that was removed from the infobox."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.update:1
+msgid "Updates the infobox with values from row"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoBoxPage.update:3
+msgid ""
+"the mapper instance to use to update this infobox, this is passed to each of"
+" the infoexpanders in turn"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.Expander`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoExpander:1
+msgid ""
+"an abstract class that is really just a generic expander with a vbox to "
+"extend this you just have to implement the update() method"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoExpander.set_widget_value:1
+msgid "a shorthand for L{bauble.utils.set_widget_value()}"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.InfoExpander.update:1
+msgid "This method should be implemented by classes that extend InfoExpander"
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1
+msgid "Bases: :class:`bauble.view.InfoExpander`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.PropertiesExpander.update:1
+msgid "\" Update the widget in the expander."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`bauble.pluginmgr.View`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/view.pydocstring
+#: of bauble.view.SearchView:1
+msgid ""
+"The SearchView is the main view for Bauble.  It manages the search results "
+"returned when search strings are entered into the main text entry."
+msgstr ""
+
+#: ../../api.rst:230
+msgid ":mod:`bauble.search`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchParser:1
+msgid "The parser for bauble.search.MapperSearch"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchParser.parse_string:1
+msgid "request pyparsing object to parse text"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchParser.parse_string:3
+msgid ""
+"`text` can be either a query, or a domain expression, or a list of values. "
+"the `self.statement` pyparsing object parses the input text and return a "
+"pyparsing.ParseResults object that represents the input"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchStrategy:1
+msgid "Interface for adding search strategies to a view."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchStrategy.search:1
+msgid "the search string"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchStrategy.search:2
+msgid "the session to use for the search"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.SearchStrategy.search:4
+msgid ""
+"Return an iterator that iterates over mapped classes retrieved from the "
+"search."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`bauble.search.SearchStrategy`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.MapperSearch:1
+msgid ""
+"Mapper Search support three types of search expression: 1. value searches: "
+"search that are just list of values, e.g. value1, value2, value3, searches "
+"all domains and registered columns for values 2. expression searches: "
+"searched of the form domain=value, resolves the domain and searches specific"
+" columns from the mapping 3. query searchs: searches of the form domain "
+"where ident.ident = value, resolve the domain and identifiers and search for"
+" value"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.MapperSearch.search:1
+msgid "Returns a set() of database hits for the text search string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/search.pydocstring
+#: of bauble.search.MapperSearch.search:3
+msgid ""
+"If session=None then the session should be closed after the results have "
+"been processed or it is possible that some database backends could cause "
+"deadlocks."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`gtk.Dialog`"
+msgstr ""
+
+#: ../../api.rst:243
+msgid ":mod:`bauble.plugins.plants`"
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+#: ../../<autodoc>:1 ../../<autodoc>:1 ../../<autodoc>:1
+msgid ""
+"Bases: :class:`sqlalchemy.ext.declarative.api.Base`, "
+":class:`bauble.db.Serializable`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:1
+msgid "family"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:5
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.family.FamilySynonym:11
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:21
+msgid "*family*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:5
+msgid "The name of the family. Required."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:15
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:14
+msgid "*qualifier*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:8
+msgid "The family qualifier."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:15
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:14
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:38
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:11
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:20
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:36
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:21
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:25
+msgid "Possible values:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:11
+msgid "lat.: aggregrate family (senso lato)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:13
+msgid "str.: segregate family (senso stricto)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:15
+msgid "'': the empty string"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:20
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.family.FamilySynonym:9
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:27
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:52
+msgid "*synonyms*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:19
+msgid ""
+"An association to _synonyms that will automatically convert a Family object "
+"and create the synonym."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.Family:23
+msgid "The family table has a unique constraint on family/qualifier."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.family.FamilySynonym:1
+msgid "family_synonyms"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.family.FamilySynonym:4
+msgid "*family_id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/family.pydocstring
+#: of bauble.plugins.plants.family.FamilySynonym:6
+msgid "*synonyms_id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:1
+msgid "genus"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:6
+msgid "*genus*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:5
+msgid ""
+"The name of the genus.  In addition to standard generic names any additional"
+" hybrid flags or genera should included here."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:9
+msgid "Designates the botanical status of the genus."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:12
+msgid "lat.: aggregrate genus (sensu lato)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:14
+msgid "str.: segregate genus (sensu stricto)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:17
+msgid "*author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:17
+msgid "The name or abbreviation of the author who published this genus."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:21
+msgid "The family of the genus."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:24
+msgid ""
+"The list of genera who are synonymous with this genus.  If a genus is listed"
+" as a synonym of this genus then this genus should be considered the current"
+" and valid name for the synonym."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.Genus:30
+msgid ""
+"The combination of genus, author, qualifier and family_id must be unique."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/genus.pydocstring
+#: of bauble.plugins.plants.genus.GenusSynonym:1
+msgid "genus_synonym"
+msgstr ""
+
+#: ../../<autodoc>:1 ../../<autodoc>:1
+msgid ""
+"Bases: :class:`sqlalchemy.ext.declarative.api.Base`, "
+":class:`bauble.db.Serializable`, :class:`bauble.db.DefiningPictures`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:1
+msgid "species"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:4
+msgid "*sp*: *sp2*: *sp_author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:9
+msgid "*hybrid*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:9
+msgid "Hybrid flag"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:11
+msgid "*infrasp1*: *infrasp1_rank*: *infrasp1_author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:15
+msgid "*infrasp2*: *infrasp2_rank*: *infrasp2_author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:19
+msgid "*infrasp3*: *infrasp3_rank*: *infrasp3_author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:23
+msgid "*infrasp4*: *infrasp4_rank*: *infrasp4_author*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:27
+msgid "*cv_group*: *trade_name*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:38
+msgid "*sp_qual*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:31
+msgid "Species qualifier"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:34
+msgid "*agg.*: An aggregate species"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:36
+msgid "*s. lat.*: aggregrate species (sensu lato)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:38
+msgid "*s. str.*: segregate species (sensu stricto)"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:43
+msgid "*label_distribution*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:41
+msgid ""
+"UnicodeText This field is optional and can be used for the label in case "
+"str(self.distribution) is too long to fit on the label."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:46
+msgid "*accessions*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:48
+msgid "*vernacular_names*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:50
+msgid "*default_vernacular_name*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:54
+msgid "*distribution*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.Species:57
+msgid ""
+"The combination of sp, sp_author, hybrid, sp_qual, cv_group, trade_name, "
+"genus_id"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.SpeciesSynonym:1
+msgid "species_synonym"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:1
+msgid "vernacular_name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:5
+msgid "the vernacular name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:9
+msgid "*language*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:8
+msgid ""
+"language is free text and could include something like UK or US to identify "
+"the origin of the name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:12
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:13
+msgid "*species_id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.VernacularName:12
+msgid "key to the species this vernacular name refers to"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:1
+msgid "default_vernacular_name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:3
+msgid ""
+"DefaultVernacularName is not meant to be instantiated directly. Usually the "
+"default vernacular name is set on a species by setting the "
+"default_vernacular_name property on Species to a VernacularName instance"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:10
+msgid "*id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:10
+msgid "Integer, primary_key"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:13
+msgid "foreign key to species.id, nullable=False"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.species.DefaultVernacularName:15
+msgid "*vernacular_name_id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
+#: of bauble.plugins.plants.SpeciesDistribution:1
+msgid "species_distribution"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:1
+msgid "Represents a geography unit."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:3
+msgid "geography"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:8
+msgid "*tdwg_code*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:10
+msgid "*iso_code*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:12
+msgid "*parent_id*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/geography.pydocstring
+#: of bauble.plugins.plants.Geography:15
+msgid "*children*:"
+msgstr ""
+
+#: ../../api.rst:278
+msgid ":mod:`bauble.plugins.garden`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:1
+msgid "accession"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:5
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:5
+msgid "*code*: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:5
+msgid "the accession code"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:11
+msgid "*prov_type*: :class:`bauble.types.Enum`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:8
+msgid "the provenance type"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:11
+msgid "first column of prov_type_values"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:20
+msgid "*wild_prov_status*:  :class:`bauble.types.Enum`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:14
+msgid "this column can be used to give more provenance information"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:18
+msgid "union of first columns of wild_prov_status_values,"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:19
+msgid "purchase_prov_status_values,"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:20
+msgid "cultivated_prov_status_values"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:24
+msgid "*date_accd*: :class:`bauble.types.Date`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:23
+msgid "the date this accession was accessioned"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:36
+msgid "*id_qual*: :class:`bauble.types.Enum`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:27
+msgid ""
+"The id qualifier is used to indicate uncertainty in the identification of "
+"this accession"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:31
+msgid "aff. - affinity with"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:32
+msgid "cf. - compare with"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:33
+msgid "forsan - perhaps"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:34
+msgid "near - close to"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:35
+msgid "? - questionable"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:36
+msgid "incorrect"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:39
+msgid "*id_qual_rank*: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:39
+msgid "The rank of the species that the id_qaul refers to."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:43
+msgid "*private*: :class:`sqlalchemy.types.Boolean`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:42
+msgid ""
+"Flag to indicate where this information is sensitive and should be kept "
+"private"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:46
+msgid "*species_id*: :class:`sqlalchemy.types.Integer()`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:46
+msgid "foreign key to the species table"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:50
+msgid "*species*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:50
+msgid "the species this accession refers to"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:53
+msgid "*source*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:53
+msgid "source is a relation to a Source instance"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:56
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/location.pydocstring
+#: of bauble.plugins.garden.Location:9
+msgid "*plants*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:56
+msgid "a list of plants related to this accession"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:59
+msgid "*verifications*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.Accession:59
+msgid "a list of verifications on the identification of this accession"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.AccessionNote:1
+msgid "Notes for the accession table"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:1
+msgid "plant"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:5
+msgid "The plant code"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:21
+msgid "*acc_type*: :class:`bauble.types.Enum`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:8
+msgid "The accession type"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:11
+msgid "Plant: Whole plant"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:13
+msgid "Seed/Spore: Seed or Spore"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:15
+msgid "Vegetative Part: Vegetative Part"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:17
+msgid "Tissue Culture: Tissue culture"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:19
+msgid "Other: Other, probably see notes for more information"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:21
+msgid "None: no information, unknown"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:24
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:30
+msgid "*accession_id*: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:24
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:27
+msgid "Required."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:27
+msgid "*location_id*: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:30
+msgid "*accession*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:31
+msgid "The accession for this plant."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:32
+msgid "*location*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:33
+msgid "The location for this plant."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:35
+msgid "*notes*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:35
+msgid "The notes for this plant."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant:38
+msgid "The combination of code and accession_id must be unique."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant.get_delimiter:1
+msgid "Get the plant delimiter from the BaubleMeta table."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.Plant.get_delimiter:3
+msgid ""
+"The delimiter is cached the first time it is retrieved.  To refresh the "
+"delimiter from the database call with refresh=True."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/plant.pydocstring
+#: of bauble.plugins.garden.plant.PlantStatus:1
+msgid ""
+"date: date checked status: status of plant comment: comments on check up "
+"checked_by: person who did the check"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/location.pydocstring
+#: of bauble.plugins.garden.Location:1
+msgid "location"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/location.pydocstring
+#: of bauble.plugins.garden.Location:6
+msgid "*description*:"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/propagation.pydocstring
+#: of bauble.plugins.garden.propagation.Propagation:1
+msgid "Propagation"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/propagation.pydocstring
+#: of bauble.plugins.garden.propagation.PropRooted:1
+msgid "Rooting dates for cutting"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/propagation.pydocstring
+#: of bauble.plugins.garden.propagation.PropCutting:1
+msgid "A cutting"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:1
+msgid "collection"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:4
+msgid "*collector*: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:6
+msgid "*collectors_code*: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:8
+msgid "*date*: :class:`sqlalchemy.types.Date`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:10
+msgid "*locale*: :class:`sqlalchemy.types.UnicodeText`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:12
+msgid "*latitude*: :class:`sqlalchemy.types.Float`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:14
+msgid "*longitude*: :class:`sqlalchemy.types.Float`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:16
+msgid "*gps_datum*: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:18
+msgid "*geo_accy*: :class:`sqlalchemy.types.Float`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:20
+msgid "*elevation*: :class:`sqlalchemy.types.Float`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:22
+msgid "*elevation_accy*: :class:`sqlalchemy.types.Float`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:24
+msgid "*habitat*: :class:`sqlalchemy.types.UnicodeText`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:26
+msgid "*geography_id*: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/source.pydocstring
+#: of bauble.plugins.garden.source.Collection:28
+msgid "*notes*: :class:`sqlalchemy.types.UnicodeText`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:1
+msgid "verification"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:4
+msgid "verifier: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:5
+msgid "The name of the person that made the verification."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:6
+msgid "date: :class:`sqlalchemy.types.Date`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:7
+msgid "The date of the verification"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:8
+msgid "reference: :class:`sqlalchemy.types.UnicodeText`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:9
+msgid "The reference material used to make this verification"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:25
+msgid "level: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:11
+msgid ""
+"Determines the level or authority of the verifier. If it is not known "
+"whether the name of the record has been verified by an authority, then this "
+"field should be None."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:16
+msgid "0: The name of the record has not been checked by any authority."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:17
+msgid ""
+"1: The name of the record determined by comparison with other named plants."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:19
+msgid ""
+"2: The name of the record determined by a taxonomist or by other competent "
+"persons using herbarium and/or library and/or documented living material."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:22
+msgid ""
+"3: The name of the plant determined by taxonomist engaged in systematic "
+"revision of the group."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:24
+msgid ""
+"4: The record is part of type gathering or propagated from type material by "
+"asexual methods"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:27
+msgid "notes: :class:`sqlalchemy.types.UnicodeText`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:28
+msgid "Notes about this verification."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:29
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:12
+msgid "accession_id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:30
+msgid "Foreign Key to the :class:`Accession` table."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:31
+msgid "species_id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:32
+msgid "Foreign Key to the :class:`~bauble.plugins.plants.Species` table."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:34
+msgid "prev_species_id: :class:`~sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Verification:34
+msgid ""
+"Foreign key to the :class:`~bauble.plugins.plants.Species` table. What it "
+"was verified from."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:1
+msgid "voucher"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:4
+msgid "herbarium: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:5
+msgid "The name of the herbarium."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:6
+msgid "code: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:7
+msgid "The herbarium code."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:10
+msgid "parent_material: :class:`sqlalchemy.types.Boolean`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:9
+msgid ""
+"Is this voucher the parent material of the accession.  E.g did the seed for "
+"the accession from come the plant used to make this voucher."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/garden/accession.pydocstring
+#: of bauble.plugins.garden.accession.Voucher:13
+msgid "A foreign key to :class:`Accession`"
+msgstr ""
+
+#: ../../api.rst:316
+msgid ":mod:`bauble.plugins.abcd`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.validate_xml:1
+msgid "Validate root against ABCD 2.06 schema"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.validate_xml:3
+msgid "root of an XML tree to validate against"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.validate_xml:4
+msgid "True or False depending if root validates correctly"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.create_abcd:1
+msgid "a list/tuple of objects that implement the ABCDDecorator interface"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.create_abcd:3
+msgid "flag to control whether to include the authors in the species name"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.create_abcd:5
+msgid "whether we should validate the data before returning"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.create_abcd:6
+msgid "a valid ABCD ElementTree"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter:1
+msgid "An abstract base class for creating ABCD adapters."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.extra_elements:1
+msgid "Add extra non required elements"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_AuthorTeam:1
+msgid "Get the Author string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_FirstEpithet:1
+msgid "Get the first epithet."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_FullScientificNameString:1
+msgid "Get the full scientific name string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_GenusOrMonomial:1
+msgid "Get the Genus string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_InformalNameString:1
+msgid "Get the common name string."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_UnitID:1
+msgid "Get a value for the UnitID"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDAdapter.get_family:1
+msgid "Get a value for the family."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/abcd/__init__.pydocstring
+#: of bauble.plugins.abcd.ABCDExporter:1
+msgid "Export Plants to an ABCD file."
+msgstr ""
+
+#: ../../api.rst:325
+msgid ":mod:`bauble.plugins.imex`"
+msgstr ""
+
+#: ../../api.rst:329
+msgid ":mod:`bauble.plugins.report`"
+msgstr ""
+
+#: ../../api.rst:333
+msgid ":mod:`bauble.plugins.report.xsl`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/report/xsl/__init__.pydocstring
+#: of bauble.plugins.report.xsl:1
+msgid "The PDF report generator module."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/report/xsl/__init__.pydocstring
+#: of bauble.plugins.report.xsl:3
+msgid ""
+"This module takes a list of objects, get all the plants from the objects, "
+"converts them to the ABCD XML format, transforms the ABCD data to an XSL "
+"formatting stylesheet and uses a XSL-PDF renderer to convert the stylesheet "
+"to PDF."
+msgstr ""
+
+#: ../../api.rst:337
+msgid ":mod:`bauble.plugins.report.mako`"
+msgstr ""
+
+#: ../../api.rst:341
+msgid ":mod:`bauble.plugins.tag`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.remove_callback:1
+msgid "a list of :class:`Tag` objects."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.get_tagged_objects:1
+msgid "Return all object tagged with tag."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.get_tagged_objects:3
+msgid "A string or :class:`Tag`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.untag_objects:1
+msgid "Remove the tag name from objs."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.untag_objects:3
+msgid "The name of the tag"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.untag_objects:5
+msgid "The list of objects to untag."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.tag_objects:1
+msgid "Tag a list of objects."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.tag_objects:3
+msgid ""
+"The tag name, if it's a str object then it will be converted to unicode() "
+"using the default encoding. If a tag with this name doesn't exist it will be"
+" created"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.tag_objects:7
+msgid "A list of mapped objects to tag."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.get_tag_ids:1
+msgid "a list or tuple of objects"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.get_tag_ids:3
+msgid ""
+"Return a list of tag id's for tags associated with obj, only returns those "
+"tag ids that are common between all the objs"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.Tag:1
+msgid "tag"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.Tag:3
+msgid "tag: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.Tag:4
+msgid "The tag name."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.Tag:5
+msgid "description: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.Tag:6
+msgid "A description of this tag."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:1
+msgid "tagged_obj"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:3
+msgid "obj_id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:4
+msgid "The id of the tagged object."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:5
+msgid "obj_class: :class:`sqlalchemy.types.Unicode`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:6
+msgid "The class name of the tagged object."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:7
+msgid "tag_id: :class:`sqlalchemy.types.Integer`"
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TaggedObj:8
+msgid "A ForeignKey to :class:`Tag`."
+msgstr ""
+
+#: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/tag/__init__.pydocstring
+#: of bauble.plugins.tag.TagItemGUI:1
+msgid ""
+"Interface for tagging individual items in the results of the SearchView"
+msgstr ""

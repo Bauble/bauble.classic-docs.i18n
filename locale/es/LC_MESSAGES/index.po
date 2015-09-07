@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-07 07:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:2
+msgid "Documentation for Bauble 1.0"
+msgstr "Documentación de Bauble 1.0"
+
+#: ../../index.rst:8
+msgid ""
+"Bauble is an application for managing botanical specimen collections. With "
+"it you can create a searchable database of plant records."
+msgstr ""
+"Bauble es un programa para manejar colecciones botánicas. Con Bauble es "
+"posible crear una base de datos botánica que represente una colección y "
+"ayude en su manejo y descripción."
+
+#: ../../index.rst:11
+msgid ""
+"It is `open <http://www.opensource.org>`_ and `free <http://www.fsf.org>`_ "
+"and is released under the `GNU Public License "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+msgstr ""
+
+#: ../../index.rst:21
+msgid "Installing Bauble"
+msgstr "Como instalar Bauble"
+
+#: ../../index.rst:30
+msgid "Using Bauble"
+msgstr "Como utilizar Bauble"
+
+#: ../../index.rst:45
+msgid "Administration"
+msgstr "Administración"
+
+#: ../../index.rst:54
+msgid "Bauble Development"
+msgstr "Desarrollo de Bauble"
+
+#: ../../index.rst:65
+msgid "Supporting Bauble"
+msgstr "Apoyar el proyecto Bauble"
+
+#: ../../index.rst:69
+msgid ""
+"If you're using Bauble, or if you feel like helping its development anyway, "
+"please consider `donating <https://pledgie.com/campaigns/29188>`_"
+msgstr ""
