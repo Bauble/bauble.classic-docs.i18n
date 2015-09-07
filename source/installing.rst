@@ -1,5 +1,5 @@
 Installation
-------------
+--------------
 
 bauble.classic is a cross-platform program and it will run on unix machines
 like Linux and MacOSX, as well as on Windows.
@@ -141,7 +141,7 @@ the installation steps on Windows:
    all default options are fine, except we need git to be executable from
    the command prompt:
 
-   .. image:: git3.png
+   .. image:: images/screenshots/git3.png
 
 #. download and install Python 2.x (32bit) from:
 
@@ -153,7 +153,7 @@ the installation steps on Windows:
 
    when installing Python, do put Python in the PATH:
 
-   .. image:: python3.png
+   .. image:: images/screenshots/python3.png
 
 #. download ``pygtk`` from the following source. (this requires 32bit
    python). be sure you download the "all in one" version::
@@ -162,7 +162,7 @@ the installation steps on Windows:
 
    make a complete install, selecting everything:
 
-   .. image:: pygtk1.png
+   .. image:: images/screenshots/pygtk1.png
 
 #. (optional) download and install a database connector other than
    ``sqlite3``. 
@@ -187,14 +187,17 @@ the installation steps on Windows:
    you can also run ``devinstall.bat`` passing it as argument the numerical
    part of the production line you want to follow.
 
-#. the following, you will do regularly, to stay up-to-date with the
-   development line you chose to follow::
+#. download the batch file you will use to stay up-to-date with the
+   production line you chose to follow::
 
-    cd %HOMEDRIVE%%HOMEPATH%
-    .virtualenv\bacl\Scripts\activate.bat
-    cd Local\github\Bauble\bauble.classic
-    git pull
-    python setup.py install
+    https://raw.githubusercontent.com/Bauble/bauble.classic/master/scripts/bauble-update.bat
+
+   if you are on a recent Bauble installation, each time you start the
+   program, Bauble will check on the development site and alert you of any
+   newer bauble release within your chosen production line.
+
+   any time you want to update your installation, just start the command
+   prompt and run ``bauble-update.bat``
 
 #. you can now start bauble using the ``bauble.lnk`` shortcut that the
    installation procedure copies to the ``Scripts`` directory of the virtual

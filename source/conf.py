@@ -77,7 +77,7 @@ release = '1.0.50'  # :bump
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-locale_dirs = ['locale/']   # path is example but recommended.
+locale_dirs = ['../locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 # There are two options for replacing |today|: either, you set today to some
@@ -122,7 +122,7 @@ todo_include_todos = True
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'classic'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
