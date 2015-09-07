@@ -1,0 +1,402 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-07 07:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../installing.rst:4
+msgid ""
+"bauble.classic is a cross-platform program and it will run on unix machines "
+"like Linux and MacOSX, as well as on Windows."
+msgstr ""
+
+#: ../../installing.rst:7
+msgid ""
+"To install Bauble first requires that you install its dependencies that "
+"cannot be installed automatically.  These include virtualenvwrapper, PyGTK "
+"and pip. Python and GTK+, you probably already have. As long as you have "
+"these packages installed then Bauble should be able to install the rest of "
+"its dependencies by itself."
+msgstr ""
+
+#: ../../installing.rst:13
+msgid ""
+"If you follow these installation steps, you will end with Bauble running "
+"within a Python virtual environment, all Python dependencies installed "
+"locally, non conflicting with any other Python program you may have on your "
+"system."
+msgstr ""
+
+#: ../../installing.rst:18
+msgid ""
+"if you later choose to remove Bauble, you simply remove the virtual "
+"environment, which is a directory, with all of its content."
+msgstr ""
+
+#: ../../installing.rst:23
+msgid "Installing on Linux"
+msgstr ""
+
+#: ../../installing.rst:25
+msgid "Download the `devinstall.sh` script and run it::"
+msgstr ""
+
+#: ../../installing.rst:29
+msgid ""
+"Please not that the script will not help you install any extra database "
+"connector. This you will do in a later step."
+msgstr ""
+
+#: ../../installing.rst:32
+msgid ""
+"You can study the script to see what steps if runs for you. In short it will"
+" install dependencies which can't be satisfied in a virtual environment, "
+"then it will create a virtual environment named `bacl`, download the sources"
+" and connect your git checkout to the `bauble-1.0` branch (this you can "
+"consider a production line), it then builds bauble, downloading all "
+"remaining dependencies, and finally it creates a startup script in your "
+"`~/bin` folder."
+msgstr ""
+
+#: ../../installing.rst:40
+msgid "If the script ends without error, you can now start bauble::"
+msgstr ""
+
+#: ../../installing.rst:44
+msgid "or update bauble to the latest released production patch::"
+msgstr ""
+
+#: ../../installing.rst:48
+msgid ""
+"The same script you can use to switch to a different production line, but at"
+" the moment there's only `bauble-1.0`."
+msgstr ""
+
+#: ../../installing.rst:51
+msgid ""
+"on Unity, open a terminal, start bauble, its icon will show up in the "
+"launcher, you can now `lock to launcher` it."
+msgstr ""
+
+#: ../../installing.rst:54
+msgid ""
+"If you would like to use the default `SQLite <http://sqlite.org/>`_ database"
+" or you don't know what this means then you can skip this step. If you would"
+" like to use a database backend other than the default SQLite backend then "
+"you will also need to install a database connector."
+msgstr ""
+
+#: ../../installing.rst:59
+msgid ""
+"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
+"database then activate the virtual environment and install psycopg2 with the"
+" following commands::"
+msgstr ""
+
+#: ../../installing.rst:66
+msgid ""
+"You might need solve dependencies. How to do so, depends on which Linux "
+"flavour you are using. Check with your distribution documentation."
+msgstr ""
+
+#: ../../installing.rst:70 ../../installing.rst:115 ../../installing.rst:215
+#: ../../installing.rst:257
+msgid "Next..."
+msgstr ""
+
+#: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:216
+#: ../../installing.rst:258
+msgid ":ref:`connecting`."
+msgstr ""
+
+#: ../../installing.rst:74
+msgid "Installing on MacOSX"
+msgstr ""
+
+#: ../../installing.rst:76
+msgid ""
+"Being MacOSX a unix environment, most things will work the same as on Linux "
+"(sort of)."
+msgstr ""
+
+#: ../../installing.rst:79
+msgid ""
+"One difficulty is that there are many more versions of MacOSX out there than"
+" one would want to support, and only the current and its immediately "
+"preceding release are kept up-to-date by Apple-the-firm."
+msgstr ""
+
+#: ../../installing.rst:83
+msgid ""
+"Last time we tested, some of the dependencies could not be installed on "
+"MacOSX 10.5 and we assume similar problems would present themselves on older"
+" OSX versions.  Bauble has been successfully tested with 10.7 and 10.9."
+msgstr ""
+
+#: ../../installing.rst:87
+msgid ""
+"First of all, you need things which are an integral part of a unix "
+"environment, but which are missing in a off-the-shelf mac:"
+msgstr ""
+
+#: ../../installing.rst:90
+msgid ""
+"developers tools: xcode. check the wikipedia page for the version supported "
+"on your mac."
+msgstr ""
+
+#: ../../installing.rst:92
+msgid "package manager: homebrew (tigerbrew for older OSX versions)."
+msgstr ""
+
+#: ../../installing.rst:94
+msgid "with the above installed, run::"
+msgstr ""
+
+#: ../../installing.rst:98
+msgid ""
+"make sure you understand the problems it reports, and correct them. pygtk "
+"will need xquartz and brew will not solve the dependency automatically. "
+"either install xquartz using brew or the way you prefer::"
+msgstr ""
+
+#: ../../installing.rst:104
+msgid "then install the remaining dependencies::"
+msgstr ""
+
+#: ../../installing.rst:109
+msgid "follow all instructions on how to activate what you have installed."
+msgstr ""
+
+#: ../../installing.rst:111
+msgid ""
+"the rest is just as on a normal unix machine, and we have a `devinstall.sh` "
+"script for it. Read the above Linux instructions, follow them, enjoy."
+msgstr ""
+
+#: ../../installing.rst:119
+msgid "Installing on Windows"
+msgstr ""
+
+#: ../../installing.rst:121
+msgid ""
+"The Windows installer used to be a \"batteries-included\" installer, "
+"installing everything needed to run Bauble.  The current maintainer of "
+"bauble.classic cannot run Windows applications. If you want to run the "
+"latest version of bauble on Windows: download and install the dependencies "
+"and then install Bauble from the source package."
+msgstr ""
+
+#: ../../installing.rst:127
+msgid ""
+"Please report any trouble and help with packaging will be very welcome."
+msgstr ""
+
+#: ../../installing.rst:130
+msgid ""
+"Bauble has been tested with and is known to work on W-XP, W-7 and W-8. "
+"Although it should work fine on other versions Windows it has not been "
+"thoroughly tested."
+msgstr ""
+
+#: ../../installing.rst:134
+msgid "the installation steps on Windows:"
+msgstr ""
+
+#: ../../installing.rst:136
+msgid ""
+"download and install ``git`` (comes with a unix-like ``sh`` and includes "
+"``vi``) from:"
+msgstr ""
+
+#: ../../installing.rst:139
+msgid "https://git-scm.com/download/win"
+msgstr ""
+
+#: ../../installing.rst:141
+msgid ""
+"all default options are fine, except we need git to be executable from the "
+"command prompt:"
+msgstr ""
+
+#: ../../installing.rst:146
+msgid "download and install Python 2.x (32bit) from:"
+msgstr ""
+
+#: ../../installing.rst:148
+msgid "http://www.python.org"
+msgstr ""
+
+#: ../../installing.rst:150
+msgid ""
+"Bauble has been developed and tested using Python 2.x.  It will definitely "
+"**not** run on Python 3.x.  If you are interested in helping port to Python "
+"3.x, please contact the Bauble maintainers."
+msgstr ""
+
+#: ../../installing.rst:154
+msgid "when installing Python, do put Python in the PATH:"
+msgstr ""
+
+#: ../../installing.rst:158
+msgid ""
+"download ``pygtk`` from the following source. (this requires 32bit python). "
+"be sure you download the \"all in one\" version::"
+msgstr ""
+
+#: ../../installing.rst:163
+msgid "make a complete install, selecting everything:"
+msgstr ""
+
+#: ../../installing.rst:167
+msgid ""
+"(optional) download and install a database connector other than ``sqlite3``."
+msgstr ""
+
+#: ../../installing.rst:170
+msgid ""
+"On Windows, it is NOT easy to install ``psycopg2`` from sources, using pip, "
+"so \"avoid the gory details\" and use a pre-compiled pagkage from:"
+msgstr ""
+
+#: ../../installing.rst:173
+msgid "http://initd.org/psycopg/docs/install.html"
+msgstr ""
+
+#: ../../installing.rst:175
+msgid "**REBOOT**"
+msgstr ""
+
+#: ../../installing.rst:177
+msgid "hey, this is Windows, you need to reboot for changes to take effect!"
+msgstr ""
+
+#: ../../installing.rst:179
+msgid "download and run the batch file::"
+msgstr ""
+
+#: ../../installing.rst:183
+msgid ""
+"this will pull the ``bauble.classic`` repository on github to your home "
+"directory, under ``Local\\github\\Bauble``, checkout the ``bauble-1.0`` "
+"production line, create a virtual environment and install bauble into it."
+msgstr ""
+
+#: ../../installing.rst:187
+msgid ""
+"you can also run ``devinstall.bat`` passing it as argument the numerical "
+"part of the production line you want to follow."
+msgstr ""
+
+#: ../../installing.rst:190
+msgid ""
+"download the batch file you will use to stay up-to-date with the production "
+"line you chose to follow::"
+msgstr ""
+
+#: ../../installing.rst:195
+msgid ""
+"if you are on a recent Bauble installation, each time you start the program,"
+" Bauble will check on the development site and alert you of any newer bauble"
+" release within your chosen production line."
+msgstr ""
+
+#: ../../installing.rst:199
+msgid ""
+"any time you want to update your installation, just start the command prompt"
+" and run ``bauble-update.bat``"
+msgstr ""
+
+#: ../../installing.rst:202
+msgid ""
+"you can now start bauble using the ``bauble.lnk`` shortcut that the "
+"installation procedure copies to the ``Scripts`` directory of the virtual "
+"environment::"
+msgstr ""
+
+#: ../../installing.rst:208
+msgid ""
+"If you would like to generate and print PDF reports using Bauble's default "
+"report generator then you will need to download and install `Apache FOP "
+"<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive you"
+" will need to include the directory you extracted to in your PATH."
+msgstr ""
+
+#: ../../installing.rst:221
+msgid "Troubleshooting the Install"
+msgstr ""
+
+#: ../../installing.rst:223
+msgid "What are the packages that are installed by Bauble:"
+msgstr ""
+
+#: ../../installing.rst:225
+msgid "The following packages are required by Bauble"
+msgstr ""
+
+#: ../../installing.rst:227
+msgid "SQLAlchemy"
+msgstr ""
+
+#: ../../installing.rst:228
+msgid "lxml"
+msgstr ""
+
+#: ../../installing.rst:230
+msgid "The following packages are optional:"
+msgstr ""
+
+#: ../../installing.rst:232
+msgid "Mako - required by the template based report generator"
+msgstr ""
+
+#: ../../installing.rst:233
+msgid "gdata - required by the Picasa photos InfoBox"
+msgstr ""
+
+#: ../../installing.rst:236
+msgid "Couldn't install lxml."
+msgstr ""
+
+#: ../../installing.rst:238
+msgid ""
+"The lxml packages have to be compile with a C compiler. If you don't have a "
+"Make sure the libxml and libxsl packages are installed.  Installing the "
+"Cython packages.  On Linux you will have to install the gcc package.  On "
+"Windows there should be a precompiled version available at "
+"http://pypi.python.org/pypi/lxml/2.1.1"
+msgstr ""
+
+#: ../../installing.rst:245
+msgid "Couldn't install gdata."
+msgstr ""
+
+#: ../../installing.rst:247
+msgid ""
+"For some reason the Google's gdata package lists itself in the Python "
+"Package Index but doesn't work properly with the easy_install command.  You "
+"can download the latest gdata package from:"
+msgstr ""
+
+#: ../../installing.rst:252
+msgid "http://code.google.com/p/gdata-python-client/downloads/list"
+msgstr ""
+
+#: ../../installing.rst:254
+msgid ""
+"Unzip it and run ``python setup.py installw`` in the folder you unzip it to."
+msgstr ""
+
+#: ../../installing.rst:2
+msgid "Installation"
+msgstr ""
+
+#~ msgid "pInstallation"
+#~ msgstr ""
