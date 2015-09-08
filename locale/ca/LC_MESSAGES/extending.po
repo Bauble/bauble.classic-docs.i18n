@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 17:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../extending.rst:2
+msgid "Extending Bauble with Plugins"
+msgstr ""
+
+#: ../../extending.rst:4
+msgid ""
+"Nearly everything about Bauble is extensible through plugins. Plugins can "
+"create tables, define custom searchs, add menu items, create custom commands"
+" and more."
+msgstr ""
+
+#: ../../extending.rst:8
+msgid ""
+"To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
+"class."
+msgstr ""

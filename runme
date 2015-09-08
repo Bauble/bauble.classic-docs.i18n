@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LANGUAGES='it es de nl pt_BR cs sv'
+LANGUAGES='ar ca da el en_GB fr hu id ko ms nb oc pl ru si sr tr uk vi'
 
 cd source
 make gettext
@@ -12,3 +12,4 @@ do
     mkdir -p ../translated/$i
     cp -a _build/html ../translated/$i
 done
+

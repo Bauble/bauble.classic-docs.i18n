@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 17:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../imex.rst:2
+msgid "Importing and Exporting Data"
+msgstr ""
+
+#: ../../imex.rst:4
+msgid ""
+"Although Bauble can be extended through plugins to support alternate import "
+"and export formats, by default it can only import and export comma seperated"
+" values files or CSV."
+msgstr ""
+
+#: ../../imex.rst:8
+msgid ""
+"There is some support for exporting to the Access for Biological Collections"
+" Data it is limited."
+msgstr ""
+
+#: ../../imex.rst:11
+msgid ""
+"There is also limited support for exporting to an XML format that more or "
+"less reflects exactly the tables and row of the database."
+msgstr ""
+
+#: ../../imex.rst:14
+msgid "Exporting ABCD and XML will not be covered here."
+msgstr ""
+
+#: ../../imex.rst:16
+msgid ""
+"Importing files will most likely destroy any data you have in the database "
+"so make sure you have backed up your data."
+msgstr ""
+
+#: ../../imex.rst:20
+msgid "Importing from CSV"
+msgstr ""
+
+#: ../../imex.rst:21
+msgid ""
+"In general it is best to only import CSV files into Bauble that were "
+"previously exported from Bauble. It is possible to import any CSV file but "
+"that is more advanced that this doc will cover."
+msgstr ""
+
+#: ../../imex.rst:25
+msgid ""
+"To import CSV files into Bauble select "
+":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+msgstr ""
+
+#: ../../imex.rst:29
+msgid ""
+"After clicking OK on the dialog that ask if you are sure you know what "
+"you're doing a file chooser will open.  In the file chooser select the files"
+" you want to import."
+msgstr ""
+
+#: ../../imex.rst:35
+msgid "Exporting to CSV"
+msgstr ""
+
+#: ../../imex.rst:37
+msgid ""
+"To export the Bauble data to CSV select "
+":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+msgstr ""
+
+#: ../../imex.rst:40
+msgid ""
+"This tool will ask you to select a directory to export the CSV data. All of "
+"the tables in Bauble will be exported to files in the format tablename.txt "
+"where tablename is the name of the table where the data was exported from."
+msgstr ""
+
+#: ../../imex.rst:46
+msgid "Importing from JSON"
+msgstr ""
+
+#: ../../imex.rst:48
+msgid ""
+"This is *the* way to import data into an existing database, without "
+"destroying previous content. A typical example of this functionality would "
+"be importing your digital collection into a fresh, just initialized Bauble "
+"database. Converting a database into bauble json interchange format is "
+"beyond the scope of this manual, please contact one of the authors if you "
+"need any further help."
+msgstr ""
+
+#: ../../imex.rst:55
+msgid ""
+"Using the Bauble json interchange format, you can import data which you have"
+" exported from a different Bauble installation."
+msgstr ""
+
+#: ../../imex.rst:59
+msgid "Exporting to JSON"
+msgstr ""
+
+#: ../../imex.rst:61
+msgid "This feature is still under development."
+msgstr ""
+
+#: ../../imex.rst:65
+msgid ""
+"when you activate this export tool, you are given the choice to specify what"
+" to export. You can use the current selection to limit the span of the "
+"export, or you can start at the complete content of a domain, to be chosen "
+"among Species, Accession, Plant."
+msgstr ""
+
+#: ../../imex.rst:70
+msgid ""
+"Exporting *Species* will only export the complete taxonomic information in "
+"your database. *Accession* will export all your accessions plus all the "
+"taxonomic information it refers to: unreferred to taxa will not be exported."
+" *Plant* will export all living plants (some accession might not be "
+"included), all referred to locations and taxa."
+msgstr ""

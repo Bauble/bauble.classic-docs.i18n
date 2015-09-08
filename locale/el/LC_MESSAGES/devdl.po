@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 17:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../devdl.rst:2
+msgid "Downloading the source"
+msgstr ""
+
+#: ../../devdl.rst:4
+msgid ""
+"The Bauble source can be downloaded from our source repository on `github "
+"<http://github.com/Bauble/bauble.classic>`_."
+msgstr ""
+
+#: ../../devdl.rst:7
+msgid ""
+"If you want a particular version of Bauble, we release and maintain versions"
+" into branches. you should ``git checkout`` the branch corresponding to the "
+"version of your choice. Branch names for Bauble versions are of the form "
+"``bauble-x.y``, where x.y can be 1.0, for example. Our workflow is to commit"
+" to the `master` development branch or to a `patch` branch and to include "
+"the commits into a `release` branch when ready."
+msgstr ""
+
+#: ../../devdl.rst:14
+msgid ""
+"To check out the most recent code from the source repository you will need "
+"to install the `Git <http://www.git.org>`_ version control system. Git is "
+"incuded in all reasonable Linux distributions and can be installed on all "
+"current operating systems."
+msgstr ""
+
+#: ../../devdl.rst:19
+msgid ""
+"Once you have installed Git you can checkout the latest Bauble code with the"
+" following command::"
+msgstr ""
+
+#: ../../devdl.rst:24
+msgid ""
+"For more information about other available code branches go to "
+"`bauble.classic on github <http://www.github.com/Bauble/bauble.classic>`_."
+msgstr ""
