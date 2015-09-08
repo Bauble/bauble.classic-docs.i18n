@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-08 16:09+0200\n"
+"PO-Revision-Date: 2015-09-08 16:18+0200\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/bauble"
 "/documentation-index/cs/>\n"
@@ -34,23 +34,23 @@ msgstr ""
 
 #: ../../index.rst:21
 msgid "Installing Bauble"
-msgstr ""
+msgstr "Instalace Bauble"
 
 #: ../../index.rst:30
 msgid "Using Bauble"
-msgstr ""
+msgstr "Používání Bauble"
 
 #: ../../index.rst:45
 msgid "Administration"
-msgstr ""
+msgstr "Správa"
 
 #: ../../index.rst:54
 msgid "Bauble Development"
-msgstr ""
+msgstr "Výboj Bauble"
 
 #: ../../index.rst:65
 msgid "Supporting Bauble"
-msgstr ""
+msgstr "Podpořte Bauble"
 
 #: ../../index.rst:69
 msgid ""
