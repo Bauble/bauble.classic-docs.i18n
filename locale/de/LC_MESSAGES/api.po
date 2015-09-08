@@ -2437,7 +2437,7 @@ msgstr ""
 #: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
 #: of bauble.plugins.plants.Species:31
 msgid "Species qualifier"
-msgstr ""
+msgstr "Spezies Qualifikator"
 
 #: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
 #: of bauble.plugins.plants.Species:34

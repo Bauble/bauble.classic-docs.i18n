@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Observações"
 
 #: ../../editing.rst:27
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../editing.rst:39
 msgid "Family"
-msgstr ""
+msgstr "Família"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../editing.rst:69
 msgid "Genus"
-msgstr ""
+msgstr "Gênero"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../editing.rst:143
 msgid "Collection"
-msgstr ""
+msgstr "ID da Coleção"
 
 #: ../../editing.rst:144
 msgid "A Collection."
@@ -253,7 +253,7 @@ msgstr ""
 
 #: ../../editing.rst:154
 msgid "Plant"
-msgstr ""
+msgstr "Planta"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."

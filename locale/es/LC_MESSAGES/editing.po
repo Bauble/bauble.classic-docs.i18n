@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../editing.rst:27
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../editing.rst:39
 msgid "Family"
-msgstr ""
+msgstr "Familia"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../editing.rst:69
 msgid "Genus"
-msgstr ""
+msgstr "Género"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../editing.rst:127
 msgid "Accessions"
-msgstr ""
+msgstr "Accesiones"
 
 #: ../../editing.rst:129
 msgid ""
@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Fuente de la accesión"
 
 #: ../../editing.rst:137
 msgid ""
@@ -237,11 +237,11 @@ msgstr ""
 
 #: ../../editing.rst:143
 msgid "Collection"
-msgstr ""
+msgstr "Colecta"
 
 #: ../../editing.rst:144
 msgid "A Collection."
-msgstr ""
+msgstr "Una colección."
 
 #: ../../editing.rst:148
 msgid "Donation"
@@ -249,11 +249,11 @@ msgstr ""
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Una donación."
 
 #: ../../editing.rst:154
 msgid "Plant"
-msgstr ""
+msgstr "Planta"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: ../../editing.rst:176
 msgid ""

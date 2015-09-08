@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../searching.rst:92
 msgid "A couple of useful examples:"
-msgstr ""
+msgstr "Un par de ejemplos útiles:"
 
 #: ../../searching.rst:94
 msgid "Which locations are in use::"

@@ -40,4 +40,4 @@ msgstr ""
 
 #: ../../users.rst:17
 msgid "Bauble allows read, write and execute permissions."
-msgstr ""
+msgstr "Bauble permite la lectura, escritura y ejecución."

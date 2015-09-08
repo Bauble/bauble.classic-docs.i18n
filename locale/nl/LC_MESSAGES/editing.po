@@ -253,7 +253,7 @@ msgstr ""
 
 #: ../../editing.rst:154
 msgid "Plant"
-msgstr ""
+msgstr "Plant"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
