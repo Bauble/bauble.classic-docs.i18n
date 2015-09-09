@@ -4,12 +4,16 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-09 14:47+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
+"/documentation-searching/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../searching.rst:4
 msgid "Searching in Bauble"
@@ -45,6 +49,8 @@ msgid ""
 "All searches are case insensitive so searching for Maxillaria and maxillaria"
 " will return the same results."
 msgstr ""
+"Todas búsquedas son sin contar mayúsculas o minúsculas, así que se busque "
+"Maxillaria o maxillaria, se habrán los mismos resultados."
 
 #: ../../searching.rst:27
 msgid "Search by Value"
@@ -144,7 +150,7 @@ msgstr ""
 
 #: ../../searching.rst:92
 msgid "A couple of useful examples:"
-msgstr ""
+msgstr "Un par de ejemplos útiles:"
 
 #: ../../searching.rst:94
 msgid "Which locations are in use::"
