@@ -1,0 +1,348 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 17:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../editing.rst:4
+msgid "Editing and Inserting Data"
+msgstr ""
+
+#: ../../editing.rst:6
+msgid ""
+"The main way that we add or change information in Bauble is by using the "
+"editors.  Each basic type of data has its own editor.  For example there is "
+"a Family editor, a Genus editor, an Accession editor, etc."
+msgstr ""
+
+#: ../../editing.rst:10
+msgid ""
+"To create a new record click on the :menuselection:`Insert` menu on the "
+"menubar and then select the type of record your would like to create.  This "
+"will open a new blank editor for the type."
+msgstr ""
+
+#: ../../editing.rst:14
+msgid ""
+"To edit an existing record in the database right click on an item in the "
+"search results and select :menuselection:`Edit` from the popup menu.  This "
+"will open an editor that will allow you to change the values on the record "
+"that you selected."
+msgstr ""
+
+#: ../../editing.rst:19
+msgid ""
+"Most types also have children which you can add by right clicking on the "
+"parent and selecting \"Add ???...\" on the context menu.  For example, a "
+"Family has Genus children: you can add a Genus to a Family by right clicking"
+" on a Family and selecting \"Add genus\"."
+msgstr ""
+
+#: ../../editing.rst:26
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: ../../editing.rst:27
+msgid ""
+"Almost all of the editors in Bauble have a *Notes* tab which should work the"
+" same regardless of which editor you are using."
+msgstr ""
+
+#: ../../editing.rst:30
+msgid ""
+"If you enter a web address in a note then the link will show up in the Links"
+" box when the item your are editing is selected in the search results."
+msgstr ""
+
+#: ../../editing.rst:33
+msgid ""
+"You can browse the notes for an item in the database using the Notes box at "
+"the bottom of the screen.  The Notes box will be desensitized if the "
+"selected item does not have any notes."
+msgstr ""
+
+#: ../../editing.rst:39
+msgid "Family"
+msgstr "Οικογένεια"
+
+#: ../../editing.rst:40
+msgid "The Family editor allows you to add or change a botanical family."
+msgstr ""
+
+#: ../../editing.rst:42
+msgid ""
+"The *Family* field on the editor will change the name of the family. The "
+"Family field is required."
+msgstr ""
+
+#: ../../editing.rst:45
+msgid ""
+"The *Qualifier* field will change the family qualifier.  The value can "
+"either be *sensu lato*, *sensu stricto* or nothing."
+msgstr ""
+
+#: ../../editing.rst:48
+msgid ""
+"*Synonyms* allow you to add other families that are synonyms with the family"
+" you are currently editing.  To add a new synonyms type in a family name in "
+"the entry.  You must select a family name from the list of completions.  "
+"Once you have selcted a family name that you want to add as a synonym click "
+"on the Add button next to the synonym list and it will add the selected "
+"synonym to the list.  To remove a synonym select the synonym from the list "
+"and click on the Remove button."
+msgstr ""
+
+#: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
+msgid ""
+"To cancel your changes without saving then click on the *Cancel* button."
+msgstr ""
+
+#: ../../editing.rst:58
+msgid "To save the family you are working on then click *OK*."
+msgstr ""
+
+#: ../../editing.rst:60
+msgid ""
+"To save the family you are working on and add a genus to it then click on "
+"the *Add Genera* button."
+msgstr ""
+
+#: ../../editing.rst:63
+msgid ""
+"To add another family when you are finished editing the current one click on"
+" the *Next* button on the bottom.  This will save the current family and "
+"open a new blank family editor."
+msgstr ""
+
+#: ../../editing.rst:69
+msgid "Genus"
+msgstr "Γένος"
+
+#: ../../editing.rst:71
+msgid "The Genus editor allows you to add or change a botanical genus."
+msgstr ""
+
+#: ../../editing.rst:73
+msgid ""
+"The *Family* field on the genus editor allows you to choose the family for "
+"the genus.  When you begin type a family name it will show a list of "
+"families to choose from.  The family name must already exist in the database"
+" before you can set it as the family for the genus."
+msgstr ""
+
+#: ../../editing.rst:78
+msgid "The *Genus* field allows you to set the genus for this entry."
+msgstr ""
+
+#: ../../editing.rst:80
+msgid ""
+"The *Author* field allows you to set the name or abbreviation of the "
+"author(s) for the genus."
+msgstr ""
+
+#: ../../editing.rst:83
+msgid ""
+"*Synonyms* allow you to add other genera that are synonyms with the genus "
+"you are currently editing.  To add a new synonyms type in a genus name in "
+"the entry.  You must select a genus name from the list of completions.  Once"
+" you have selcted a genus name that you want to add as a synonym click on "
+"the Add button next to the synonym list and it will add the selected synonym"
+" to the list.  To remove a synonym select the synonym from the list and "
+"click on the Remove button."
+msgstr ""
+
+#: ../../editing.rst:93
+msgid "To save the genus you are working on then click *OK*."
+msgstr ""
+
+#: ../../editing.rst:95
+msgid ""
+"To save the genus you are working on and add a species to it then click on "
+"the *Add Species* button."
+msgstr ""
+
+#: ../../editing.rst:98
+msgid ""
+"To add another genus when you are finished editing the current one click on "
+"the *Next* button on the bottom.  This will save the current genus and open "
+"a new blank genus editor."
+msgstr ""
+
+#: ../../editing.rst:104
+msgid "Species/Taxon"
+msgstr ""
+
+#: ../../editing.rst:106
+msgid ""
+"For historical reasons called a `species`, but by this we mean a `taxon` at "
+"rank `species` or lower.  It represents a unique name in the database.  The "
+"species editor will allow you to construct the name as well as associate "
+"metadata with the taxon such as its distribution, synonyms and other "
+"information."
+msgstr ""
+
+#: ../../editing.rst:112
+msgid ""
+"The *Infraspecific parts* in the species editor will allow you to specify "
+"the `taxon` further than at `species` rank."
+msgstr ""
+
+#: ../../editing.rst:117
+msgid "To save the species you are working on then click *OK*."
+msgstr ""
+
+#: ../../editing.rst:119
+msgid ""
+"To save the species you are working on and add an accession to it then click"
+" on the *Add Accession* button."
+msgstr ""
+
+#: ../../editing.rst:122
+msgid ""
+"To add another species when you are finished editing the current one click "
+"on the *Next* button on the bottom.  This will save the current species and "
+"open a new blank species editor."
+msgstr ""
+
+#: ../../editing.rst:127
+msgid "Accessions"
+msgstr ""
+
+#: ../../editing.rst:129
+msgid ""
+"The Accession editor allows us to add an accession to a species.  In Bauble "
+"an accession represents a group of plants or clones.  The accession would "
+"refer maybe a group of seed or cuttings from a species.  A plant would be an"
+" individual from that accesssion, i.e. a specific plant in a specific "
+"location."
+msgstr ""
+
+#: ../../editing.rst:136
+msgid "Accession Source"
+msgstr ""
+
+#: ../../editing.rst:137
+msgid ""
+"The source of the accessions lets you add more information about where this "
+"accession came from.  At the moment the type of the source can be either a "
+"Collection or a Donation."
+msgstr ""
+
+#: ../../editing.rst:143
+msgid "Collection"
+msgstr "<b> Κωδικός Συλλογής: </b>"
+
+#: ../../editing.rst:144
+msgid "A Collection."
+msgstr ""
+
+#: ../../editing.rst:148
+msgid "Donation"
+msgstr ""
+
+#: ../../editing.rst:149
+msgid "A Donation."
+msgstr ""
+
+#: ../../editing.rst:154
+msgid "Plant"
+msgstr ""
+
+#: ../../editing.rst:155
+msgid "The Plant editor."
+msgstr ""
+
+#: ../../editing.rst:158
+msgid "Creating multiple plants"
+msgstr ""
+
+#: ../../editing.rst:159
+msgid ""
+"You can create multiple Plants by using ranges in the code entry. This is "
+"only allowed when creating new plants and it is not possible when editing "
+"existing Plants in the database."
+msgstr ""
+
+#: ../../editing.rst:163
+msgid ""
+"For example the range, 3-5 will create plant with code 3,4,5.  The range "
+"1,4-7,25 will create plants with codes 1,4,5,6,7,25."
+msgstr ""
+
+#: ../../editing.rst:166
+msgid ""
+"When you enter the range in the plant code entry the entry will turn blue to"
+" indicate that you are now creating multiple plants.  Any fields that are "
+"set while in this mode will be copied to all the plants that are created."
+msgstr ""
+
+#: ../../editing.rst:174
+msgid "Pictures"
+msgstr ""
+
+#: ../../editing.rst:176
+msgid ""
+"Just as almost all objects in the Bauble database can have *Notes* "
+"associated to them, Plants can have *Pictures*: next to the tab for Notes, "
+"the Plants editor contains an extra tab called \"Pictures\". You can "
+"associate as many pictures as you might need to a plant."
+msgstr ""
+
+#: ../../editing.rst:181
+msgid ""
+"When you associate a picture to a plant, the file is copied in the "
+"*pictures* folder, and a miniature (500x500) is generated and copied in the "
+"`thumbnails` folder inside of the pictures folder."
+msgstr ""
+
+#: ../../editing.rst:185
+msgid ""
+"As of Bauble-1.0.41, Pictures are not kept in the database. To ensure "
+"pictures are available on all terminals where you have installed and "
+"configured Bauble, you can use a file sharing service like Copy or Dropbox. "
+"The personal choice of the writer of this document is to use Copy, because "
+"it offers much more space and because of its \"Fair Storage\" policy."
+msgstr ""
+
+#: ../../editing.rst:191
+msgid ""
+"Remember that you have configured the pictures root folder when you "
+"specified the details of your database connection. Again, you should make "
+"sure that the pictures root folder is shared with your file sharing service "
+"of choice."
+msgstr ""
+
+#: ../../editing.rst:196
+msgid ""
+"When a Plant in the current selection is highlighted, its pictures are "
+"displayed in the pictures pane, the pane left of the information pane. When "
+"an accession in the selection is highlighted, any picture associated to the "
+"plants in the highlighted accession are displayed in the pictures pane."
+msgstr ""
+
+#: ../../editing.rst:202
+msgid "Locations"
+msgstr ""
+
+#: ../../editing.rst:203
+msgid "The Location editor"
+msgstr ""
+
+#: ../../editing.rst:206
+msgid "danger zone"
+msgstr ""
+
+#: ../../editing.rst:208
+msgid ""
+"The location editor contains an initially hidden section named *danger "
+"zone*. The widgets contained in this section allow the user to merge the "
+"current location into a different location, letting the user correct "
+"spelling mistakes or implement policy changes."
+msgstr ""

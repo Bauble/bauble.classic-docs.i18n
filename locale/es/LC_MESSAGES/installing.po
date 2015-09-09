@@ -123,7 +123,7 @@ msgstr ""
 #: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:216
 #: ../../installing.rst:258
 msgid ":ref:`connecting`."
-msgstr ""
+msgstr ":ref:`conectando`."
 
 #: ../../installing.rst:74
 msgid "Installing on MacOSX"

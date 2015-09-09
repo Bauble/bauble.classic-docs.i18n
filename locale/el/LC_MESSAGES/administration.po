@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bauble 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 17:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../administration.rst:2
+msgid "Administration"
+msgstr ""
+
+#: ../../administration.rst:4
+msgid ""
+"If you are using a real DBMS to hold your botanic data, then you need do "
+"something about database administration. While database adnimistration is "
+"far beyond the scope of this document, we make our users aware of it."
+msgstr ""
+
+#: ../../administration.rst:9
+msgid "SQLite"
+msgstr ""
+
+#: ../../administration.rst:11
+msgid ""
+"SQLite is not what one would consider a real DBMS: each SQLite database is "
+"just in one file. Make safety copies and you will be fine. If you don't know"
+" where to look for your database files, consider that, per default, bauble "
+"puts its data in the ``~/.bauble/`` directory (in Windows it is somewhere in"
+" your ``AppData`` directory)."
+msgstr ""
+
+#: ../../administration.rst:18
+msgid "MySQL"
+msgstr ""
+
+#: ../../administration.rst:20
+msgid "Please refer to the official documentation."
+msgstr ""
+
+#: ../../administration.rst:23
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../administration.rst:25
+msgid ""
+"Please refer to the official documentation. A very thorough discussion of "
+"your backup options starts at `chapter_24`_."
+msgstr ""
