@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-09 14:57+0200\n"
+"PO-Revision-Date: 2015-09-09 15:45+0200\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
 "/documentation-administration/es/>\n"
@@ -25,10 +25,15 @@ msgid ""
 "something about database administration. While database adnimistration is "
 "far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Si está utilizando un verdadero sistema de manejo de base de datos (un DBMS) "
+"para guardar sus datos, es preciso saber algo de como se administra una base "
+"de datos. Esto está muy fuera del alcance de la documentación de Bauble, sin "
+"embargo es importante que los usuarios sean concientes de la necesidad."
 
 #: ../../administration.rst:9
+#, fuzzy
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -40,16 +45,18 @@ msgid ""
 msgstr ""
 
 #: ../../administration.rst:18
+#, fuzzy
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:20
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Por favor utilice la documentación oficial."
 
 #: ../../administration.rst:23
+#, fuzzy
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:25
 msgid ""
