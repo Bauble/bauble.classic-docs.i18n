@@ -1,4 +1,4 @@
-# Bauble Classic : documentation internazionalization
+# Bauble Classic : documentation internationalization
 
 ## how does this work
 
