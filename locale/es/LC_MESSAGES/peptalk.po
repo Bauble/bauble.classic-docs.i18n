@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-09 14:51+0200\n"
+"PO-Revision-Date: 2015-09-09 22:17+0200\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
 "/documentation-peptalk/es/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: ../../peptalk.rst:2
 msgid "not-so-brief list of highlights, meant to whet your appetite."
-msgstr ""
+msgstr "cositas buenas que se encuentran en Bauble."
 
 #: ../../peptalk.rst:5
 msgid "taxonomic information"
-msgstr ""
+msgstr "información taxonómica"
 
 #: ../../peptalk.rst:7
 msgid ""
@@ -34,10 +34,19 @@ msgid ""
 "Orchidaceae, using “Tropicos, botanical information system at the Missouri "
 "Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
+"Al arrancar por primera vez Bauble, y al conectarse a una base de datos, "
+"Bauble inicialisa la base de datos no solo con las tablas necesarias para "
+"correr Bauble, sino llena las tablas de los taxones para los rangos familia "
+"y género, utilizando la información de “RBG Kew's Family and Genera list "
+"from Vascular Plant Families and Genera” compilada por R. K. Brummitt y "
+"publicada por el Royal Botanic Gardens, Kew, en el año 1992. En el 2015 "
+"hemos revisado la familia Orchidaceae, utilizando como fuente de información "
+"“Tropicos, botanical information system at the Missouri Botanical Garden - "
+"www.tropicos.org”."
 
 #: ../../peptalk.rst:17
 msgid "importing data"
-msgstr ""
+msgstr "importar datos"
 
 #: ../../peptalk.rst:19
 msgid ""
@@ -46,10 +55,16 @@ msgid ""
 "need help, you can ask some Bauble professional to help you transform your "
 "data into Bauble's intermediate json format."
 msgstr ""
+"Bauble le permite importar datos que se encuentren en un formato json "
+"intermedio, pensado para intercambio entre versiones de Bauble. Los datos "
+"importados se combinan a completar lo que ya se encuentra en la base de "
+"datos. Si cree, puede pedir ayuda a un profesional de Bauble para poner en "
+"el formato json intermedio de intercambio toda la información que esté en su "
+"base de datos actual, para importarla en Bauble."
 
 #: ../../peptalk.rst:25
 msgid "synonyms"
-msgstr ""
+msgstr "sinónimos"
 
 #: ../../peptalk.rst:27
 msgid ""
@@ -57,10 +72,13 @@ msgid ""
 "this information can be represented in its intermediate json format and be "
 "imported in an existing Bauble database."
 msgstr ""
+"Bauble le permite definir sinónimos para especies, géneros, familias. "
+"También esta información puede ser representada en el formato json de "
+"intercambio y puede ser importada in una base de datos Bauble."
 
 #: ../../peptalk.rst:32
 msgid "scientific responsible"
-msgstr ""
+msgstr "científicament responsable"
 
 #: ../../peptalk.rst:34
 msgid ""
@@ -71,10 +89,17 @@ msgid ""
 " each other's work. All verifications can be found back in the database, "
 "with timestamp and signature."
 msgstr ""
+"Bauble implementa el concepto de “accesión”, conexión abstracta entre la "
+"planta física (o un grupo de plantas) y la especie o taxón a que pertenecen. "
+"Cada accesión puede asociar todo el mismo grupo de plantas que le pertenece "
+"a uno o más taxones, en el caso no haya acuerdo entre los taxónomos a "
+"disposición del jardín: cada taxónomo puede insertar su opinión en la base "
+"de datos, sin necesitar borrar la información anteriormente presente. Todas "
+"las verificaciones se encuentran en la base de datos, con fecha y firma."
 
 #: ../../peptalk.rst:42
 msgid "helps off-line identification"
-msgstr ""
+msgstr "ayuda a la identificación"
 
 #: ../../peptalk.rst:44
 msgid ""
@@ -88,7 +113,7 @@ msgstr ""
 
 #: ../../peptalk.rst:49
 msgid "exports and reports"
-msgstr ""
+msgstr "exportar e informar"
 
 #: ../../peptalk.rst:51
 msgid ""
@@ -97,28 +122,35 @@ msgid ""
 "the data in a selection to whatever format you need. Once installed, a "
 "couple of examples are available in the mako subdirectory."
 msgstr ""
+"Bauble le permite exportar los datos en cualquier formato textual le parezca "
+"útil. Bauble utiliza un motor de plantillas muy flexible, que se llama “mako”"
+", con el cual solo su imaginación es el límite a los formatos en que "
+"exportar los datos. Una vez instalado, hay varios ejemplos en la carpeta "
+"`mako`."
 
 #: ../../peptalk.rst:57
 msgid "annotate your info"
-msgstr ""
+msgstr "anotar la información"
 
 #: ../../peptalk.rst:59
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be "
 "categorized and used in searches or reports."
 msgstr ""
+"A practicamente todos objectos en la base de datos es posible asociar notas. "
+"Las notas se pueden categorizar y por supuesto utilizar en búsquedas."
 
 #: ../../peptalk.rst:63
 msgid "garden or herbarium"
-msgstr ""
+msgstr "jardín o herbario"
 
 #: ../../peptalk.rst:65
 msgid "Management of plant locations."
-msgstr ""
+msgstr "manejo de ubicaciones de plantas."
 
 #: ../../peptalk.rst:68
 msgid "database history"
-msgstr ""
+msgstr "historia en la base de datos"
 
 #: ../../peptalk.rst:70
 msgid ""
@@ -134,7 +166,7 @@ msgstr ""
 
 #: ../../peptalk.rst:76
 msgid "simple and powerful search"
-msgstr ""
+msgstr "búsquedas sencillas y expresivas"
 
 #: ../../peptalk.rst:78
 msgid ""
@@ -150,7 +182,7 @@ msgstr ""
 
 #: ../../peptalk.rst:84
 msgid "database agnostic"
-msgstr ""
+msgstr "independiente del sistema di gestión de base de datos"
 
 #: ../../peptalk.rst:86
 msgid ""
@@ -163,10 +195,19 @@ msgid ""
 "system, you can consider making the database part of a LAMP system (Linux-"
 "Apache-MySQL-Php) and include your live data on your institution web site."
 msgstr ""
+"Bauble no es un sistema de gestión de base de datos, ni intenta serlo. "
+"Bauble guarda la colección en una base de datos SQL, y se puede conectar a "
+"virtualmente cualquier sistema SQL para que exista un conector SQLAlchemy. "
+"En práctica esto incluye todos los más modernos sistemas relacionales, como "
+"MySQL, PostgreSQL, Oracle. También puede trabajar con SQLite, que, para "
+"usuarios independientes es un sistema muy eficiente y por supuesto más que "
+"suficiente. En combinación con un sistema de gestión SQL, es posible "
+"construir un sistema LAMP (Linux-Apache-MySQL-Php) o similar, e incluir la "
+"colección actualizada en el sitio web de su institución."
 
 #: ../../peptalk.rst:97
 msgid "language agnostic"
-msgstr ""
+msgstr "internacionalista"
 
 #: ../../peptalk.rst:99
 msgid ""
@@ -176,10 +217,15 @@ msgid ""
 "Portuguese (100%), French (42%), to name some Southern American languages, "
 "as well as Swedish (100%) and Czech (100%)."
 msgstr ""
+"El programa Bauble tuvo origen en Ingles y toda su documentación nace en ese "
+"idioma. Sin embargo, tanto el programa cuanto la documentación utilizan "
+"`gettext`, la tecnología más avanzada y difundida para la traducción del "
+"software y de la documentación. Al momento de escribir, la traducción del "
+"programa al castellano está al 86%, la documentación algo menos que el 20%."
 
 #: ../../peptalk.rst:106
 msgid "platform agnostic"
-msgstr ""
+msgstr "independiente de la plataforma"
 
 #: ../../peptalk.rst:108
 msgid ""
@@ -188,10 +234,14 @@ msgid ""
 "ubuntu, fedora or debian is also rather simple. It has been recently "
 "successfully tested on MacOSX 10.9."
 msgstr ""
+"Instalar Bauble en Windows es un proceso linear y sencillo, no tomará más "
+"tiempo que unos 10 minutos. Bauble nación en Linux y su instalación en "
+"ubunto, fedora o debian es igualmente muy sencilla. Recién ha sido posible "
+"instalarlo en un Mac con OSX10.9."
 
 #: ../../peptalk.rst:114
 msgid "easily updated"
-msgstr ""
+msgstr "fácil puesta al día"
 
 #: ../../peptalk.rst:116
 msgid ""
@@ -200,10 +250,14 @@ msgid ""
 "feedback we receive, we will produce updates every few days or once in a "
 "while."
 msgstr ""
+"El proceso de instalación produce una instalación que, si deseado, se puede "
+"poner al día en menos que un minuto. Dependiendo de la cantidad de respuesta "
+"recibida, quien trabaja en Bauble produce una nueva distribución cada par de "
+"días o de vez en cuando."
 
 #: ../../peptalk.rst:122
 msgid "unit tested"
-msgstr ""
+msgstr "pruebas unitarias"
 
 #: ../../peptalk.rst:124
 msgid ""
@@ -213,19 +267,30 @@ msgid ""
 " Integration of TravisCI with the github platform will make it difficult for"
 " us to release anything which has a single failing unit test."
 msgstr ""
+"Bauble es continuamente y extensamente controlado con pruebas unitarias, "
+"algo que hace casi imposible introducir errores en el código. Cada puesta al "
+"día es automaticamente verificada por el servicio Travis Continuous "
+"Integration. La buena integración de las plataformas Travis-ci y github hace "
+"muy complicado distribuir en github algo para que travis-ci haya evidenciado "
+"un error."
 
 #: ../../peptalk.rst:130
 msgid ""
 "Most changes and additions we make, come with some extra unit test, which "
 "defines the behaviour and will make any undesired change easily visible."
 msgstr ""
+"Virtualmente cada cambio y extención que se hace en Bauble, va acompañada "
+"por unas nuevas pruebas unitarias, que define el comportamiento y "
+"evidenciará en el futuro cada cambio no deseado."
 
 #: ../../peptalk.rst:134
 msgid "customizable/extensible"
-msgstr ""
+msgstr "adaptable/extensible"
 
 #: ../../peptalk.rst:136
 msgid ""
 "Bauble is extensible through plugins and can be customized to suit the needs"
 " of the institution."
 msgstr ""
+"Bauble puede ser expandido a través de complementos (plugin), y puede ser "
+"adaptado según lo que necesite la institución que lo adopte."
