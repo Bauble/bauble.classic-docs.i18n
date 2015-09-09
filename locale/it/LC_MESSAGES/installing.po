@@ -4,18 +4,24 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-09 17:16+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/bauble"
+"/documentation-installing/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../installing.rst:4
 msgid ""
 "bauble.classic is a cross-platform program and it will run on unix machines "
 "like Linux and MacOSX, as well as on Windows."
 msgstr ""
+"bauble.classic è un programma multipiattaforma e funziona su macchine unix ("
+"Linux e MacOSX) ma anche su Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -25,6 +31,12 @@ msgid ""
 "these packages installed then Bauble should be able to install the rest of "
 "its dependencies by itself."
 msgstr ""
+"Per installare Bauble, c'è bisogno di soddifare un paio di dipendenze che "
+"non possono essere risolte automaticamente. Queste includono "
+"virtualenvwrapper, PyGTK e pip. Python è presente su ogni macchina unix, "
+"mentre GTK+ è nativo di Linux ed altrimenti va installato. Dopo aver "
+"soddisfatte queste richieste, è possibile lasciare a Bauble il compito di "
+"risolvere tutte le altre."
 
 #: ../../installing.rst:13
 msgid ""
@@ -33,26 +45,34 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on your "
 "system."
 msgstr ""
+"Seguendo le seguenti istruzioni di installazione si ottiene un Bauble "
+"installato in un ambiente Python virtuale, tutte le dipendenze saranno "
+"installate localmente e non entreranno in conflitto con altri programmi "
+"Python che possono essere sullo stesso elaborator."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Bauble, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
+"se dovessi in seguito decidere di rimuovere Bauble, basterà rimuovere "
+"l'ambiente virtuale, che è una directory, con tutto il suo contenuto."
 
 #: ../../installing.rst:23
 msgid "Installing on Linux"
-msgstr ""
+msgstr "Istallare su Linux"
 
 #: ../../installing.rst:25
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr ""
+msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
 
 #: ../../installing.rst:29
 msgid ""
 "Please not that the script will not help you install any extra database "
 "connector. This you will do in a later step."
 msgstr ""
+"Nota bene: il programmino di cui sopra non installerà alcun connettore a "
+"base dati. Questo è lasciato per un passo successivo."
 
 #: ../../installing.rst:32
 msgid ""
@@ -64,26 +84,42 @@ msgid ""
 "remaining dependencies, and finally it creates a startup script in your "
 "`~/bin` folder."
 msgstr ""
+"Puoi esaminare il programmino e seguire quali passi esegue. In breve: "
+"installa le dipendenze che non possono essere soddisfatte in un ambiente "
+"virtuale, crea poi l'ambiente virtuale, di nome `bacl` (che sta per "
+"ba(uble.)cl(assic)), scarica i sorgenti e connette il checkout git alla "
+"linea di produzione `bauble-1.0`, dopo di che procede con la sua "
+"installazione, che implica lo scaricare tutte le dipendenze. Questo può "
+"prender tempo. Infine crea un programmino di avvio di nome `bauble`, nella "
+"directory `~/bin` dell'utente corrente."
 
 #: ../../installing.rst:40
 msgid "If the script ends without error, you can now start bauble::"
 msgstr ""
+"Se il programmino di installazione termina senza errori, si può ora avviare "
+"bauble::"
 
 #: ../../installing.rst:44
 msgid "or update bauble to the latest released production patch::"
 msgstr ""
+"o aggiornare bauble all'ultima versione rilasciata nella linea di "
+"produzione::"
 
 #: ../../installing.rst:48
 msgid ""
 "The same script you can use to switch to a different production line, but at"
 " the moment there's only `bauble-1.0`."
 msgstr ""
+"Lo stesso programmino puoi utilizzarlo per cambiare ad un'altra linea di "
+"produzione, anche se al momento c'è solo la `bauble-1.0`."
 
 #: ../../installing.rst:51
 msgid ""
 "on Unity, open a terminal, start bauble, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
 msgstr ""
+"su Uniti, apri un terminale, avvia bauble, la sua icona (un diamante verde) "
+"apparirà nel `launcher`, e se si vuole lo si può saldare al launcher."
 
 #: ../../installing.rst:54
 msgid ""
@@ -99,12 +135,18 @@ msgid ""
 "database then activate the virtual environment and install psycopg2 with the"
 " following commands::"
 msgstr ""
+"Se si desidera utilizzare un database `PostgreSQL "
+"<http://www.postgresql.org>`_, si attivi l'ambiente virtuale e si installi "
+"psycopg2 con i seguenti comandi::"
 
 #: ../../installing.rst:66
 msgid ""
 "You might need solve dependencies. How to do so, depends on which Linux "
 "flavour you are using. Check with your distribution documentation."
 msgstr ""
+"Potrebbe essere necessario risolvere delle dipendenze. Come farlo, dipende "
+"dalla distribuzione Linux che si sta utilizzando. Consultare la "
+"documentazione corrispondente."
 
 #: ../../installing.rst:70 ../../installing.rst:115 ../../installing.rst:215
 #: ../../installing.rst:257
@@ -113,18 +155,21 @@ msgstr ""
 
 #: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:216
 #: ../../installing.rst:258
+#, fuzzy
 msgid ":ref:`connecting`."
-msgstr ""
+msgstr ":ref:`connecting`."
 
 #: ../../installing.rst:74
 msgid "Installing on MacOSX"
-msgstr ""
+msgstr "Istallare su MacOSX"
 
 #: ../../installing.rst:76
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on Linux "
 "(sort of)."
 msgstr ""
+"Considerando che MacOSX è unix, la maggior parte dei passi sono uguali al "
+"caso Linux, diciamo così."
 
 #: ../../installing.rst:79
 msgid ""
@@ -132,6 +177,11 @@ msgid ""
 " one would want to support, and only the current and its immediately "
 "preceding release are kept up-to-date by Apple-the-firm."
 msgstr ""
+"Una difficoltà importante su MacOSX è che ci sono davvero moltissime "
+"versioni diverse di questo sistema operativo e non ci è possibile sostenerle "
+"tutte, inoltre Apple \"l'impresa\" tiene aggiornate solo le ultime due "
+"versioni, così che su quelle precedente potrebbe essere difficile o "
+"impossibile istallare software recente."
 
 #: ../../installing.rst:83
 msgid ""
@@ -139,26 +189,35 @@ msgid ""
 "MacOSX 10.5 and we assume similar problems would present themselves on older"
 " OSX versions.  Bauble has been successfully tested with 10.7 and 10.9."
 msgstr ""
+"Durante l'ultima prova effettuata con MacOSX, non è stato possibile "
+"installare Bauble sulla 10.5, gli stessi problemi se non peggio si "
+"presenteranno di sicuro su versioni precedenti. Bauble è stato installato "
+"con successo su OSX 10.9."
 
 #: ../../installing.rst:87
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
+"Prima di tutto, è necessario completare quello che è un normale ambiente di "
+"sviluppo unix, che non è presente in un mac così come esce dal negozio."
 
 #: ../../installing.rst:90
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version supported "
 "on your mac."
 msgstr ""
+"attrezzi di sviluppo: xcode. verificare sulla wikipedia quale versione è "
+"adatta al mac in questione."
 
 #: ../../installing.rst:92
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
+"gestore di pacchetti: homebrew (su versioni più vecchie esiste tigerbrew)."
 
 #: ../../installing.rst:94
 msgid "with the above installed, run::"
-msgstr ""
+msgstr "avendo installato le precedenti, eseguire::"
 
 #: ../../installing.rst:98
 msgid ""
@@ -169,21 +228,23 @@ msgstr ""
 
 #: ../../installing.rst:104
 msgid "then install the remaining dependencies::"
-msgstr ""
+msgstr "ed ora istallare le ultime dipendenze::"
 
 #: ../../installing.rst:109
 msgid "follow all instructions on how to activate what you have installed."
-msgstr ""
+msgstr "seguire le istruzioni su come attivare quanto installato."
 
 #: ../../installing.rst:111
 msgid ""
 "the rest is just as on a normal unix machine, and we have a `devinstall.sh` "
 "script for it. Read the above Linux instructions, follow them, enjoy."
 msgstr ""
+"il resto segue come su una normale macchina unix, puoi utilizzare lo stesso "
+"`devinstall.sh`. Leggi le istruzioni per Linux, seguile, buon utilizzo."
 
 #: ../../installing.rst:119
 msgid "Installing on Windows"
-msgstr ""
+msgstr "Installare su Windows"
 
 #: ../../installing.rst:121
 msgid ""
@@ -205,30 +266,37 @@ msgid ""
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
+"Bauble è stato provato con successo su WXP, W7 e W8. Molto probabilmente "
+"funziona anche su altre versioni, ma non è stato provato."
 
 #: ../../installing.rst:134
 msgid "the installation steps on Windows:"
-msgstr ""
+msgstr "i passi per l'installazione su Windows:"
 
 #: ../../installing.rst:136
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from:"
 msgstr ""
+"scaricare ad installare ``git`` (viene con un paio di cose buone come ``sh`` "
+"e ``vi``), prendendolo da:"
 
 #: ../../installing.rst:139
+#, fuzzy
 msgid "https://git-scm.com/download/win"
-msgstr ""
+msgstr "https://git-scm.com/download/win"
 
 #: ../../installing.rst:141
 msgid ""
 "all default options are fine, except we need git to be executable from the "
 "command prompt:"
 msgstr ""
+"quasi tutte le opzioni per difetto stanno bene: c'è bisogno di specificare "
+"che si vuol eseguire git dalla linea di comando Windows."
 
 #: ../../installing.rst:146
 msgid "download and install Python 2.x (32bit) from:"
-msgstr ""
+msgstr "scaricare ed installare"
 
 #: ../../installing.rst:148
 msgid "http://www.python.org"
@@ -243,28 +311,35 @@ msgstr ""
 
 #: ../../installing.rst:154
 msgid "when installing Python, do put Python in the PATH:"
-msgstr ""
+msgstr "durante l'installazione di Python, includere Python nel PATH:"
 
 #: ../../installing.rst:158
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit python). "
 "be sure you download the \"all in one\" version::"
 msgstr ""
+"scaricare ``pygtk`` dalla fonte seguente. (richiede python a 32bit). Fare "
+"attenzione a scaricare la versione \"all in one\"::"
 
 #: ../../installing.rst:163
 msgid "make a complete install, selecting everything:"
-msgstr ""
+msgstr "fare una installazione completa, includendo assolutamente tutto:"
 
 #: ../../installing.rst:167
 msgid ""
 "(optional) download and install a database connector other than ``sqlite3``."
 msgstr ""
+"(opzionale) scaricare ed installare connettori database al lato di "
+"``sqlite3``, presente per difetto."
 
 #: ../../installing.rst:170
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using pip, "
 "so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
+"Su Windows, NON è facile installare ``psycopg2`` dai suoi sorgenti "
+"utilizzando pip, per piacere evitar problemi ed utilizzare un pacchetto "
+"precompilato da:"
 
 #: ../../installing.rst:173
 msgid "http://initd.org/psycopg/docs/install.html"
@@ -272,15 +347,17 @@ msgstr ""
 
 #: ../../installing.rst:175
 msgid "**REBOOT**"
-msgstr ""
+msgstr "**REINIZIALIZZARE**"
 
 #: ../../installing.rst:177
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
+"Giovani, questo è Windows, c'è bisogno di reinizializzare il sistema perché "
+"i cambiamenti abbiano effetto!"
 
 #: ../../installing.rst:179
 msgid "download and run the batch file::"
-msgstr ""
+msgstr "scaricare ed eseguire il programmino batch::"
 
 #: ../../installing.rst:183
 msgid ""
@@ -294,12 +371,16 @@ msgid ""
 "you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
+"puoi anche eseguire ``devinstall.bat`` passandogli la parte numerica della "
+"linea di produzione che si vuol seguire."
 
 #: ../../installing.rst:190
 msgid ""
 "download the batch file you will use to stay up-to-date with the production "
 "line you chose to follow::"
 msgstr ""
+"scaricare il programmino batch, per restare aggiornati con la linea di "
+"produzione scelta::"
 
 #: ../../installing.rst:195
 msgid ""
@@ -313,6 +394,8 @@ msgid ""
 "any time you want to update your installation, just start the command prompt"
 " and run ``bauble-update.bat``"
 msgstr ""
+"in ogni momento che si voglia aggiornare l'installazione, basterà aprire la "
+"finestra con la linea di comando ed eseguire ``bauble-update.bat``"
 
 #: ../../installing.rst:202
 msgid ""
@@ -331,7 +414,7 @@ msgstr ""
 
 #: ../../installing.rst:221
 msgid "Troubleshooting the Install"
-msgstr ""
+msgstr "Problemi durante l'installazione"
 
 #: ../../installing.rst:223
 msgid "What are the packages that are installed by Bauble:"
@@ -339,19 +422,19 @@ msgstr ""
 
 #: ../../installing.rst:225
 msgid "The following packages are required by Bauble"
-msgstr ""
+msgstr "I seguenti pacchetti sono richiesti da Bauble"
 
 #: ../../installing.rst:227
 msgid "SQLAlchemy"
-msgstr ""
+msgstr "SQLAlchemy"
 
 #: ../../installing.rst:228
 msgid "lxml"
-msgstr ""
+msgstr "lxml"
 
 #: ../../installing.rst:230
 msgid "The following packages are optional:"
-msgstr ""
+msgstr "I seguienti pacchetti sono opzionali:"
 
 #: ../../installing.rst:232
 msgid "Mako - required by the template based report generator"
@@ -396,7 +479,7 @@ msgstr ""
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Installazione"
 
 #~ msgid "pInstallation"
 #~ msgstr ""
