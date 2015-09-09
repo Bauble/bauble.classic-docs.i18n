@@ -4,16 +4,20 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-09 14:54+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
+"/documentation-editing/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Editar e Insertar información"
 
 #: ../../editing.rst:6
 msgid ""
@@ -47,13 +51,15 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../editing.rst:27
 msgid ""
 "Almost all of the editors in Bauble have a *Notes* tab which should work the"
 " same regardless of which editor you are using."
 msgstr ""
+"Aproximadamente todos los editores en Bauble tienen una pestaña *Notas*, que "
+"debería funcionar del mismo modo, independientemente del editor empleado."
 
 #: ../../editing.rst:30
 msgid ""
@@ -70,7 +76,7 @@ msgstr ""
 
 #: ../../editing.rst:39
 msgid "Family"
-msgstr ""
+msgstr "Familia"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -98,6 +104,11 @@ msgid ""
 "synonym to the list.  To remove a synonym select the synonym from the list "
 "and click on the Remove button."
 msgstr ""
+"*Sinónimos\" permite añadir familias que sean sinónimo de la familia que "
+"estás editando. Para añadir un nuevo sinónimo, escribe el nombre de la "
+"familia en el campo. Es necesario seleccionar un nombre de la lista. Cuando "
+"se haya seleccionado el nombre de la familia que es un sinónimo, presionar "
+"*añadir*."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid ""
@@ -123,7 +134,7 @@ msgstr ""
 
 #: ../../editing.rst:69
 msgid "Genus"
-msgstr ""
+msgstr "Género"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -157,6 +168,13 @@ msgid ""
 " to the list.  To remove a synonym select the synonym from the list and "
 "click on the Remove button."
 msgstr ""
+"*Sinónimos* le permite añadir otros géneros que son sinónimos con el género "
+"que esté editand. Para agregar un nuevo sinónimo escriba un nombre de "
+"género. Debe seleccionar un género de la lista. Una vez haya seleccionado el "
+"nombre del género que desee agregar, pulse sobre el botón Añadir que se "
+"encuentra junto a la lista de sinónimos y se agregará a la lista el sinónimo "
+"seleccionado. Para quitar un sinónimo, selecciónelo de la lista y pulse el "
+"botón Borrar."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
@@ -213,7 +231,7 @@ msgstr ""
 
 #: ../../editing.rst:127
 msgid "Accessions"
-msgstr ""
+msgstr "Accesiones"
 
 #: ../../editing.rst:129
 msgid ""
@@ -226,7 +244,7 @@ msgstr ""
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Fuente de la accesión"
 
 #: ../../editing.rst:137
 msgid ""
@@ -237,11 +255,11 @@ msgstr ""
 
 #: ../../editing.rst:143
 msgid "Collection"
-msgstr ""
+msgstr "Colecta"
 
 #: ../../editing.rst:144
 msgid "A Collection."
-msgstr ""
+msgstr "Una colección."
 
 #: ../../editing.rst:148
 msgid "Donation"
@@ -249,11 +267,11 @@ msgstr ""
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Una donación."
 
 #: ../../editing.rst:154
 msgid "Plant"
-msgstr ""
+msgstr "Planta"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
@@ -285,7 +303,7 @@ msgstr ""
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: ../../editing.rst:176
 msgid ""
@@ -310,6 +328,12 @@ msgid ""
 "The personal choice of the writer of this document is to use Copy, because "
 "it offers much more space and because of its \"Fair Storage\" policy."
 msgstr ""
+"Al momento (Bauble 1.0.41), las imagenes no son guardadas en la base de "
+"datos. para que las fotos sean disponibles en todos los terminales en que se "
+"quiera utilizar Bauble, será necesario instalar un servicio de condivisión "
+"de archivos, como pueden ser Copy o Dropbox. Quien escribe esta "
+"documentación sugiere utilizar Copy porque ofrece más espacio y por su "
+"política \"Fair Storage\"."
 
 #: ../../editing.rst:191
 msgid ""
