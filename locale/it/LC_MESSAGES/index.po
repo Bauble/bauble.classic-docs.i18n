@@ -4,22 +4,29 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-09 16:39+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/bauble"
+"/documentation-index/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../index.rst:2
 msgid "Documentation for Bauble 1.0"
-msgstr ""
+msgstr "Documentazione di Bauble 1.0"
 
 #: ../../index.rst:8
 msgid ""
 "Bauble is an application for managing botanical specimen collections. With "
 "it you can create a searchable database of plant records."
 msgstr ""
+"Bauble è un programma per la gestione di collezioni di oggetti botanici. Con "
+"Bauble puoi creare una base dati di registri di piante, con molte opzioni di "
+"ricerca."
 
 #: ../../index.rst:11
 msgid ""
@@ -27,29 +34,34 @@ msgid ""
 "and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
+"Bauble è software `aperto <http://www.opensource.org>`_ e `libero "
+"<http://www.fsf.org>`_ ed è distribuito secondo la `GPL: Licenza Pubblica "
+"GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:21
 msgid "Installing Bauble"
-msgstr ""
+msgstr "Istallare Bauble"
 
 #: ../../index.rst:30
 msgid "Using Bauble"
-msgstr ""
+msgstr "Utilizzare Bauble"
 
 #: ../../index.rst:45
 msgid "Administration"
-msgstr ""
+msgstr "Amministrazione"
 
 #: ../../index.rst:54
 msgid "Bauble Development"
-msgstr ""
+msgstr "Sviluppo di Bauble"
 
 #: ../../index.rst:65
 msgid "Supporting Bauble"
-msgstr ""
+msgstr "Appoggiare Bauble"
 
 #: ../../index.rst:69
 msgid ""
 "If you're using Bauble, or if you feel like helping its development anyway, "
 "please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
+"Se utilizzi Bauble, o se ti sembra giusto aiutarne lo sviluppo, puoi "
+"considerare una `"
