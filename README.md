@@ -20,9 +20,18 @@ All Bauble documentation projects on Readthedocs are linked with each other: the
 
 Bauble-the.software contains a script you would invoke every time changes in the sources include changes in translatable strings. Translatable strings are either the ones passed as parameter to the ``_`` function, or are the textual content of a glade element that has attribute ``translatable="True"``. You edit the software, you realize you changed things having effect on the translation, you run ``scripts/i18n.sh``, you complete the translations as far as you can, you hope someone else will help you out with the languages you do not master.
 
-Bauble-the.documentation is part of Bauble-the.software as far as English documentation is concerned. The translated docs are in bauble.classic-docs.i18n. Whenever someone edits the English documentation, readthedocs is notified of the fact and updates the generated English documentation site.
+Bauble-the.documentation is part of Bauble-the.software just as far as English documentation is concerned and not farther than that. Whenever someone edits the English documentation, readthedocs is notified of the fact and updates the generated English documentation site. This has no impact on the translations.
 
-Bauble-docs.i18n (this project) is the place where we keep ``po`` and ``mo`` files relative to the documentation in the Bauble-the.software repository.
+Bauble-docs.i18n (this project) doesn't exactly contain the translated documentation, it just contains all that is needed to generate it. bauble.classic-docs.i18n is the place where we keep a verbatim copy of the Bauble documentation, plus all corresponding and updated ``po`` and ``mo`` files, needed by ``sphinx`` to generate the translated documentation sites.
+
+    |---source (the verbatim copy of the bauble docs)
+    |---locale
+        \---<language>
+            \---LC_MESSAGES
+                |---<document-name>.po
+                |---<document-name>.po
+                |---<document-name>.po
+                \---<document-name>.po
 
 The script for initializing this repository is the same we use for keeping it up-to-date.
 
