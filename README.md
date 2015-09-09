@@ -22,7 +22,7 @@ Bauble-the.software contains a script you would invoke every time changes in the
 
 Bauble-the.documentation is part of Bauble-the.software just as far as English documentation is concerned and not farther than that. Whenever someone edits the English documentation, readthedocs is notified of the fact and updates the generated English documentation site. This has no impact on the translations.
 
-Bauble-docs.i18n (this project) doesn't exactly contain the translated documentation, it just contains all that is needed to generate it. bauble.classic-docs.i18n is the place where we keep a verbatim copy of the Bauble documentation, plus all corresponding and updated ``po`` and ``mo`` files, needed by ``sphinx`` to generate the translated documentation sites.
+Bauble-docs.i18n (this project) doesn't exactly contain the translated documentation, it just contains all that Readthedocs needs to generate it. bauble.classic-docs.i18n is the place where we keep a verbatim copy of the Bauble documentation, plus all corresponding ``po`` and ``mo`` files. Readthedocs runs ``sphinx`` to generate the translated documentation sites, Weblate helps translators contribute their translations.
 
     |---source (the verbatim copy of the bauble docs)
     |---locale
