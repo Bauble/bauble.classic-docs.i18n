@@ -4,12 +4,16 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-09 14:55+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
+"/documentation-api/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../api.rst:2
 msgid "API Documentation"
@@ -2437,7 +2441,7 @@ msgstr ""
 #: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
 #: of bauble.plugins.plants.Species:31
 msgid "Species qualifier"
-msgstr ""
+msgstr "Diferenciador de especie"
 
 #: ../../../../../../../.virtualenvs/bacl/local/lib/python2.7/site-packages/bauble-1.0.50-py2.7.egg/bauble/plugins/plants/species_model.pydocstring
 #: of bauble.plugins.plants.Species:34
