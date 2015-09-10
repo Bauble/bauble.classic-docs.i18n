@@ -4,16 +4,20 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-10 14:47+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/bauble"
+"/documentation-imex/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
-msgstr ""
+msgstr "Importare ed esportare dati"
 
 #: ../../imex.rst:4
 msgid ""
@@ -87,7 +91,7 @@ msgstr ""
 
 #: ../../imex.rst:46
 msgid "Importing from JSON"
-msgstr ""
+msgstr "Importare da JSON"
 
 #: ../../imex.rst:48
 msgid ""
@@ -104,14 +108,16 @@ msgid ""
 "Using the Bauble json interchange format, you can import data which you have"
 " exported from a different Bauble installation."
 msgstr ""
+"Utilizzando il formato di scambio JSON, è possibile esportare dati da una "
+"versione di Bauble ed importarli in una versione differente."
 
 #: ../../imex.rst:59
 msgid "Exporting to JSON"
-msgstr ""
+msgstr "Esportare verso JSON"
 
 #: ../../imex.rst:61
 msgid "This feature is still under development."
-msgstr ""
+msgstr "Questo è ancora “lavori in corso”."
 
 #: ../../imex.rst:65
 msgid ""
