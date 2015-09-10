@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-09 16:39+0200\n"
+"PO-Revision-Date: 2015-09-10 14:37+0200\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/bauble"
 "/documentation-administration/it/>\n"
@@ -25,10 +25,15 @@ msgid ""
 "something about database administration. While database adnimistration is "
 "far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Nel caso si stia utilizzando un vero e proprio DBMS (sistema di gestione di "
+"basi di dati) per contenere le collezioni di Bauble, è importante prendere "
+"in considerazione l'amministrazione di questo DBMS. Una descrizione del "
+"compito di amministrare una base dati è qui assolutamente fuori luogo, ma è "
+"importante che un utente sia consapevole del problema."
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -38,21 +43,29 @@ msgid ""
 "puts its data in the ``~/.bauble/`` directory (in Windows it is somewhere in"
 " your ``AppData`` directory)."
 msgstr ""
+"SQLite offre una soluzione in quanto SQLite non è esattamente quanto si "
+"potrebbe definire un DMBS: ogni base dati SQLite è un file, farne copia di "
+"emergenza (backup) sarà sufficiente. Se si è creata la connessione alla base "
+"dati SQLite accettando i valori per difetto, il file relativo alla "
+"connessione si trova nella directory ``~/.bauble/`` (con Windows bisognerà "
+"trovare la ``AppData``)."
 
 #: ../../administration.rst:18
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:20
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Prego riferirsi alla documentazione ufficiale."
 
 #: ../../administration.rst:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:25
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of "
 "your backup options starts at `chapter_24`_."
 msgstr ""
+"Prego riferirsi alla documentazione ufficiale. Una discussione molto "
+"approfondita sulle varie opzioni di backup inizia al `chapter_24`_."
