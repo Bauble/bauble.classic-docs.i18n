@@ -2,10 +2,15 @@
 
 LANGUAGES='ar ca da el en_GB fr hu id ko ms nb oc pl ru si sr tr uk vi'
 
+cp -a ../bauble.classic/doc/*.rst source
+
 cd source
 make gettext
 sphinx-intl update -p _build/locale $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
 sphinx-intl build
+
+exit 0
+
 for i in $LANGUAGES
 do
     make -e SPHINXOPTS="-D language='"$i"'" html
