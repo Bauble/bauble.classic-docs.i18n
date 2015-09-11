@@ -33,6 +33,14 @@ Bauble-docs.i18n (this project) doesn't exactly contain the translated documenta
                 |---<document-name>.po
                 \---<document-name>.po
 
-The script for initializing this repository is the same we use for keeping it up-to-date.
+The script for initializing this repository is the same we use for keeping it up-to-date, and is described in the next section.
+
+### variation on the theme
+
+``sphinx`` needs the ``mo`` file to carry the same name as the ``rst`` documentation it is translating, this is the reason for the above organization. 
+
+For the sake of Weblate, on the other hand, it is way easier to have one ``po`` file to edit, at least, if you want to start offer stuff to translators before you are even sure how many pages there will be in your documentation, or if you plan to include in your statistics something like "Spanish documentation at xx%".
+
+If you want to blend all po files into one, you will need to add symbolic links to it, named as each of your documentation sources. When updating, too, you will need a few more steps, which I did not explore yet.
 
 ## which way do we keep it up to date
