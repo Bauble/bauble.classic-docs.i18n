@@ -110,13 +110,13 @@ msgid ""
 "flavour you are using. Check with your distribution documentation."
 msgstr ""
 
-#: ../../installing.rst:70 ../../installing.rst:115 ../../installing.rst:215
-#: ../../installing.rst:257
+#: ../../installing.rst:70 ../../installing.rst:115 ../../installing.rst:233
+#: ../../installing.rst:275
 msgid "Next..."
 msgstr ""
 
-#: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:216
-#: ../../installing.rst:258
+#: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:234
+#: ../../installing.rst:276
 msgid ":ref:`connecting`."
 msgstr ""
 
@@ -210,122 +210,122 @@ msgid ""
 "thoroughly tested."
 msgstr ""
 
-#: ../../installing.rst:134
+#: ../../installing.rst:144
 msgid "the installation steps on Windows:"
 msgstr ""
 
-#: ../../installing.rst:136
+#: ../../installing.rst:146
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from:"
 msgstr ""
 
-#: ../../installing.rst:139
+#: ../../installing.rst:149
 msgid "https://git-scm.com/download/win"
 msgstr ""
 
-#: ../../installing.rst:141
+#: ../../installing.rst:153
 msgid ""
 "all default options are fine, except we need git to be executable from the "
 "command prompt:"
 msgstr ""
 
-#: ../../installing.rst:146
+#: ../../installing.rst:158
 msgid "download and install Python 2.x (32bit) from:"
 msgstr ""
 
-#: ../../installing.rst:148
+#: ../../installing.rst:160
 msgid "http://www.python.org"
 msgstr ""
 
-#: ../../installing.rst:150
+#: ../../installing.rst:164
 msgid ""
 "Bauble has been developed and tested using Python 2.x.  It will definitely "
 "**not** run on Python 3.x.  If you are interested in helping port to Python "
 "3.x, please contact the Bauble maintainers."
 msgstr ""
 
-#: ../../installing.rst:154
+#: ../../installing.rst:168
 msgid "when installing Python, do put Python in the PATH:"
 msgstr ""
 
-#: ../../installing.rst:158
+#: ../../installing.rst:172
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit python). "
 "be sure you download the \"all in one\" version::"
 msgstr ""
 
-#: ../../installing.rst:163
+#: ../../installing.rst:179
 msgid "make a complete install, selecting everything:"
 msgstr ""
 
-#: ../../installing.rst:167
+#: ../../installing.rst:183
 msgid ""
 "(optional) download and install a database connector other than ``sqlite3``."
 msgstr ""
 
-#: ../../installing.rst:170
+#: ../../installing.rst:186
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using pip, "
 "so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
 
-#: ../../installing.rst:173
+#: ../../installing.rst:189
 msgid "http://initd.org/psycopg/docs/install.html"
 msgstr ""
 
-#: ../../installing.rst:175
+#: ../../installing.rst:193
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:177
+#: ../../installing.rst:195
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 
-#: ../../installing.rst:179
+#: ../../installing.rst:197
 msgid "download and run the batch file::"
 msgstr ""
 
-#: ../../installing.rst:183
+#: ../../installing.rst:201
 msgid ""
 "this will pull the ``bauble.classic`` repository on github to your home "
 "directory, under ``Local\\github\\Bauble``, checkout the ``bauble-1.0`` "
 "production line, create a virtual environment and install bauble into it."
 msgstr ""
 
-#: ../../installing.rst:187
+#: ../../installing.rst:205
 msgid ""
 "you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 
-#: ../../installing.rst:190
+#: ../../installing.rst:208
 msgid ""
 "download the batch file you will use to stay up-to-date with the production "
 "line you chose to follow::"
 msgstr ""
 
-#: ../../installing.rst:195
+#: ../../installing.rst:213
 msgid ""
 "if you are on a recent Bauble installation, each time you start the program,"
 " Bauble will check on the development site and alert you of any newer bauble"
 " release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:199
+#: ../../installing.rst:217
 msgid ""
 "any time you want to update your installation, just start the command prompt"
 " and run ``bauble-update.bat``"
 msgstr ""
 
-#: ../../installing.rst:202
+#: ../../installing.rst:220
 msgid ""
 "you can now start bauble using the ``bauble.lnk`` shortcut that the "
 "installation procedure copies to the ``Scripts`` directory of the virtual "
 "environment::"
 msgstr ""
 
-#: ../../installing.rst:208
+#: ../../installing.rst:226
 msgid ""
 "If you would like to generate and print PDF reports using Bauble's default "
 "report generator then you will need to download and install `Apache FOP "
@@ -333,43 +333,43 @@ msgid ""
 " will need to include the directory you extracted to in your PATH."
 msgstr ""
 
-#: ../../installing.rst:221
+#: ../../installing.rst:239
 msgid "Troubleshooting the Install"
 msgstr ""
 
-#: ../../installing.rst:223
+#: ../../installing.rst:241
 msgid "What are the packages that are installed by Bauble:"
 msgstr ""
 
-#: ../../installing.rst:225
+#: ../../installing.rst:243
 msgid "The following packages are required by Bauble"
 msgstr ""
 
-#: ../../installing.rst:227
+#: ../../installing.rst:245
 msgid "SQLAlchemy"
 msgstr ""
 
-#: ../../installing.rst:228
+#: ../../installing.rst:246
 msgid "lxml"
 msgstr ""
 
-#: ../../installing.rst:230
+#: ../../installing.rst:248
 msgid "The following packages are optional:"
 msgstr ""
 
-#: ../../installing.rst:232
+#: ../../installing.rst:250
 msgid "Mako - required by the template based report generator"
 msgstr ""
 
-#: ../../installing.rst:233
+#: ../../installing.rst:251
 msgid "gdata - required by the Picasa photos InfoBox"
 msgstr ""
 
-#: ../../installing.rst:236
+#: ../../installing.rst:254
 msgid "Couldn't install lxml."
 msgstr ""
 
-#: ../../installing.rst:238
+#: ../../installing.rst:256
 msgid ""
 "The lxml packages have to be compile with a C compiler. If you don't have a "
 "Make sure the libxml and libxsl packages are installed.  Installing the "
@@ -378,22 +378,46 @@ msgid ""
 "http://pypi.python.org/pypi/lxml/2.1.1"
 msgstr ""
 
-#: ../../installing.rst:245
+#: ../../installing.rst:263
 msgid "Couldn't install gdata."
 msgstr ""
 
-#: ../../installing.rst:247
+#: ../../installing.rst:265
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  You "
 "can download the latest gdata package from:"
 msgstr ""
 
-#: ../../installing.rst:252
+#: ../../installing.rst:270
 msgid "http://code.google.com/p/gdata-python-client/downloads/list"
 msgstr ""
 
-#: ../../installing.rst:254
+#: ../../installing.rst:272
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it to."
+msgstr ""
+
+#: ../../installing.rst:134
+msgid ""
+"Direct download links are given for all needed components. They have been "
+"tested in September 2015, but things change with time. If any of the direct "
+"download links stops working, please ring the bell, so we can update the "
+"information here."
+msgstr ""
+
+#: ../../installing.rst:151
+msgid "`Direct link to download git`_"
+msgstr ""
+
+#: ../../installing.rst:162
+msgid "`Direct link to download Python`_"
+msgstr ""
+
+#: ../../installing.rst:177
+msgid "`Direct link to download PyGTK`_"
+msgstr ""
+
+#: ../../installing.rst:191
+msgid "`Direct link to download psycopg2`_"
 msgstr ""
