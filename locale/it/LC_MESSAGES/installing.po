@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-09 17:16+0200\n"
+"PO-Revision-Date: 2015-09-13 17:23+0200\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/bauble"
 "/documentation-installing/it/>\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../installing.rst:23
 msgid "Installing on Linux"
-msgstr "Istallare su Linux"
+msgstr "Installare su Linux"
 
 #: ../../installing.rst:25
 msgid "Download the `devinstall.sh` script and run it::"
@@ -84,14 +84,14 @@ msgid ""
 "remaining dependencies, and finally it creates a startup script in your "
 "`~/bin` folder."
 msgstr ""
-"Puoi esaminare il programmino e seguire quali passi esegue. In breve: "
-"installa le dipendenze che non possono essere soddisfatte in un ambiente "
-"virtuale, crea poi l'ambiente virtuale, di nome `bacl` (che sta per "
-"ba(uble.)cl(assic)), scarica i sorgenti e connette il checkout git alla "
-"linea di produzione `bauble-1.0`, dopo di che procede con la sua "
-"installazione, che implica lo scaricare tutte le dipendenze. Questo può "
-"prender tempo. Infine crea un programmino di avvio di nome `bauble`, nella "
-"directory `~/bin` dell'utente corrente."
+"A titolo d'informazione, il programmino esegue i seguenti passi: installa le "
+"dipendenze che non possono essere soddisfatte in un ambiente virtuale, crea "
+"poi l'ambiente virtuale, di nome `bacl` (che sta per ba(uble.)cl(assic)), "
+"scarica i sorgenti e connette il checkout git alla linea di produzione "
+"`bauble-1.0`, dopo di che procede con la sua installazione, che implica lo "
+"scaricare tutte le dipendenze. Questo può prender tempo. Infine crea un "
+"programmino di avvio di nome `bauble`, nella directory `~/bin` dell'utente "
+"corrente."
 
 #: ../../installing.rst:40
 msgid "If the script ends without error, you can now start bauble::"
@@ -161,7 +161,7 @@ msgstr ":ref:`connecting`."
 
 #: ../../installing.rst:74
 msgid "Installing on MacOSX"
-msgstr "Istallare su MacOSX"
+msgstr "Installare su MacOSX"
 
 #: ../../installing.rst:76
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 "versioni diverse di questo sistema operativo e non ci è possibile sostenerle "
 "tutte, inoltre Apple \"l'impresa\" tiene aggiornate solo le ultime due "
 "versioni, così che su quelle precedente potrebbe essere difficile o "
-"impossibile istallare software recente."
+"impossibile installare software recente."
 
 #: ../../installing.rst:83
 msgid ""
@@ -225,10 +225,14 @@ msgid ""
 "will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
+"assicurati di aver capito il messaggio di errore, in modo da poter "
+"correggere la situazione. pygtk ha bisogno di xquartz e brew non è in grado "
+"di risolvere questa dipendenza. per installare xquartz puoi utilizzare brew, "
+"o quello che preferisci::"
 
 #: ../../installing.rst:104
 msgid "then install the remaining dependencies::"
-msgstr "ed ora istallare le ultime dipendenze::"
+msgstr "ed ora installare le ultime dipendenze::"
 
 #: ../../installing.rst:109
 msgid "follow all instructions on how to activate what you have installed."
