@@ -4,12 +4,16 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-15 12:51+0200\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/bauble"
+"/documentation-peptalk/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: ../../peptalk.rst:2
 msgid "not-so-brief list of highlights, meant to whet your appetite."
@@ -17,7 +21,7 @@ msgstr ""
 
 #: ../../peptalk.rst:5
 msgid "taxonomic information"
-msgstr ""
+msgstr "taxonomische informatie"
 
 #: ../../peptalk.rst:7
 msgid ""
