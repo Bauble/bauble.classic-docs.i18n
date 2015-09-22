@@ -4,16 +4,20 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-22 08:33+0200\n"
+"Last-Translator: josep constanti <jconstanti@yahoo.es>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/bauble"
+"/documentation-searching/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: ../../searching.rst:4
 msgid "Searching in Bauble"
-msgstr ""
+msgstr "Cerca a Bauble"
 
 #: ../../searching.rst:6
 msgid ""
@@ -22,10 +26,15 @@ msgid ""
 " or by using the Query Builder to create the queries for you. The results of"
 " Bauble searches are listed in the main window."
 msgstr ""
+"La cerca us permet veure, navegar i crear informes de les vostres dades. "
+"Podeu fer les cerques sigui introduint directament les consultes a l'entrada "
+"principal de cerca o utilitzant el Generador de Consultes per que us "
+"construeixi la consulta. Els resultats de la cerca Bauble es llistarà a la "
+"finestra principal."
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
-msgstr ""
+msgstr "Estratègies de cerca"
 
 #: ../../searching.rst:15
 msgid ""
@@ -33,22 +42,29 @@ msgid ""
 "the search stragety types available in Bauble, sorted in increasing "
 "complexity: you can search by value, expression or query."
 msgstr ""
+"Hi ha tres tipus d'estratègies de cerca a Bauble. Considerant les "
+"estratègies de cerca a Bauble, ordenades per complexitat creixent: podeu "
+"cercar per valor, expressió o consulta."
 
 #: ../../searching.rst:19
 msgid ""
 "Searching by query, the most complex and powerful, is assisted by the Query "
 "Builder, described below."
 msgstr ""
+"La cerca per consulta, la més complexa i potent, està assistida pel "
+"Generador de Consultes, que es descriu tot seguit."
 
 #: ../../searching.rst:22
 msgid ""
 "All searches are case insensitive so searching for Maxillaria and maxillaria"
 " will return the same results."
 msgstr ""
+"A les cerques no es diferencien les majúscules, per tant les cerques sobre "
+"Maxillaria i maxillaria donaran els mateixos resultats."
 
 #: ../../searching.rst:27
 msgid "Search by Value"
-msgstr ""
+msgstr "Cerca per valor"
 
 #: ../../searching.rst:29
 msgid ""
@@ -66,6 +82,7 @@ msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1"
 msgstr ""
+"Exemples de cerques per valor serien: Maxillaria, Acanth, 2008.1234, 2003.2.1"
 
 #: ../../searching.rst:41
 msgid ""
@@ -78,7 +95,7 @@ msgstr ""
 
 #: ../../searching.rst:49
 msgid "Search by Expression"
-msgstr ""
+msgstr "Cerca per expressió"
 
 #: ../../searching.rst:51
 msgid ""
