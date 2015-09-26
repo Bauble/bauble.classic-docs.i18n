@@ -4,22 +4,28 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-26 08:38+0200\n"
+"Last-Translator: josep constanti <jconstanti@yahoo.es>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/bauble"
+"/documentation-installing/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5\n"
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Instal·lació"
 
 #: ../../installing.rst:4
 msgid ""
 "bauble.classic is a cross-platform program and it will run on unix machines "
 "like Linux and MacOSX, as well as on Windows."
 msgstr ""
+"bauble.classic és un programa multiplataforma que s'executa en màquines "
+"unix, Linux i MacOSX així com Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -29,6 +35,11 @@ msgid ""
 "these packages installed then Bauble should be able to install the rest of "
 "its dependencies by itself."
 msgstr ""
+"Per instal·lar Bauble primer cal que instal·leu les dependències  que no es "
+"poden instal·lar automàticament.  Aquestes inclouen virtualenvwrapper, PyGTK "
+"i pip. Python i GTK + segurament ja els teniu. Un cop tingueu instal·lats "
+"aquests paquets llavors Bauble  hauria de ser capaç d'instal·lar la resta de "
+"les seves dependències per si mateix."
 
 #: ../../installing.rst:13
 msgid ""
@@ -37,26 +48,34 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on your "
 "system."
 msgstr ""
+"Si seguiu aquestes passes d'instal·lació, tindreu Bauble executant-se dins "
+"un entorn virtual Python, amb totes les dependències Python instal lades "
+"localment i sense cap conflicte amb altres programes Python que pugueu tenir "
+"al vostre sistema."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Bauble, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
+"si més endavant decidiu treure Bauble, simplement esborreu l'entorn virtual, "
+"que és un directori, amb tot el seu contingut."
 
 #: ../../installing.rst:23
 msgid "Installing on Linux"
-msgstr ""
+msgstr "Instal·lació a Linux"
 
 #: ../../installing.rst:25
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr ""
+msgstr "Baixeu l'script `devinstall.sh` i executeu-lo::"
 
 #: ../../installing.rst:29
 msgid ""
 "Please not that the script will not help you install any extra database "
 "connector. This you will do in a later step."
 msgstr ""
+"Tingueu present que l'script no us permetrà instal·lar cap connector de base "
+"de dades addicional. Això ho fareu més endavant."
 
 #: ../../installing.rst:32
 msgid ""
@@ -68,20 +87,29 @@ msgid ""
 "remaining dependencies, and finally it creates a startup script in your "
 "`~/bin` folder."
 msgstr ""
+"Podeu revisar l'script per veure què fa. Resumint instal·larà dependències "
+"que no es poden atendre en un entorn virtual, després  crearà un entorn "
+"virtual anomenat 'bacl', descarregarà el codi font i connectarà la comanda "
+"git amb la branca 'bauble-1.0'  (això es pot considerar una línia de "
+"producció), llavors es construeix bauble, descarregant totes les "
+"dependències pendents, i finalment crea un script d'inici a la seva carpeta "
+"' ~ / bin'."
 
 #: ../../installing.rst:40
 msgid "If the script ends without error, you can now start bauble::"
-msgstr ""
+msgstr "Si el script acaba sense error, ja podeu començar bauble::"
 
 #: ../../installing.rst:44
 msgid "or update bauble to the latest released production patch::"
-msgstr ""
+msgstr "o actualitzeu bauble a la darrera versió de producció alliberada::"
 
 #: ../../installing.rst:48
 msgid ""
 "The same script you can use to switch to a different production line, but at"
 " the moment there's only `bauble-1.0`."
 msgstr ""
+"El mateix script el podreu utilitzar per canviar a una línia de producció "
+"diferent, però de moment només hi haurà \"bauble-1.0\"."
 
 #: ../../installing.rst:51
 msgid ""
