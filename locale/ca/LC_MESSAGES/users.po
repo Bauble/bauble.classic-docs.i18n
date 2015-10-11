@@ -4,16 +4,20 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-11 07:23+0200\n"
+"Last-Translator: josep constanti <jconstanti@yahoo.es>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/bauble"
+"/documentation-users/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Gestió d'usuaris"
 
 #: ../../users.rst:4
 msgid ""
@@ -28,16 +32,16 @@ msgstr ""
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Creació d'usuaris"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr ""
+msgstr "Per crear un usuari nou..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: ../../users.rst:17
 msgid "Bauble allows read, write and execute permissions."
-msgstr ""
+msgstr "Bauble administra permisos de lectura, edició i execució."
