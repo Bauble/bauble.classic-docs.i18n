@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-09-09 14:49+0200\n"
-"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"PO-Revision-Date: 2015-10-11 12:58+0200\n"
+"Last-Translator: Wsvuelodigital Ws <samuelyaca@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
 "/documentation-report/es/>\n"
 "Language: es\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: ../../report.rst:2
 msgid "Generating reports"
-msgstr ""
+msgstr "generando reportes"
 
 #: ../../report.rst:5
 msgid "Using the Mako Report Formatter"
-msgstr ""
+msgstr "el uso del reporte del formateador Mako"
 
 #: ../../report.rst:7
 msgid ""
