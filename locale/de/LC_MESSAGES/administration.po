@@ -4,16 +4,20 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-11-18 21:20+0000\n"
+"Last-Translator: Martin Glaser <n.tram@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/bauble"
+"/documentation-administration/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: ../../administration.rst:2
 msgid "Administration"
-msgstr ""
+msgstr "Administration"
 
 #: ../../administration.rst:4
 msgid ""
@@ -24,7 +28,7 @@ msgstr ""
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -37,15 +41,15 @@ msgstr ""
 
 #: ../../administration.rst:18
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:20
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Bitte schauen Sie in die offiziellen Dokumente."
 
 #: ../../administration.rst:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:25
 msgid ""
