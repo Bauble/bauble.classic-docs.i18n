@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: 2015-11-27 03:31+0000\n"
+"PO-Revision-Date: 2015-11-30 16:57+0000\n"
 "Last-Translator: Roxana Flores Ayala <roxy1791@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/bauble"
 "/documentation-installing/es/>\n"
@@ -71,9 +71,9 @@ msgid ""
 "Please not that the script will not help you install any extra database "
 "connector. This you will do in a later step."
 msgstr ""
-"Nótese por favor que el archivo de instalación no bajará ningún conector de "
-"base de datos. Si quiere utilizar otra base de datos que la por defecto "
-"(SQLite), tendrá que instalar algún conector extra."
+"Nota: El archivo de instalación no bajará ningún conector de base de datos. "
+"Si quiere utilizar otra base de datos diferente que SQLite, tendrá que "
+"instalar un conector extra."
 
 #: ../../installing.rst:32
 msgid ""
@@ -99,7 +99,7 @@ msgstr "Si el proceso terminó sin errores, ya puede arrancar bauble::"
 
 #: ../../installing.rst:44
 msgid "or update bauble to the latest released production patch::"
-msgstr "si quiere poner al día con la última versión publicada::"
+msgstr "Si usted desea ponerse al día con la última versión publicada:"
 
 #: ../../installing.rst:48
 msgid ""
@@ -115,7 +115,7 @@ msgid ""
 "launcher, you can now `lock to launcher` it."
 msgstr ""
 "Utilizando Unity, abra un terminal, arranque bauble, su icono aparecerá en "
-"el \"launcher\", y puede ahora pegarlo para que quede a disposición."
+"el lanzador, y puede ahora pegarlo para que quede a disposición."
 
 #: ../../installing.rst:54
 msgid ""
@@ -380,7 +380,7 @@ msgstr ""
 msgid ""
 "download the batch file you will use to stay up-to-date with the production "
 "line you chose to follow::"
-msgstr "baje también el archivo para poner al día su instalación::"
+msgstr "descarga también el archivo para poner al día su instalación::"
 
 #: ../../installing.rst:195
 msgid ""
