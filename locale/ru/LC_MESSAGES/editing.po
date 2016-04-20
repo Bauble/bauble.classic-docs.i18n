@@ -4,16 +4,21 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-04-21 00:08+0000\n"
+"Last-Translator: Iryna Pruitt <jdpruitt2807@prodigy.net>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/bauble"
+"/documentation-editing/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.6-dev\n"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Редактирование и введение данных"
 
 #: ../../editing.rst:6
 msgid ""
@@ -21,6 +26,9 @@ msgid ""
 "editors.  Each basic type of data has its own editor.  For example there is "
 "a Family editor, a Genus editor, an Accession editor, etc."
 msgstr ""
+"Мы добавляем или изменяем информацию в Bauble с помощью редакторов. Каждый "
+"вид данных имеет своего редактора. Например: редактор Семья, редактор Гений, "
+"редактор Доступа и т.д."
 
 #: ../../editing.rst:10
 msgid ""
@@ -54,6 +62,8 @@ msgid ""
 "Almost all of the editors in Bauble have a *Notes* tab which should work the"
 " same regardless of which editor you are using."
 msgstr ""
+"Почти все редакторы в Bauble имеют вкладку \"Примечания\", которые работают "
+"одинаково не зависимо от того, каким редактором вы пользуетесь."
 
 #: ../../editing.rst:30
 msgid ""
@@ -81,6 +91,8 @@ msgid ""
 "The *Family* field on the editor will change the name of the family. The "
 "Family field is required."
 msgstr ""
+"Поле \"Семейство\" в редакторе изменит название семейства. Поле \"Семейство\""
+" необходимо заполнить."
 
 #: ../../editing.rst:45
 msgid ""
@@ -103,6 +115,7 @@ msgstr ""
 msgid ""
 "To cancel your changes without saving then click on the *Cancel* button."
 msgstr ""
+"Отменить ваши изменения без их сохранения, нажмите на кнопку \"Отменить\"."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
@@ -120,6 +133,9 @@ msgid ""
 " the *Next* button on the bottom.  This will save the current family and "
 "open a new blank family editor."
 msgstr ""
+"Для того, чтобы добавить другое семейство после завершения редактирования "
+"текущего семейства, нажмите на кнопку \"Следующее\" внизу экрана. Текущее "
+"семейство будет сохранено и откроется редактор для нового семейства."
 
 #: ../../editing.rst:69
 msgid "Genus"
@@ -128,6 +144,7 @@ msgstr "Род"
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
 msgstr ""
+"Редактор Рода повзоляет добавлять или вносить изменения в ботанический род."
 
 #: ../../editing.rst:73
 msgid ""
@@ -136,6 +153,10 @@ msgid ""
 "families to choose from.  The family name must already exist in the database"
 " before you can set it as the family for the genus."
 msgstr ""
+"Поле \"Семейство\" в родовом редакторе позволяет выбирать семейство для "
+"рода. Когда вы начнете вводить название семейства, вы увидите список "
+"семейств для выбора. Название семейства уже должно существовать в базе "
+"данных для того чтобы его выбрать для рода."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
@@ -146,6 +167,7 @@ msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
 msgstr ""
+"Поле \"Автор\" позволяет установить название или аббревиацию автора для рода."
 
 #: ../../editing.rst:83
 msgid ""
