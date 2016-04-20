@@ -4,12 +4,17 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-04-21 01:01+0000\n"
+"Last-Translator: Iryna Pruitt <jdpruitt2807@prodigy.net>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/bauble"
+"/documentation-peptalk/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.6-dev\n"
 
 #: ../../peptalk.rst:2
 msgid "not-so-brief list of highlights, meant to whet your appetite."
@@ -33,7 +38,7 @@ msgstr ""
 
 #: ../../peptalk.rst:17
 msgid "importing data"
-msgstr ""
+msgstr "считывание данных"
 
 #: ../../peptalk.rst:19
 msgid ""
@@ -42,10 +47,14 @@ msgid ""
 "need help, you can ask some Bauble professional to help you transform your "
 "data into Bauble's intermediate json format."
 msgstr ""
+"Bauble позволяет считывать любые данные, помещенные в промежуточный json "
+"формат. То что вы считываете завершит то, что у вас уже есть в базе данных. "
+"Если вам нужна помощь, вы можете попросить проффесионалов помочь вам "
+"перевести ваши данные в промежуточный json формат."
 
 #: ../../peptalk.rst:25
 msgid "synonyms"
-msgstr ""
+msgstr "синонимы"
 
 #: ../../peptalk.rst:27
 msgid ""
@@ -107,11 +116,11 @@ msgstr ""
 
 #: ../../peptalk.rst:65
 msgid "Management of plant locations."
-msgstr ""
+msgstr "Управление расположением растений."
 
 #: ../../peptalk.rst:68
 msgid "database history"
-msgstr ""
+msgstr "Хронология базы данных"
 
 #: ../../peptalk.rst:70
 msgid ""
@@ -120,10 +129,14 @@ msgid ""
 " list of all changes in the last working day or week, or in any specific "
 "period in the past."
 msgstr ""
+"Все изменения в базе данных сохраняются как хронологическая запись. Все "
+"изменения подписаны и имеют временные метки.  Bauble позволяет с легкостью "
+"найти список всех изменений предыдющего дня или недели, или другой "
+"определенной даты в прошлом."
 
 #: ../../peptalk.rst:76
 msgid "simple and powerful search"
-msgstr ""
+msgstr "простой и мощный поиск"
 
 #: ../../peptalk.rst:78
 msgid ""
@@ -132,10 +145,14 @@ msgid ""
 "which do not reach the complexity of SQL but allow you a decent level of "
 "detail localizing your data."
 msgstr ""
+"Bauble повзоляет искать в базе данных , используя простые ключевые слова, "
+"например: название местоположения или рода. Можно вносить более сложные "
+"запросы, которые не достигают сложности SQL, но дают вам приличный уровень "
+"подробностей локализации ваших данных."
 
 #: ../../peptalk.rst:84
 msgid "database agnostic"
-msgstr ""
+msgstr "независимая база данных"
 
 #: ../../peptalk.rst:86
 msgid ""
@@ -151,7 +168,7 @@ msgstr ""
 
 #: ../../peptalk.rst:97
 msgid "language agnostic"
-msgstr ""
+msgstr "независимый язык"
 
 #: ../../peptalk.rst:99
 msgid ""
@@ -161,10 +178,15 @@ msgid ""
 "Portuguese (100%), French (42%), to name some Southern American languages, "
 "as well as Swedish (100%) and Czech (100%)."
 msgstr ""
+"Эта программа была изобретена в Англии и вся ее техническая документация и "
+"документация пользователя существует на английском языке. Но сама программа "
+"была переведена на многие языки, включая испанский (86%), португальский "
+"(100%), французский (42%), некоторые южноамериканские языки, так же как и "
+"шведский (100%) и чешский (100%)."
 
 #: ../../peptalk.rst:106
 msgid "platform agnostic"
-msgstr ""
+msgstr "независимая платформа"
 
 #: ../../peptalk.rst:108
 msgid ""
@@ -176,7 +198,7 @@ msgstr ""
 
 #: ../../peptalk.rst:114
 msgid "easily updated"
-msgstr ""
+msgstr "легко обновляется"
 
 #: ../../peptalk.rst:116
 msgid ""
