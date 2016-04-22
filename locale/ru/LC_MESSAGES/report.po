@@ -4,20 +4,25 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-04-22 21:53+0000\n"
+"Last-Translator: Iryna Pruitt <jdpruitt2807@prodigy.net>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/bauble"
+"/documentation-report/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.6-dev\n"
 
 #: ../../report.rst:2
 msgid "Generating reports"
-msgstr ""
+msgstr "Создается отчет"
 
 #: ../../report.rst:5
 msgid "Using the Mako Report Formatter"
-msgstr ""
+msgstr "Используется форматер отчета Mako"
 
 #: ../../report.rst:7
 msgid ""
@@ -25,12 +30,17 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
+"Форматер отчета Mako применяет языковый шаблон для создания отчетов. "
+"Подробную инфомацию о Mako и его языках можно найти на сайте `"
+"makotemplates.org <http://www.makotemplates.org>`_."
 
 #: ../../report.rst:11
 msgid ""
 "The Mako templating system should already be installed on your computer if "
 "Bauble is installed."
 msgstr ""
+"Языковая система Mako уже должны быть загружена на вашем компьютере, если вы "
+"загрузили Bauble."
 
 #: ../../report.rst:14
 msgid ""
@@ -39,6 +49,9 @@ msgid ""
 " and should be relatively easy to create template for anyone with a little "
 "but of programming experience."
 msgstr ""
+"Создание отчета  Mako подоюно создани. веб страницы по шаблону. Он намного "
+"проще, чем форматер XSL, и любой человек хоть с небольшим опытом в "
+"програмировании сможет со сравнительной легкостью создать шаблон."
 
 #: ../../report.rst:19
 msgid ""
