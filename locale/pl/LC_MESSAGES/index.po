@@ -4,22 +4,29 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-09-24 18:52+0000\n"
+"Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
+"/documentation-index/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../index.rst:2
 msgid "Documentation for Bauble 1.0"
-msgstr ""
+msgstr "Dokumentacja dla Bauble 1.0"
 
 #: ../../index.rst:8
 msgid ""
 "Bauble is an application for managing botanical specimen collections. With "
 "it you can create a searchable database of plant records."
 msgstr ""
+"Bauble jest aplikacją do zarządzania zbiorami okazów botanicznych. Za pomocą "
+"tej aplikacji można tworzyć przeszukiwalną bazę danych rekordów roślin."
 
 #: ../../index.rst:11
 msgid ""
@@ -27,29 +34,34 @@ msgid ""
 "and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
+"Jest `otwarta <http://www.opensource.org>`_ i `wolna <http://www.fsf.org>`_ "
+"i jest wydana na Ogólnej Licencji Publicznej GNU `(ang. GNU Public License) "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:21
 msgid "Installing Bauble"
-msgstr ""
+msgstr "Instalowanie Bauble"
 
 #: ../../index.rst:30
 msgid "Using Bauble"
-msgstr ""
+msgstr "Używanie Bauble"
 
 #: ../../index.rst:45
 msgid "Administration"
-msgstr ""
+msgstr "Administracja"
 
 #: ../../index.rst:54
 msgid "Bauble Development"
-msgstr ""
+msgstr "Rozwój Bauble"
 
 #: ../../index.rst:65
 msgid "Supporting Bauble"
-msgstr ""
+msgstr "Wspieranie Bauble"
 
 #: ../../index.rst:69
 msgid ""
 "If you're using Bauble, or if you feel like helping its development anyway, "
 "please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
+"Jeśli używasz Bauble lub jeśli czujesz potrzebę pomocy w jej rozwoju, proszę "
+"zastanów się nad  `darowizną <https://pledgie.com/campaigns/29188>`_"
