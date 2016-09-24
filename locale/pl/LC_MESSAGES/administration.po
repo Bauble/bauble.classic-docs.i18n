@@ -4,16 +4,21 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-09-24 17:24+0000\n"
+"Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
+"/documentation-administration/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../administration.rst:2
 msgid "Administration"
-msgstr ""
+msgstr "Administracja"
 
 #: ../../administration.rst:4
 msgid ""
@@ -21,10 +26,14 @@ msgid ""
 "something about database administration. While database adnimistration is "
 "far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Jeśli używasz rzeczywistej DBMS, aby przechowywać dane botaniczne, to "
+"potrzebujesz coś zrobić z administracją bazy danych. Jakkolwiek "
+"administracja bazą danych znacznie wykracza poza zakres tego dokumentu to "
+"chcemy, aby użytkownicy byli tego świadomi."
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -34,21 +43,28 @@ msgid ""
 "puts its data in the ``~/.bauble/`` directory (in Windows it is somewhere in"
 " your ``AppData`` directory)."
 msgstr ""
+"SQLite nie jest tym, co ktoś mógłby uważać za rzeczywistą DBMS. Każda baza "
+"danych SQLite jest po prostu w jednym pliku. Zrób bezpieczne kopie, a "
+"poczujesz się świetnie. Jeśli nie wiesz, gdzie szukać swoich plików bazy "
+"danych, to weź pod uwagę, że – domyślnie – bauble umieszcza swoje dane w "
+"katalogu ``~/.bauble/`` (w Windows jest to gdzieś w katalogu ``AppData``)."
 
 #: ../../administration.rst:18
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:20
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Proszę się odnieść do oficjalnej dokumentacji."
 
 #: ../../administration.rst:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:25
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of "
 "your backup options starts at `chapter_24`_."
 msgstr ""
+"Proszę się odnieść do oficjalnej dokumentacji. Bardzo szeroka dyskusja na "
+"temat opcji kopii zapasowych zaczyna się od `chapter_24`_."
