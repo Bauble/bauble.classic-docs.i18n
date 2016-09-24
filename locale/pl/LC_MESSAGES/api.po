@@ -4,123 +4,130 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-09-24 18:41+0000\n"
+"Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
+"/documentation-api/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../api.rst:2
 msgid "API Documentation"
-msgstr ""
+msgstr "Dokumentacja API"
 
 #: ../../api.rst:5
 msgid ":mod:`bauble`"
-msgstr ""
+msgstr ":mod:`bauble`"
 
 #: ../../api.rst:17
 msgid ":mod:`bauble.db`"
-msgstr ""
+msgstr ":mod:`bauble.db`"
 
 #: ../../api.rst:24
 msgid ""
 "All tables/mappers in Bauble which use the SQLAlchemy declarative plugin for"
 " declaring tables and mappers should derive from this class."
 msgstr ""
+"Wszystkie tabele /odwzorowania w Bauble, używające deklaratywnej wtyczki "
+"SQLAlchemy do deklarowania tabel i odwzorowań, powinny pochodzić z tej klasy."
 
 #: ../../api.rst:28
 msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-msgstr ""
+msgstr "Instancja :class:`sqlalchemy.ext.declarative.Base`"
 
 #: ../../api.rst:33
 msgid "The default metadata for all Bauble tables."
-msgstr ""
+msgstr "Domyślne metadane dla wszystkich tabel Bauble."
 
 #: ../../api.rst:35
 msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-msgstr ""
+msgstr "Instancja :class:`sqlalchemy.schema.MetaData`"
 
 #: ../../api.rst:49
 msgid ":mod:`bauble.connmgr`"
-msgstr ""
+msgstr ":mod:`bauble.connmgr`"
 
 #: ../../api.rst:57
 msgid ":mod:`bauble.editor`"
-msgstr ""
+msgstr ":mod:`bauble.editor`"
 
 #: ../../api.rst:78
 msgid ":mod:`bauble.i18n`"
-msgstr ""
+msgstr ":mod:`bauble.i18n`"
 
 #: ../../api.rst:83
 msgid ":mod:`bauble.ui`"
-msgstr ""
+msgstr ":mod:`bauble.ui`"
 
 #: ../../api.rst:91
 msgid ":mod:`bauble.meta`"
-msgstr ""
+msgstr ":mod:`bauble.meta`"
 
 #: ../../api.rst:99
 msgid ":mod:`bauble.paths`"
-msgstr ""
+msgstr ":mod:`bauble.paths`"
 
 #: ../../api.rst:108
 msgid ":mod:`bauble.pluginmgr`"
-msgstr ""
+msgstr ":mod:`bauble.pluginmgr`"
 
 #: ../../api.rst:122
 msgid ":mod:`bauble.prefs`"
-msgstr ""
+msgstr ":mod:`bauble.prefs`"
 
 #: ../../api.rst:133
 msgid ":mod:`bauble.task`"
-msgstr ""
+msgstr ":mod:`bauble.task`"
 
 #: ../../api.rst:141
 msgid ":mod:`bauble.types`"
-msgstr ""
+msgstr ":mod:`bauble.types`"
 
 #: ../../api.rst:154
 msgid ":mod:`bauble.utils`"
-msgstr ""
+msgstr ":mod:`bauble.utils`"
 
 #: ../../api.rst:204
 msgid ":mod:`bauble.view`"
-msgstr ""
+msgstr ":mod:`bauble.view`"
 
 #: ../../api.rst:230
 msgid ":mod:`bauble.search`"
-msgstr ""
+msgstr ":mod:`bauble.search`"
 
 #: ../../api.rst:243
 msgid ":mod:`bauble.plugins.plants`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.plants`"
 
 #: ../../api.rst:278
 msgid ":mod:`bauble.plugins.garden`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.garden`"
 
 #: ../../api.rst:316
 msgid ":mod:`bauble.plugins.abcd`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.abcd`"
 
 #: ../../api.rst:325
 msgid ":mod:`bauble.plugins.imex`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.imex`"
 
 #: ../../api.rst:329
 msgid ":mod:`bauble.plugins.report`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.report`"
 
 #: ../../api.rst:333
 msgid ":mod:`bauble.plugins.report.xsl`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.report.xsl`"
 
 #: ../../api.rst:337
 msgid ":mod:`bauble.plugins.report.mako`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.report.mako`"
 
 #: ../../api.rst:341
 msgid ":mod:`bauble.plugins.tag`"
-msgstr ""
+msgstr ":mod:`bauble.plugins.tag`"
