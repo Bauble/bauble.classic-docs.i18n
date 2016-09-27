@@ -4,16 +4,21 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-09-27 16:39+0000\n"
+"Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
+"/documentation-editing/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Edytowanie i wprowadzanie danych"
 
 #: ../../editing.rst:6
 msgid ""
@@ -21,6 +26,10 @@ msgid ""
 "editors.  Each basic type of data has its own editor.  For example there is "
 "a Family editor, a Genus editor, an Accession editor, etc."
 msgstr ""
+"Głównym sposobem, za pomocą którego dodajemy lub zmieniamy informacje w "
+"Bauble, jest użycie edytorów. Każdy podstawowy typ danych ma swój własny "
+"edytor. Na przykład, jest edytor Rodziny, edytor Rodzaju, edytor Dostępu, "
+"itd."
 
 #: ../../editing.rst:10
 msgid ""
@@ -28,6 +37,9 @@ msgid ""
 "menubar and then select the type of record your would like to create.  This "
 "will open a new blank editor for the type."
 msgstr ""
+"Aby stworzyć nowy rekord, kliknij na menu :menuselection:`Insert` na pasku "
+"menu, a następnie wybierz typ rekordu, jaki chciałbyś stworzyć. Otworzy to "
+"nowy, pusty edytor dla tego typu."
 
 #: ../../editing.rst:14
 msgid ""
@@ -36,6 +48,10 @@ msgid ""
 "will open an editor that will allow you to change the values on the record "
 "that you selected."
 msgstr ""
+"Aby edytować istniejący rekord w bazie danych, kliknij prawym przyciskiem "
+"myszy na element w wynikach wyszukiwania, i wybierz :menuselection:`Edit` z "
+"wyskakującego okienka menu. Otworzy to edytor, który pozwoli na zmianę "
+"wartości w rekordzie, który wybrałeś."
 
 #: ../../editing.rst:19
 msgid ""
@@ -44,6 +60,11 @@ msgid ""
 "Family has Genus children: you can add a Genus to a Family by right clicking"
 " on a Family and selecting \"Add genus\"."
 msgstr ""
+"Większość typów ma też swoje \"dzieci\" (elementy potomne), które można "
+"dodawać za pomocą kliknięcia prawym klawiszem myszy na element \"rodzica\", "
+"wybierając \"Add ???...\" z menu kontekstowego. Na przykład, Rodzina ma "
+"elementy potomne Rodzaju: można dodać Rodzaj do Rodziny za pomocą kliknięcia "
+"prawym przyciskiem myszy na Rodzinę, wybierając \"Dodaj rodzaj\"."
 
 #: ../../editing.rst:26
 msgid "Notes"
@@ -54,12 +75,17 @@ msgid ""
 "Almost all of the editors in Bauble have a *Notes* tab which should work the"
 " same regardless of which editor you are using."
 msgstr ""
+"Prawie wszystkie edytory w Bauble mają zakładkę \"Tab\", która powinna "
+"działać wszędzie tak samo, niezależnie od użytego edytora."
 
 #: ../../editing.rst:30
 msgid ""
 "If you enter a web address in a note then the link will show up in the Links"
 " box when the item your are editing is selected in the search results."
 msgstr ""
+"Gdy wprowadzisz adres WWW do notatki, to odsyłacz w bloku Odsyłacze pokaże "
+"się, gdy element, który edytujesz, zostanie zaznaczony w wynikach "
+"wyszukiwania."
 
 #: ../../editing.rst:33
 msgid ""
@@ -67,6 +93,10 @@ msgid ""
 "the bottom of the screen.  The Notes box will be desensitized if the "
 "selected item does not have any notes."
 msgstr ""
+"Za pomocą bloku Notatki na dole ekranu można przeglądać notatki w "
+"poszukiwaniu elementu w bazie danych. Blok Notatki będzie \"odczulony\" ("
+"przeprowadzony w stan nieczynności), gdy zaznaczony element nie będzie miał "
+"żadnych notatek."
 
 #: ../../editing.rst:39
 msgid "Family"
@@ -74,19 +104,22 @@ msgstr "Rodzina"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
-msgstr ""
+msgstr "Edytor Rodziny pozwala dodawać lub zmieniać rodzinę botaniczną."
 
 #: ../../editing.rst:42
 msgid ""
 "The *Family* field on the editor will change the name of the family. The "
 "Family field is required."
 msgstr ""
+"Pole *Rodzina* w edytorze zmieni nazwę rodziny. Pole Rodzina jest wymagane."
 
 #: ../../editing.rst:45
 msgid ""
 "The *Qualifier* field will change the family qualifier.  The value can "
 "either be *sensu lato*, *sensu stricto* or nothing."
 msgstr ""
+"Pole *Kwalifikator* zmieni nazwę kwalifikatora Rodziny. Ta wartość może być *"
+"sensu lato*, *sensu stricto* albo nic (żadna)."
 
 #: ../../editing.rst:48
 msgid ""
@@ -98,15 +131,21 @@ msgid ""
 "synonym to the list.  To remove a synonym select the synonym from the list "
 "and click on the Remove button."
 msgstr ""
+"*Synonimy* umożliwiają dodawanie tych rodzin, które są synonimami rodziny "
+"aktualnie edytowanej. Aby dodać nowy synonim  – wpisz go w nazwie rodziny. "
+"Musisz wybrać nazwę rodziny z listy uzupełnień. Jak tylko wybierzesz nazwę "
+"rodziny, którą chcesz dodać jako synonim, kliknij na przycisk Dodaj, obok "
+"listy synonimów, a synonim zostanie dodany do listy. Aby usunąć synonim  – "
+"wybierz go z listy i kliknij na przycisk Usuń."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid ""
 "To cancel your changes without saving then click on the *Cancel* button."
-msgstr ""
+msgstr "Aby anulować zmiany bez zapisywania  – kliknij na przycisk *Anuluj*."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
-msgstr ""
+msgstr "Aby zapisać rodzinę na której pracujesz  – kliknij *OK*."
 
 #: ../../editing.rst:60
 msgid ""
@@ -237,7 +276,7 @@ msgstr ""
 
 #: ../../editing.rst:143
 msgid "Collection"
-msgstr "Lokacja"
+msgstr "Kolekcja"
 
 #: ../../editing.rst:144
 msgid "A Collection."
