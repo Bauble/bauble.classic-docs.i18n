@@ -4,20 +4,26 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-09-29 17:55+0000\n"
+"Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
+"/documentation-started/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../started.rst:2
 msgid "Getting Started"
-msgstr ""
+msgstr "Pierwsze kroki"
 
 #: ../../started.rst:7
+#, fuzzy
 msgid "Should you SQLite?"
-msgstr ""
+msgstr "Czy powinieneś używać SQLite?"
 
 #: ../../started.rst:9
 msgid ""
@@ -27,12 +33,19 @@ msgid ""
 "better stick with SQLite, the easy, fast, zero-administration file-based "
 "database."
 msgstr ""
+"Czy po raz pierwszy użyjesz Bauble? Czy masz zamiar pracować samodzielnie? "
+"Czy masz jakiekolwiek wyobrażenie o tym, jak zarządzać systemem bazy danych? "
+"Jeśli odpowiedziałeś \"tak\" na dowolne z tych trzech pytań, to "
+"prawdopodobnie powinieneś /powinnaś wybrać SQLite  — łatwą w obsłudze, "
+"szybką, nie wymagającą żadnej administracji bazę danych."
 
 #: ../../started.rst:15
 msgid ""
 "With SQLite, you do not need any preparation and you can continue with "
 "`connecting`_."
 msgstr ""
+"Z pomocą SQLite nie potrzebujesz żadnego przygotowania, i możesz kontynuować "
+"swoją pracę za pomocą przycisku `połączenie`_."
 
 #: ../../started.rst:18
 msgid ""
