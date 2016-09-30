@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2016-09-27 16:39+0000\n"
+"PO-Revision-Date: 2016-09-30 06:55+0000\n"
 "Last-Translator: Stanisław Krukowski <dfk0077@riseup.net>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/bauble"
 "/documentation-editing/pl/>\n"
@@ -152,6 +152,8 @@ msgid ""
 "To save the family you are working on and add a genus to it then click on "
 "the *Add Genera* button."
 msgstr ""
+"Aby zapisać rodzinę na której pracujesz i dodać do niej rodzaj  – kliknij na "
+"przycisk \"Dodaj Rodzaje\"."
 
 #: ../../editing.rst:63
 msgid ""
@@ -159,6 +161,9 @@ msgid ""
 " the *Next* button on the bottom.  This will save the current family and "
 "open a new blank family editor."
 msgstr ""
+"Aby dodać kolejną rodzinę, gdy już skończyłeś edytować bieżącą  – kliknij na "
+"przycisk \"Następny\" na dole okna. To zapisze bieżącą rodzinę i otworzy "
+"nowy, pusty edytor rodziny."
 
 #: ../../editing.rst:69
 msgid "Genus"
@@ -166,7 +171,7 @@ msgstr "Rodzaj"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
-msgstr ""
+msgstr "Edytor Rodzaju pozwala na dodanie lub zmianę rodzaju botanicznego."
 
 #: ../../editing.rst:73
 msgid ""
@@ -175,16 +180,21 @@ msgid ""
 "families to choose from.  The family name must already exist in the database"
 " before you can set it as the family for the genus."
 msgstr ""
+"Pole *Rodzina* w edytorze rodzaju pozwala wybrać rodzinę dla rodzaju. Gdy "
+"zaczniesz wpisywać nazwę rodziny, pokaże się lista rodzin do wyboru. Nazwa "
+"rodziny musi już istnieć w bazie danych, zanim ją ustawisz jak rodzinę dla "
+"rodzaju."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
-msgstr ""
+msgstr "Pole *Rodzaj* pozwala ustawić rodzaj dla tego wpisu."
 
 #: ../../editing.rst:80
 msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
 msgstr ""
+"Pole *Autor* pozwala ustawić nazwę lub skrót autora/autorów dla rodzaju."
 
 #: ../../editing.rst:83
 msgid ""
@@ -196,16 +206,24 @@ msgid ""
 " to the list.  To remove a synonym select the synonym from the list and "
 "click on the Remove button."
 msgstr ""
+"Pole *Synonimy* pozwala dodać kolejne rodzaje, będące synonimami rodzaju, "
+"który aktualnie edytujesz. Aby dodać nowe synonimy, wpisz nazwę rodzaju we "
+"wpisie. Musisz wybrać nazwę rodzaju z listy uzupełnień. Jak tylko wybierzesz "
+"nazwę rodzaju, którą chcesz dodać jako synonim  – kliknij przycisk Dodaj ("
+"obok listy synonimów), a wybrany synonim zostanie dodany do listy. Aby "
+"usunąć synonim  – wybierz synonim z listy i kliknij na przycisk Usuń."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
-msgstr ""
+msgstr "Aby zapisać rodzaj, na którym pracujesz  – kliknij *OK*."
 
 #: ../../editing.rst:95
 msgid ""
 "To save the genus you are working on and add a species to it then click on "
 "the *Add Species* button."
 msgstr ""
+"Aby zapisać rodzaj, na którym pracujesz i dodać do niego gatunek  – kliknij "
+"na przycisk *Dodaj gatunek*."
 
 #: ../../editing.rst:98
 msgid ""
@@ -213,12 +231,16 @@ msgid ""
 "the *Next* button on the bottom.  This will save the current genus and open "
 "a new blank genus editor."
 msgstr ""
+"Aby dodać kolejny rodzaj, gdy już skończyłeś edytować bieżący, kliknij "
+"przycisk *Następny* na górze okna. Zapiszesz w ten sposób bieżący rodzaj i "
+"otworzysz nowy, pusty edytor rodzaju."
 
 #: ../../editing.rst:104
 msgid "Species/Taxon"
-msgstr ""
+msgstr "Gatunek/Taxon"
 
 #: ../../editing.rst:106
+#, fuzzy
 msgid ""
 "For historical reasons called a `species`, but by this we mean a `taxon` at "
 "rank `species` or lower.  It represents a unique name in the database.  The "
@@ -226,6 +248,11 @@ msgid ""
 "metadata with the taxon such as its distribution, synonyms and other "
 "information."
 msgstr ""
+"`Gatunek` to nazwa, której znaczenie jest uwarunkowane historycznie. Tak "
+"naprawdę, ta nazwa oznacza `takson`. Termin ten reprezentuje unikalną nazwę "
+"w bazie danych. Edytor gatunku pozwoli skonstruować nazwę, jak też skojarzyć "
+"takie metadane, jak rozpowszechnienie, synonimy i inne informacje, z "
+"`taksonem`."
 
 #: ../../editing.rst:112
 msgid ""
