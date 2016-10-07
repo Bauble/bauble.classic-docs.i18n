@@ -1,19 +1,23 @@
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Bauble 1.0\n"
+"Project-Id-Version: Portuguese (Brazil) (Bauble)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-07 07:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2016-10-07 05:14+0200\n"
+"PO-Revision-Date: 2016-10-07 03:14+0000\n"
+"Last-Translator: Rafael Capaci Pereira <rafaelcp123@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) "
+"<https://hosted.weblate.org/projects/bauble/documentation-"
+"administration/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: ../../administration.rst:2
 msgid "Administration"
-msgstr ""
+msgstr "Administração"
 
 #: ../../administration.rst:4
 msgid ""
@@ -34,21 +38,28 @@ msgid ""
 "puts its data in the ``~/.bauble/`` directory (in Windows it is somewhere in"
 " your ``AppData`` directory)."
 msgstr ""
+"SQLite não é o que se poderia considerar um SGBD: cada banco de dados do "
+"SQLite é somente um arquivo. Faça cópias de segurança e tudo ficará bem Se "
+"você não sabe onde procurar pelos arquivos dos seus bancos de dados, "
+"considere que, por padrão, o Bauble coloca os seus dados no diretório "
+"``~/.bauble/`` (no Windows será algo como o diretório ``AppData``)."
 
 #: ../../administration.rst:18
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:20
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Por favor, consulte a documentação oficial."
 
 #: ../../administration.rst:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:25
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of "
 "your backup options starts at `chapter_24`_."
 msgstr ""
+"Por favor, consulte a documentação oficial. Uma discussão muito aprofundada "
+"das suas opções de backup começa no `capítulo 24`."
