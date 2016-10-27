@@ -128,7 +128,7 @@ The Query Builder
 =================
 
 The Query Builder helps you build complex search queries through a
-point and click interface.  To open the Query Builder click the to the
+point and click interface. To open the Query Builder click the to the
 left of the search entry or select :menuselection:`Tools-->Query
 Builder` from the menu.
 
@@ -137,19 +137,19 @@ Search Strategy described above. You can use the Query Builder to get a
 feeling of correct queries before you start typing them by hand, something
 that you might prefer if you are a fast typer.
 
-After opening the Query Builder you must select a search domain.  The
+After opening the Query Builder you must select a search domain. The
 search domain will determine the type of data that is returned and the
 properties that you can search.  
 
 .. image:: images/screenshots/qb-choose_domain.png
 
 The search domain is similar to a table in the database and the properties
-would be the columns on the table.  Often the table/domain and
+would be the columns on the table. Often the table/domain and
 properties/columns are the same but not always.
 
 Once a search domain is selected you can then select a property of the
-domain to compare values to.  The search operator can then be changed
-for how you want to make the search comparison.  Finally you must
+domain to compare values to. The search operator can then be changed
+for how you want to make the search comparison. Finally you must
 enter a value to compare to the search property.  
 
 .. image:: images/screenshots/qb-choose_property.png
@@ -158,7 +158,7 @@ If the search property you have selected can only have specific values then
 a list of possible values will be provided for you to choose from.
 
 If multiple search properties are necessary then clicking on the plus
-sign will add more search properties.  Select And/Or next to the
+sign will add more search properties. Select And/Or next to the
 property name choose how the properties will be combined in the search
 query.
 

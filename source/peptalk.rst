@@ -9,7 +9,7 @@ initialize the database not only with all tables it needs to run, but it
 will also populate the taxon tables for ranks family and genus, using the
 data from the “RBG Kew's Family and Genera list from Vascular Plant Families
 and Genera compiled by R. K. Brummitt and published by the Royal Botanic
-Gardens, Kew in 1992”.  In 2015 we have reviewed the data regarding the
+Gardens, Kew in 1992”. In 2015 we have reviewed the data regarding the
 Orchidaceae, using “Tropicos, botanical information system at the Missouri
 Botanical Garden - www.tropicos.org” as a source.
 
@@ -68,7 +68,7 @@ database history
 ................
 
 All changes in the database is stored in the database, as history log. All
-changes are 'signed' and time-stamped.  Bauble makes it easy to retrieve the
+changes are 'signed' and time-stamped. Bauble makes it easy to retrieve the
 list of all changes in the last working day or week, or in any specific
 period in the past.
 

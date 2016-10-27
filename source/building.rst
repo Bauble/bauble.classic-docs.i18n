@@ -76,7 +76,7 @@ structure of user interface
 ------------------------------------
 
 the user interface is built according to the Model-View-Presenter
-architectural pattern.  The **view** is described in a glade file and is
+architectural pattern. The **view** is described in a glade file and is
 totally dumb, you do not subclass it because it implements no behaviour and
 because its appearance is, as said, described elsewhere, including the
 association signal-callbacks. The **model** simply follows the sqlalchemy
@@ -108,22 +108,22 @@ export dialog box.
 building (on Windows)
 ---------------------
 
-Building a python program is a bit of a contraddiction.  You don't normally
+Building a python program is a bit of a contraddiction. You don't normally
 *build* nor *compile* a python program, you run it in its (virtual) environment, and
 python will process the modules loaded and produce faster-loading *compiled*
-python files.  You can, however, produce a *Windows executable* from a python
+python files. You can, however, produce a *Windows executable* from a python
 script, executable containing the whole python environment and dependencies.
 
 1. Follow all steps needed to set up a working Bauble environment from
    :doc:`installing`, but skip the final ``install`` step.
 
-2. instead of *installing* Bauble, you produce a Windows executable.  This
+2. instead of *installing* Bauble, you produce a Windows executable. This
    is achieved with the ``py2exe`` target, which is only available on
    Windows systems::
 
 		 python setup.py py2exe
 
-3. At this point you can run Bauble.  To run the compiled executable run::
+3. At this point you can run Bauble. To run the compiled executable run::
 
 		.\dist\bauble.exe
 
@@ -131,6 +131,6 @@ script, executable containing the whole python environment and dependencies.
 
 4. To optionally build an NSIS installer package you must install NSIS
    from `nsis.sourceforge.net
-   <http://nsis.sourceforge.net/Download>`_.  After installing NSIS
+   <http://nsis.sourceforge.net/Download>`_. After installing NSIS
    right click on ``.\scripts\build.nsi`` in Explorer and select
    *Compile NSIS Script*.
