@@ -26,7 +26,7 @@ When connecting to a database server as one of the above, you have to
 manually create: at least one bauble user, the database you want bauble to
 use, and to give at lest one bauble user full permissions on its
 database. When this is done, Bauble will be able to proceed, creating the
-tables and importing the default data set.  The process is
+tables and importing the default data set. The process is
 database-dependent and it falls beyond the scope of this manual.
 
 If you already got the chills or sick at your stomach, no need to worry,
@@ -68,7 +68,7 @@ continue reading to the following section.
 
 **fine-tune the connection details**
 
-By default Bauble uses the file-based SQLite database.  During the
+By default Bauble uses the file-based SQLite database. During the
 installation process you had the choice (and you still have after
 installation), to add database connectors other than the default SQLite.
 

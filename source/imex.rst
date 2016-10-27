@@ -27,7 +27,7 @@ To import CSV files into Bauble select
 menu.
 
 After clicking OK on the dialog that ask if you are sure you know what
-you're doing a file chooser will open.  In the file chooser select the
+you're doing a file chooser will open. In the file chooser select the
 files you want to import.  
 
 
