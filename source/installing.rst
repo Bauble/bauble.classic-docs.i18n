@@ -5,7 +5,7 @@ bauble.classic is a cross-platform program and it will run on unix machines
 like Linux and MacOSX, as well as on Windows.
 
 To install Bauble first requires that you install its dependencies that
-cannot be installed automatically.  These include virtualenvwrapper, PyGTK
+cannot be installed automatically. These include virtualenvwrapper, PyGTK
 and pip. Python and GTK+, you probably already have. As long as you have
 these packages installed then Bauble should be able to install the rest of
 its dependencies by itself.
@@ -82,7 +82,7 @@ immediately preceding release are kept up-to-date by Apple-the-firm.
 
 Last time we tested, some of the dependencies could not be installed on
 MacOSX 10.5 and we assume similar problems would present themselves on older
-OSX versions.  Bauble has been successfully tested with 10.7 and 10.9.
+OSX versions. Bauble has been successfully tested with 10.7 and 10.9.
 
 First of all, you need things which are an integral part of a unix
 environment, but which are missing in a off-the-shelf mac:
@@ -119,7 +119,7 @@ Installing on Windows
 =====================
 
 The Windows installer used to be a "batteries-included" installer,
-installing everything needed to run Bauble.  The current maintainer
+installing everything needed to run Bauble. The current maintainer
 of bauble.classic cannot run Windows applications. If you want to
 run the latest version of bauble on Windows: download and install
 the dependencies and then install Bauble from the source package.
@@ -161,8 +161,8 @@ the installation steps on Windows:
 
    `Direct link to download Python`_
 
-   Bauble has been developed and tested using Python 2.x.  It will
-   definitely **not** run on Python 3.x.  If you are interested in helping
+   Bauble has been developed and tested using Python 2.x. It will
+   definitely **not** run on Python 3.x. If you are interested in helping
    port to Python 3.x, please contact the Bauble maintainers.
 
    when installing Python, do put Python in the PATH:
@@ -255,8 +255,8 @@ Troubleshooting the Install
 
     The lxml packages have to be compile with a C compiler. If you
     don't have a Make sure the libxml and libxsl packages are
-    installed.  Installing the Cython packages.  On Linux you will
-    have to install the gcc package.  On Windows there should be a
+    installed. Installing the Cython packages. On Linux you will
+    have to install the gcc package. On Windows there should be a
     precompiled version available at
     http://pypi.python.org/pypi/lxml/2.1.1
 
@@ -264,7 +264,7 @@ Troubleshooting the Install
 
     For some reason the Google's gdata package lists itself in the
     Python Package Index but doesn't work properly with the
-    easy_install command.  You can download the latest gdata package
+    easy_install command. You can download the latest gdata package
     from:
 
     http://code.google.com/p/gdata-python-client/downloads/list
