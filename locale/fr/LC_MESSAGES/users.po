@@ -4,40 +4,48 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-12-03 10:48+0000\n"
+"Last-Translator: VIDAL Alban <alban.vidal@zordhak.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/bauble"
+"/documentation-users/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.10-dev\n"
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Gestion des utilisateurs"
 
 #: ../../users.rst:4
 msgid ""
 "The Bauble users plugin is only available on PostgreSQL based databases."
 msgstr ""
+"Le plugin des utilisateurs Bauble n'est disponible que sur les bases de "
+"données PostgreSQL."
 
 #: ../../users.rst:7
 msgid ""
 "The Bauble User's Plugin will allow you to create and manage the permissions"
 " of users for your Bauble database."
 msgstr ""
+"Le Plugin de l'utilisateur Bauble vous permettra de créer et de gérer les "
+"permissions des utilisateurs pour votre base de données Bauble."
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Création d'utilisateurs"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr ""
+msgstr "Pour créer un nouvel utilisateur..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Autorisations"
 
 #: ../../users.rst:17
 msgid "Bauble allows read, write and execute permissions."
-msgstr ""
+msgstr "Bauble permet les autorisations de lecture, d'écriture et d'exécution."
