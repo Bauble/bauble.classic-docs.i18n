@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-03-28 16:09+0000\n"
+"PO-Revision-Date: 2017-03-30 17:31+0000\n"
 "Last-Translator: Володимир <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-users/uk/>\n"
@@ -31,19 +31,21 @@ msgid ""
 "The Bauble User's Plugin will allow you to create and manage the permissions"
 " of users for your Bauble database."
 msgstr ""
+"Плагін Bauble User дозволить вам створювати і управляти дозволами "
+"користувачів в вашій базі даних Bauble."
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Створення користувачів"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr ""
+msgstr "Для створення нового користувача ..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Дозволи"
 
 #: ../../users.rst:17
 msgid "Bauble allows read, write and execute permissions."
-msgstr ""
+msgstr "Bauble дозволяє читати, писати і виконувати дозволи."
