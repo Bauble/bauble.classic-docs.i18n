@@ -4,20 +4,25 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-03-31 08:24+0000\n"
+"Last-Translator: Володимир <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
+"/documentation-started/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
 
 #: ../../started.rst:2
 msgid "Getting Started"
-msgstr ""
+msgstr "Починаємо"
 
 #: ../../started.rst:7
 msgid "Should you SQLite?"
-msgstr ""
+msgstr "У вас SQLite?"
 
 #: ../../started.rst:9
 msgid ""
@@ -27,12 +32,19 @@ msgid ""
 "better stick with SQLite, the easy, fast, zero-administration file-based "
 "database."
 msgstr ""
+"Це перший раз, коли ви використовуєте Bauble, ви збираєтеся працювати в "
+"автономному режимі, ви не маєте жодного уявлення про те, як управляти "
+"системою управління базами даних? Якщо ви відповіли ствердно на будь-який з "
+"перелічених запитань, вам напевно краще триматися з SQLite, легкої, швидкої, "
+"нульової адміністрації на основі файлу бази даних."
 
 #: ../../started.rst:15
 msgid ""
 "With SQLite, you do not need any preparation and you can continue with "
 "`connecting`_."
 msgstr ""
+"З SQLite, вам не потрібно ніякої підготовки, і ви можете продовжити "
+"`connecting`_."
 
 #: ../../started.rst:18
 msgid ""
@@ -43,6 +55,12 @@ msgid ""
 "<http://www.postgresql.org>`_ or `MySQL/MariaDB <https://mariadb.org/>`_, "
 "both supported by Bauble."
 msgstr ""
+"З іншого боку, якщо ви хочете підключити більше однієї bauble робочої "
+"станції в одній і тій же базі даних, або якщо ви хочете, щоб ваші дані були "
+"доступними для інших клієнтів, як в налаштуванні LAMP веб сервера, ви "
+"повинні забезпечити зберігання бази даних в системі управління базами даних, "
+"як `PostgreSQL <http://www.postgresql.org>`_ або `MySQL/MariaDB "
+"<https://mariadb.org/>`_, обидва варіанти підтримуються Bauble."
 
 #: ../../started.rst:25
 msgid ""
@@ -53,34 +71,47 @@ msgid ""
 "importing the default data set.  The process is database-dependent and it "
 "falls beyond the scope of this manual."
 msgstr ""
+"При підключенні до сервера бази даних в якості одного з вище вказаного, ви "
+"повинні створити вручну: щонайменше одного користувача bauble, базу даних "
+"яку ви хочете використовувати, і надати повні права користувачеві bauble на "
+"цю базу даних. Коли це буде зроблено, Bauble матиме можливість продовжити, "
+"створення таблиць та імпорт набору даних за замовчуванням. Процес бази даних "
+"- залежить і виходить за рамки даного керівництва."
 
 #: ../../started.rst:32
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
 msgstr ""
+"Якщо у вас вже є озноб або біль в животі, немає необхідності турбуватися, "
+"просто тримайтеся SQLite, ви не зазнаєте невдачі на особливостях, ні в "
+"продуктивності."
 
 #: ../../started.rst:38
 msgid "Connecting to a database"
-msgstr ""
+msgstr "Підключення до бази даних"
 
 #: ../../started.rst:40
 msgid ""
 "When you start Bauble the first thing that comes up is the connection "
 "dialog."
-msgstr ""
+msgstr "При запуску Bauble вперше спливає діалогове вікно підключення."
 
 #: ../../started.rst:43
 msgid ""
 "Quite obviously, if this is the first time you start Bauble, you have no "
 "connections yet and Bauble will alert you about it."
 msgstr ""
+"Цілком очевидно, що, якщо це перший раз, коли ви запускаєте Bauble, у вас "
+"немає ще підключення і Bauble попередить вас про це."
 
 #: ../../started.rst:48
 msgid ""
 "As it says: close the message box, you will return to the connection dialog,"
 " where you click on **Add** to create your first connection."
 msgstr ""
+"Як повідомлялося: закрийте вікно повідомлення і ви повернетеся в діалогове "
+"вікно підключення, де натисніть на **Додати** щоб створити перше з'єднання."
 
 #: ../../started.rst:53
 msgid ""
@@ -90,10 +121,14 @@ msgid ""
 " your connection name will be selected and the Connection Details will have "
 "expanded."
 msgstr ""
+"Просто вставте ім'я для підключення, щось значуще що ви асоціюєте з "
+"колекцією для представлення в базі даних (наприклад: «мій домашній сад») і "
+"натисніть **OK**. Ви повернетеся до попереднього екрана, але ваше ім'я "
+"з'єднання буде обрано і Деталі Підключення будуть розширені."
 
 #: ../../started.rst:61
 msgid "**specify the connection details**"
-msgstr ""
+msgstr "**вказати параметри з'єднання**"
 
 #: ../../started.rst:63
 msgid ""
@@ -101,16 +136,21 @@ msgid ""
 " the **Use default locations** check box and create your first connection by"
 " clicking on **Connect**."
 msgstr ""
+"Якщо ви не знаєте, що робити тут, Bauble допоможе вам залишатися в безпеці. "
+"Активуйте **Використання розташування за замовчуванням** шляхом встановлення "
+"прапорця і створіть перше з'єднання, натиснувши на **Підключення**."
 
 #: ../../started.rst:66
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
 msgstr ""
+"На даний момент ви можете сміливо пропустити решту цього розділу і "
+"продовжити читати наступний розділ."
 
 #: ../../started.rst:69
 msgid "**fine-tune the connection details**"
-msgstr ""
+msgstr "**точно налаштувати  деталі з'єднання**"
 
 #: ../../started.rst:71
 msgid ""
@@ -118,12 +158,17 @@ msgid ""
 "installation process you had the choice (and you still have after "
 "installation), to add database connectors other than the default SQLite."
 msgstr ""
+"За замовчуванням Bauble  використовує файл бази даних на основі SQLite. В "
+"процесі установки у вас був вибір (і він у вас залишається і після установки)"
+", додати інші, ніж SQLite за замовчуванням з'єднувачі бази даних."
 
 #: ../../started.rst:75
 msgid ""
 "In this example, Bauble can connect to SQLite, PostgreSQL and MySQL, but no "
 "connector is available for Oracle or MS SQL Server."
 msgstr ""
+"У цьому прикладі, Bauble може підключитися до SQLite,  PostgreSQL і MySQL, "
+"але немає з'єднувачів доступних для Oracle або MS SQL Server."
 
 #: ../../started.rst:80
 msgid ""
@@ -133,6 +178,12 @@ msgid ""
 "folder with the same name and no extension, both in ``~/.bauble`` on "
 "Linux/MacOSX or in ``AppData\\Roaming\\Bauble`` on Windows."
 msgstr ""
+"Якщо ви використовуєте SQLite, все, що вам дійсно потрібно це вказати ім'я "
+"з'єднання. Якщо ви дозволите Bauble  використовувати ім'я файлу за "
+"замовчуванням, то Bauble  створює файл бази даних з тим же ім'ям, що і "
+"з'єднання і ``.db`` розширення, і папку зображень з таким же ім'ям і без "
+"розширення, як в ``~/.bauble``в Linux/MacOSX або в ``AppData\\Roaming\\"
+"Bauble`` в Windows."
 
 #: ../../started.rst:86
 msgid ""
@@ -141,6 +192,10 @@ msgid ""
 "default filename, but you browse in your computer to the location where you "
 "saved the Bauble SQLite database file."
 msgstr ""
+"Проте з SQLite, ви, можливо, отримали або завантажили bauble базу даних, і "
+"ви хочете підключитися до неї. В цьому випадку ви не дозволяєте Bauble "
+"використовувати ім'я файлу за замовчуванням, лише перегляньте на комп'ютері "
+"в тому місці, де ви зберегли Bauble SQLite файл бази даних."
 
 #: ../../started.rst:91
 msgid ""
@@ -148,6 +203,9 @@ msgid ""
 "different and it will offer you the option to fine tune all parameters "
 "needed to connect to the database of your choice."
 msgstr ""
+"Якщо ви використовуєте інше з'єднання бази даних, діалогове вікно буде "
+"виглядати по-іншому і вам запропонують варіант для точної настройки всіх "
+"параметрів необхідних для підключення до бази даних за вашим вибором."
 
 #: ../../started.rst:95
 msgid ""
@@ -156,6 +214,9 @@ msgid ""
 "otherwise read on to the following section on initializing a database for "
 "Bauble."
 msgstr ""
+"При підключенні до існуючої бази даних ви можете продовжувати :ref:`editing-"
+"and-inserting-data` і згодом :ref:`searching-in-bauble`, в іншому випадку "
+"читайте далі в наступному розділі про ініціалізацію бази даних для Bauble."
 
 #: ../../started.rst:100
 msgid ""
@@ -163,20 +224,25 @@ msgid ""
 "root* folder. The meaning of this is explained in further detail at :ref"
 ":`plant-pictures` in :ref:`editing-and-inserting-data`."
 msgstr ""
+"Якщо ви плануєте пов'язати фотографії з установкою, вкажіть *pictures root* "
+"папку. Сенс цього пояснено більш детально в :ref:`editing-and-inserting-"
+"data`."
 
 #: ../../started.rst:107
 msgid "Initialize a database"
-msgstr ""
+msgstr "Ініціалізувати базу даних"
 
 #: ../../started.rst:109
 msgid ""
 "First time you open a connection to a database which had never been seen by "
 "Bauble before, Bauble will first display an alert:"
 msgstr ""
+"Коли ви відкриваєте з'єднання з базою даних, яка не відмічена в Bauble "
+"перший раз, Bauble спочатку відобразить оповіщення:"
 
 #: ../../started.rst:114
 msgid "immediately followed by a question:"
-msgstr ""
+msgstr "відразу слідує запитання:"
 
 #: ../../started.rst:118
 msgid ""
@@ -185,6 +251,9 @@ msgid ""
 "with Bauble. By letting Bauble initialize a database, the database will be "
 "emptied and all of its content be lost."
 msgstr ""
+"Будьте обережні, коли вручну, вказуєте параметри з'єднання: значення, які ви "
+"ввели і відсилатися до існуючої бази даних, можуть бути не призначені для "
+"використання в Bauble."
 
 #: ../../started.rst:123
 msgid ""
@@ -193,6 +262,9 @@ msgid ""
 "the default data. This can take a minute or two so while all of the default "
 "data is imported into the database so be patient."
 msgstr ""
+"Якщо ви впевнені, що ви хочете створити базу даних з цим підключенням "
+"виберіть \"Так\". Bauble приступить до створення таблиць бази даних та "
+"імпорту даних за замовчуванням."
 
 #: ../../started.rst:128
 msgid ""
@@ -200,3 +272,6 @@ msgid ""
 "to start :ref:`editing-and-inserting-data` and subsequently :ref:`searching-"
 "in-bauble`."
 msgstr ""
+"Після того, як база даних була створена, налаштована,ініціалізована, ви "
+"готові до запуску :ref:`editing-and-inserting-data` і згодом :ref:`searching-"
+"in-bauble`."
