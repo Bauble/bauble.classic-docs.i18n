@@ -4,16 +4,21 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-04-09 16:47+0000\n"
+"Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
+"/documentation-imex/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
-msgstr ""
+msgstr "Імпорт та експорт даних"
 
 #: ../../imex.rst:4
 msgid ""
@@ -21,45 +26,61 @@ msgid ""
 "and export formats, by default it can only import and export comma seperated"
 " values files or CSV."
 msgstr ""
+"Хоча Bauble може бути розширена за рахунок плагінів для підтримки "
+"альтернативних форматів імпорту та експорту, за замовчуванням він може "
+"тільки імпорт і експорт розділених комою значень файлів або CSV."
 
 #: ../../imex.rst:8
 msgid ""
 "There is some support for exporting to the Access for Biological Collections"
 " Data it is limited."
 msgstr ""
+"Існує деяка підтримка експорту в Access для біологічних колекцій даних але "
+"вона обмежена."
 
 #: ../../imex.rst:11
 msgid ""
 "There is also limited support for exporting to an XML format that more or "
 "less reflects exactly the tables and row of the database."
 msgstr ""
+"Існує також обмежена підтримка експорту в форматі XML, який більш-менш точно "
+"відображає таблиці та рядки бази даних."
 
 #: ../../imex.rst:14
+#, fuzzy
 msgid "Exporting ABCD and XML will not be covered here."
-msgstr ""
+msgstr "Експортний ABCD і XML не будуть тут розглядатися."
 
 #: ../../imex.rst:16
 msgid ""
 "Importing files will most likely destroy any data you have in the database "
 "so make sure you have backed up your data."
 msgstr ""
+"Імпорт файлів, швидше за все, знищити будь-які дані, які ви маєте на базі "
+"даних, переконатися, що ви створили резервну копію даних."
 
 #: ../../imex.rst:20
 msgid "Importing from CSV"
-msgstr ""
+msgstr "Імпорт з CSV"
 
 #: ../../imex.rst:21
+#, fuzzy
 msgid ""
 "In general it is best to only import CSV files into Bauble that were "
 "previously exported from Bauble. It is possible to import any CSV file but "
 "that is more advanced that this doc will cover."
 msgstr ""
+"Загалом, краще імпортувати CSV файли в Bauble, які раніше були експортовані "
+"з Bauble. Можна імпортувати будь-який файл CSV, але це більш просунута, що "
+"цей документ буде охоплювати."
 
 #: ../../imex.rst:25
 msgid ""
 "To import CSV files into Bauble select "
 ":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
 msgstr ""
+"Щоб імпортувати CSV файли в Bauble виберіть: menuselection "
+":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
 
 #: ../../imex.rst:29
 msgid ""
@@ -67,27 +88,36 @@ msgid ""
 "you're doing a file chooser will open.  In the file chooser select the files"
 " you want to import."
 msgstr ""
+"Після натискання OK в діалоговому вікні запиту, якщо ви впевнені, що знаєте, "
+"що робите, вибрані файли будуть відкриті. У файловому браузері виберіть "
+"файли, які ви хочете імпортувати."
 
 #: ../../imex.rst:35
 msgid "Exporting to CSV"
-msgstr ""
+msgstr "Експорт в CSV"
 
 #: ../../imex.rst:37
 msgid ""
 "To export the Bauble data to CSV select "
 ":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
 msgstr ""
+"Щоб експортувати дані  Bauble в CSV виберіть "
+":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
 
 #: ../../imex.rst:40
+#, fuzzy
 msgid ""
 "This tool will ask you to select a directory to export the CSV data. All of "
 "the tables in Bauble will be exported to files in the format tablename.txt "
 "where tablename is the name of the table where the data was exported from."
 msgstr ""
+"Цей інструмент запропонує вам вибрати каталог для експорту даних в форматі "
+"CSV. Всі таблиці в Bauble буде експортовано в файли в форматі tablename.txt "
+"де ім'я_таблиці це ім'я таблиці де дані були експортовані з."
 
 #: ../../imex.rst:46
 msgid "Importing from JSON"
-msgstr ""
+msgstr "Імпорт з JSON"
 
 #: ../../imex.rst:48
 msgid ""
@@ -104,14 +134,16 @@ msgid ""
 "Using the Bauble json interchange format, you can import data which you have"
 " exported from a different Bauble installation."
 msgstr ""
+"За допомогою Bauble json формату обміну, ви можете імпортувати дані, які ви "
+"експортували з іншої Bauble установки."
 
 #: ../../imex.rst:59
 msgid "Exporting to JSON"
-msgstr ""
+msgstr "Експорт у JSON"
 
 #: ../../imex.rst:61
 msgid "This feature is still under development."
-msgstr ""
+msgstr "Ця функція знаходиться в стадії розробки."
 
 #: ../../imex.rst:65
 msgid ""
