@@ -4,20 +4,25 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-04-09 17:04+0000\n"
+"Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
+"/documentation-building/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr ""
+msgstr "Керівництво розробника"
 
 #: ../../building.rst:5
 msgid "helping bauble development"
-msgstr ""
+msgstr "допомагаючи розвитку bauble"
 
 #: ../../building.rst:7
 msgid ""
@@ -25,12 +30,17 @@ msgid ""
 "github repository. This is so because in our eyes, every user is always "
 "potentially also a developer."
 msgstr ""
+"Установка  Bauble завжди включає в себе завантаження джерел, підключених до "
+"сховища GitHub. Це так, тому що в наших очах, кожен користувач завжди "
+"потенційно також є розробником."
 
 #: ../../building.rst:11
 msgid ""
 "If you want to contribute to Bauble, you can do so in quite a few different "
 "ways::"
 msgstr ""
+"Якщо ви хочете внести свій внесок в  Bauble, ви можете зробити це в багато "
+"різних способів ::"
 
 #: ../../building.rst:26
 msgid "bug solving workflow"
@@ -38,7 +48,7 @@ msgstr ""
 
 #: ../../building.rst:29
 msgid "normal development workflow"
-msgstr ""
+msgstr "нормальний робочий процес розробки"
 
 #: ../../building.rst:31
 msgid ""
