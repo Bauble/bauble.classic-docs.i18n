@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-09 16:47+0000\n"
+"PO-Revision-Date: 2017-04-17 08:11+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-imex/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.14-dev\n"
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
@@ -47,32 +47,30 @@ msgstr ""
 "відображає таблиці та рядки бази даних."
 
 #: ../../imex.rst:14
-#, fuzzy
 msgid "Exporting ABCD and XML will not be covered here."
-msgstr "Експортний ABCD і XML не будуть тут розглядатися."
+msgstr "Експорт ABCD і XML не будуть тут розглядатися."
 
 #: ../../imex.rst:16
 msgid ""
 "Importing files will most likely destroy any data you have in the database "
 "so make sure you have backed up your data."
 msgstr ""
-"Імпорт файлів, швидше за все, знищити будь-які дані, які ви маєте на базі "
-"даних, переконатися, що ви створили резервну копію даних."
+"Імпорт файлів, швидше за все, знищить будь-які дані у вашій базі даних, "
+"переконайтеся, що ви створили резервну копію даних."
 
 #: ../../imex.rst:20
 msgid "Importing from CSV"
 msgstr "Імпорт з CSV"
 
 #: ../../imex.rst:21
-#, fuzzy
 msgid ""
 "In general it is best to only import CSV files into Bauble that were "
 "previously exported from Bauble. It is possible to import any CSV file but "
 "that is more advanced that this doc will cover."
 msgstr ""
 "Загалом, краще імпортувати CSV файли в Bauble, які раніше були експортовані "
-"з Bauble. Можна імпортувати будь-який файл CSV, але це більш просунута, що "
-"цей документ буде охоплювати."
+"з Bauble. Можна імпортувати будь-який файл CSV, але це надає більше, чим цей "
+"документ буде охоплювати."
 
 #: ../../imex.rst:25
 msgid ""
@@ -105,7 +103,6 @@ msgstr ""
 ":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
 
 #: ../../imex.rst:40
-#, fuzzy
 msgid ""
 "This tool will ask you to select a directory to export the CSV data. All of "
 "the tables in Bauble will be exported to files in the format tablename.txt "
@@ -113,7 +110,7 @@ msgid ""
 msgstr ""
 "Цей інструмент запропонує вам вибрати каталог для експорту даних в форматі "
 "CSV. Всі таблиці в Bauble буде експортовано в файли в форматі tablename.txt "
-"де ім'я_таблиці це ім'я таблиці де дані були експортовані з."
+"де ім'я_таблиці це ім'я таблиці куди дані будуть експортовані."
 
 #: ../../imex.rst:46
 msgid "Importing from JSON"
@@ -128,6 +125,11 @@ msgid ""
 "beyond the scope of this manual, please contact one of the authors if you "
 "need any further help."
 msgstr ""
+"Цей *the * спосіб для імпорту даних в існуючу базу даних, не руйнуючи "
+"попередній вміст. Типовий приклад цієї функції буде імпорт вашої цифрової "
+"колекції в нові, тільки розмічені бази даних Bauble. Перетворення бази даних "
+"в  bauble json формат обміну виходить за рамки даного керівництва, будь "
+"ласка, зв'яжіться з одним з авторів, якщо вам потрібна додаткова допомога."
 
 #: ../../imex.rst:55
 msgid ""
@@ -152,6 +154,10 @@ msgid ""
 "export, or you can start at the complete content of a domain, to be chosen "
 "among Species, Accession, Plant."
 msgstr ""
+"коли ви активуєте цей інструмент експорту, вам надається право вибору "
+"експорту. Ви можете використовувати поточний вибір щоб обмежити діапазон "
+"експорту, або ви можете почати з повним змістом домену, вибравши серед "
+"видів, приросту, рослин."
 
 #: ../../imex.rst:70
 msgid ""
@@ -161,3 +167,9 @@ msgid ""
 " *Plant* will export all living plants (some accession might not be "
 "included), all referred to locations and taxa."
 msgstr ""
+"Експорт *Вид*  буде експортувати тільки повну класифікаційну інформацію в "
+"вашу базу даних. \"Приріст\" буде експортувати весь приріст плюс всю "
+"класифікаційну інформацію яка відноситься: необроблена для класифікації "
+"інформація не буде експортуватися. *Рослини* буде експортувати всі існуючі "
+"рослини (деякий приріст може бути не включений), всі зазначені місця і "
+"класифіковані."
