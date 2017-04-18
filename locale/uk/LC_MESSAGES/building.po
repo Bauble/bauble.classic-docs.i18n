@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-09 17:04+0000\n"
+"PO-Revision-Date: 2017-04-18 18:44+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-building/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.14-dev\n"
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
@@ -40,11 +40,11 @@ msgid ""
 "ways::"
 msgstr ""
 "Якщо ви хочете внести свій внесок в  Bauble, ви можете зробити це в багато "
-"різних способів ::"
+"різних способів::"
 
 #: ../../building.rst:26
 msgid "bug solving workflow"
-msgstr ""
+msgstr "робочий процес над помилками"
 
 #: ../../building.rst:29
 msgid "normal development workflow"
@@ -57,121 +57,149 @@ msgid ""
 "have a very clear idea of what it really is, that you noticed. you open an "
 "issue and describe the problem. someone might react with hints."
 msgstr ""
+"під час користування програмним забезпеченням, ви помічаєте проблеми, або ви "
+"отримаєте уявлення про те, що може бути краще, ви думаєте про це, достатньо "
+"для того, щоб мати дуже чітке уявлення про це. Ви відкриваєте випуск і "
+"описуєте проблему. Хтось може реагувати на це."
 
 #: ../../building.rst:35
 msgid "you open the issues site and choose one you want to tackle."
 msgstr ""
+"ви відкриваєте сайт випусків і вибираєте один який ви хочете вирішувати."
 
 #: ../../building.rst:36
 msgid ""
 "assign the issue to yourself, this way you are informing the world that you "
 "have the intention to work at it. someone might react with hints."
 msgstr ""
+"призначити цей випуск для себе, таким чином, ви інформуєте спільноту, що у "
+"вас є намір працювати над ним."
 
 #: ../../building.rst:38
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
 msgstr ""
+"за потреби, розгалуження сховища у вашому обліковому записі бажано створити "
+"гілку, безспірно пов'язану до випуску."
 
 #: ../../building.rst:40
 msgid ""
 "write unit tests and commit them to your branch (do not commit failing unit "
 "tests to the ``master`` branch)."
 msgstr ""
+"написати блок тестів і зафіксувати їх в вашій гілці (не фіксуйте невдалий "
+"блок тестів в гілку `` master``)."
 
 #: ../../building.rst:42
 msgid ""
 "write more unit tests (ideally, the tests form the complete description of "
 "the feature you are adding or correcting)."
 msgstr ""
+"написати додатковий блок тестів (в ідеалі, тести утворюють повний опис "
+"функції, ви це додаєте або коректуєте)."
 
 #: ../../building.rst:44
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
 msgstr ""
+"переконайтеся, що функція, яку ви додаєте або коректуєте дійсно повністю "
+"описує блок тестів, які ви написали."
 
 #: ../../building.rst:46
+#, fuzzy
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations on "
 "changes along one single variable. do not give complex input to unit tests "
 "or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
+"переконайтеся, що блок тестів є простим, тобто, що ви тестуєте варіації змін "
+"по одній змінній. не додають введення складних для блоку тестів або тестів "
+"які не поміщаються на одному екрані (25 рядків в коді)."
 
 #: ../../building.rst:49
 msgid "write the code that makes your tests succeed."
-msgstr ""
+msgstr "написати код, який робить тести успішними."
 
 #: ../../building.rst:50
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
-msgstr ""
+msgstr "оновити файли i18n (запустити ``./scripts/i18n.sh``)."
 
 #: ../../building.rst:51
 msgid ""
 "whenever possible, translate the new strings you put in code or glade files."
 msgstr ""
+"всякий раз, коли це можливо, переведіть нові рядки які ви вставляєте в код "
+"або glade файли."
 
 #: ../../building.rst:53
 msgid "commit your changes."
-msgstr ""
+msgstr "зафіксувати зміни."
 
 #: ../../building.rst:54
 msgid "push to github."
-msgstr ""
+msgstr "передати github."
 
 #: ../../building.rst:55
 msgid "open a pull request."
-msgstr ""
+msgstr "відкрити пул запиту."
 
 #: ../../building.rst:58
 msgid "publishing to production"
-msgstr ""
+msgstr "публікація продукту"
 
 #: ../../building.rst:60
 msgid ""
 "open the pull request page using as base the production line, compared to "
 "``master``."
 msgstr ""
+"відкрити сторінку пулу запиту з використанням в якості основи виробничу "
+"лінію, прирівняну до ``master``."
 
 #: ../../building.rst:62
 msgid "make sure a ``bump`` commit is included in the differences."
-msgstr ""
+msgstr "переконайтеся що ``bump`` фіксація включена в розбіжностях."
 
 #: ../../building.rst:63
 msgid "it should be possible to automatically merge the branches."
-msgstr ""
+msgstr "повинна бути забезпечена можливість автоматичного злиття гілок."
 
 #: ../../building.rst:64
 msgid ""
 "create the new pull request, call it as “publish to the production line”."
 msgstr ""
+"створити новий пул запиту, викличте його як  “publish to the production "
+"line”."
 
 #: ../../building.rst:65
 msgid "you possibly need wait for travis-ci to perform the checks."
-msgstr ""
+msgstr "вам, можливо, буде потрібно почекати travis-ci для виконання перевірки."
 
 #: ../../building.rst:66
 msgid "merge the changes."
-msgstr ""
+msgstr "об'єднати зміни."
 
 #: ../../building.rst:67
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
-msgstr ""
+msgstr "розповісти світові про це: на Facebook, групі Google, linkedin, ..."
 
 #: ../../building.rst:70
 msgid "closing step"
-msgstr ""
+msgstr "крок закриття"
 
 #: ../../building.rst:72
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to your "
 "colleagues. please help make it better and matching the practice."
 msgstr ""
+"розглянути цей робочий процес. розглядати це в якості орієнтира, до себе і "
+"до своїх колег. будь ласка, допоможіть зробити його краще і відповідно "
+"практичним."
 
 #: ../../building.rst:76
 msgid "structure of user interface"
-msgstr ""
+msgstr "структура інтерфейсу користувача"
 
 #: ../../building.rst:78
 msgid ""
@@ -182,26 +210,36 @@ msgid ""
 "association signal-callbacks. The **model** simply follows the sqlalchemy "
 "practices."
 msgstr ""
+"Інтерфейс користувача побудований відповідно з архітектурним зразком Model-"
+"View-Presenter. **view** описується в glade файлі і повністю в dumb, ви не "
+"зробити підкласи з цього тому що він не реалізує поводження і тому, що його "
+"зовнішній вигляд, як було сказано, описано в іншому місці, в тому числі "
+"асоціації сигналів зворотних викликів. **model** просто слідує SQLAlchemy "
+"методу."
 
 #: ../../building.rst:85
 msgid "You will subclass the **presenter** in order to:"
-msgstr ""
+msgstr "Ваші підкласи **presenter** для того, щоб:"
 
 #: ../../building.rst:87
 msgid ""
 "define ``widget_to_field_map``, the association from name of view object to "
 "name of model attribute,"
 msgstr ""
+"визначити ``widget_to_field_map``, асоціація з ім'ям виду об'єкта для імені "
+"атрибута моделі,"
 
 #: ../../building.rst:89
 msgid ""
 "override ``view_accept_buttons``, the list of widget names which, if "
 "activated by the user, mean that the view should be closed,"
 msgstr ""
+"анулювати ``view_accept_buttons``, список віджет імен які активовані "
+"користувачем, означає, що представлення повинно бути закрите,"
 
 #: ../../building.rst:91
 msgid "define all needed callbacks,"
-msgstr ""
+msgstr "визначити всі необхідні функції зворотного виклику,"
 
 #: ../../building.rst:93
 msgid ""
@@ -210,10 +248,16 @@ msgid ""
 "the user. The base class for the presenter, ``GenericEditorPresenter`` "
 "defined in ``bauble.editor``, implements many generic callbacks."
 msgstr ""
+"Презентатор не повинен знати про внутрішню структуру представлення, замість "
+"цього, він повинен використовувати представлення api для установки і запиту "
+"значень, вставлених користувачем. Базовий клас для презентатора, "
+"``GenericEditorPresenter`` визначений в ``bauble.editor``, реалізує багато "
+"загальних функцій зворотного виклику."
 
 #: ../../building.rst:98
+#, fuzzy
 msgid "Model and Presenter can be unit tested, not the View."
-msgstr ""
+msgstr "Модель і Presenter може бути протестовані, а не вид."
 
 #: ../../building.rst:100
 msgid ""
@@ -221,6 +265,8 @@ msgid ""
 "falls outside this description. Other plugins do not respect the "
 "description."
 msgstr ""
+"``Tag`` плагін хороший мінімальний приклад, навіть якщо ``TagItemGUI`` "
+"виходить за межі цього опису. Інші плагіни не відносяться до опису."
 
 #: ../../building.rst:104
 msgid ""
@@ -228,10 +274,13 @@ msgid ""
 "setting the presenter also as model. We do this, for example, for the JSON "
 "export dialog box."
 msgstr ""
+"Ми використовуємо той же архітектурний зразок для взаємодії без бази даних, "
+"встановивши презентатор також в якості моделі. Ми робимо це, наприклад, для "
+"вікна діалогу експорту JSON."
 
 #: ../../building.rst:109
 msgid "building (on Windows)"
-msgstr ""
+msgstr "будування (в Windows)"
 
 #: ../../building.rst:111
 msgid ""
@@ -242,12 +291,20 @@ msgid ""
 "executable* from a python script, executable containing the whole python "
 "environment and dependencies."
 msgstr ""
+"Побудова програм python є трохи contraddiction. Ви зазвичай не *build* ні "
+"*compile* програму python, ви запустите його в (віртуальному) середовищі, і "
+"python буде обробляти завантажені модулі і виробляє більш швидку загрузку "
+"*compiled* python файлів. Можна, однак, зробити *Windows executable* з "
+"python скрипт, виконуваний файл, який містить все python середовище і "
+"залежності."
 
 #: ../../building.rst:117
 msgid ""
 "Follow all steps needed to set up a working Bauble environment from "
 ":doc:`installing`, but skip the final ``install`` step."
 msgstr ""
+"Виконайте всі кроки, необхідні для налаштування середовища робочої Bauble з "
+":doc:`installing`, але пропустіть фінальний крок ``install``."
 
 #: ../../building.rst:120
 msgid ""
@@ -255,15 +312,19 @@ msgid ""
 "achieved with the ``py2exe`` target, which is only available on Windows "
 "systems::"
 msgstr ""
+"Замість *installing* Bauble, ви створюєте виконуваний файл Windows. Це "
+"досягається за допомогою ``py2exe``, що доступно тільки в системах Windows::"
 
 #: ../../building.rst:126
 msgid ""
 "At this point you can run Bauble.  To run the compiled executable run::"
 msgstr ""
+"На цьому етапі ви можете запустити Bauble. Для запуску скомпільованого "
+"виконуваного файлу запустити::"
 
 #: ../../building.rst:130
 msgid "or copy the executable to wherever you think appropriate."
-msgstr ""
+msgstr "або скопіювати виконуваний файл туди, куди ви вважаєте доречними."
 
 #: ../../building.rst:132
 msgid ""
@@ -272,3 +333,7 @@ msgid ""
 "installing NSIS right click on ``.\\scripts\\build.nsi`` in Explorer and "
 "select *Compile NSIS Script*."
 msgstr ""
+"Щоб додатково створити інсталяційний пакет NSIS, ви повинні встановити NSIS "
+"з `nsis.sourceforge.net <http://nsis.sourceforge.net/Download>`_. Після "
+"установки NSIS правою кнопкою миші натисніть ``.\\scripts\\build.nsi`` в "
+"Провіднику і виберіть *Compile NSIS Script*."
