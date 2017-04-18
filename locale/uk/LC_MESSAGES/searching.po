@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-03 18:50+0000\n"
+"PO-Revision-Date: 2017-04-18 16:05+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-searching/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.14-dev\n"
 
 #: ../../searching.rst:4
 msgid "Searching in Bauble"
@@ -27,42 +27,39 @@ msgid ""
 " or by using the Query Builder to create the queries for you. The results of"
 " Bauble searches are listed in the main window."
 msgstr ""
-"Пошук дозволяє переглядати, перегляд і створювати звіти з ваших даних. Ви "
+"Пошук дозволяє представляти, перегляд і створювати звіти з ваших даних. Ви "
 "можете виконувати пошук ввівши запит в основному компоненті пошуку або "
-"використати Query Builder для створення запитів для вас. Результати пошуку "
-"Bauble виводяться в головному вікні."
+"використати Query Builder для створення запитів. Результати пошуку Bauble "
+"виводяться в головному вікні."
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
 msgstr "Стратегії пошуку"
 
 #: ../../searching.rst:15
-#, fuzzy
 msgid ""
 "Three are three types of search strategies available in Bauble. Considering "
 "the search stragety types available in Bauble, sorted in increasing "
 "complexity: you can search by value, expression or query."
 msgstr ""
 "Три з трьох стратегій пошуку доступні в Bauble. Взагалі типи стратегій "
-"пошуку доступних в Bauble, сортуються в зростаючій складності: ви можете "
+"пошуку доступних в Bauble, сортуються за зростанням складності: ви можете "
 "здійснювати пошук за значенням, виразом або запитом."
 
 #: ../../searching.rst:19
-#, fuzzy
 msgid ""
 "Searching by query, the most complex and powerful, is assisted by the Query "
 "Builder, described below."
 msgstr ""
-"Пошук за запитом, найскладніший і потужний, допомагає Query Builder, як "
+"Пошук за запитом, найскладніший і потужний, за допомогою Query Builder, як "
 "описано нижче."
 
 #: ../../searching.rst:22
-#, fuzzy
 msgid ""
 "All searches are case insensitive so searching for Maxillaria and maxillaria"
 " will return the same results."
 msgstr ""
-"Всіх пошуки нечутливі до реєстру, тому пошук Maxillaria і maxillaria поверне "
+"Всі пошуки нечутливі до реєстру, тому пошук Maxillaria і maxillaria поверне "
 "однакові результати."
 
 #: ../../searching.rst:27
@@ -79,12 +76,18 @@ msgid ""
 "to search in the notes field of any of these types then searching by value "
 "is not the search you're looking for."
 msgstr ""
+"Пошук за значенням є найпростішим способом пошуку. Просто наберіть в рядку і "
+"подивіться відповідь. Які поля/стовпці пошуку для вашого рядка залежить від "
+"налаштувань плагінів. Наприклад, за замовчуванням PlantPlugin шукає "
+"прізвища, родові назви, види і внутрішньовидові назви видів, просторічні "
+"назви і географію. Так що якщо ви хочете шукати в полі примітки любий з цих "
+"типів то пошук за значенням це не пошук, що вам потрібний."
 
 #: ../../searching.rst:38
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1"
-msgstr ""
+msgstr "Приклади пошуку за значенням: Maxillaria, Acanth, 2008.1234, 2003.2.1"
 
 #: ../../searching.rst:41
 msgid ""
@@ -94,10 +97,14 @@ msgid ""
 "search for Block 10 as a while string then you should quote the string like "
 "``\"Block 10\"``."
 msgstr ""
+"Рядок пошуку розділений пробілами. Наприклад, якщо ввести в рядок пошуку ``"
+"Block 10`` то Bauble буде шукати рядки Block і 10 та поверне всі результати, "
+"які відповідають цим рядкам. Якщо ви хочете знайти безроздільно Block 10 у "
+"рядку, то ви повинні ввести в рядок пошуку, як цитату ``\"Block 10\"``."
 
 #: ../../searching.rst:49
 msgid "Search by Expression"
-msgstr ""
+msgstr "Пошук за виразом"
 
 #: ../../searching.rst:51
 msgid ""
@@ -108,6 +115,11 @@ msgid ""
 "Maxillaria. In this case the domain is gen, the operator is = and the value "
 "is Maxillaria."
 msgstr ""
+"Пошук за виразом дає вам трохи більше контролю над тим, що ви шукаєте. Це "
+"може звузити область пошуку до певного домену. Вираз складається з домену, "
+"оператора і значення. Наприклад, пошук: ``gen=Maxillaria`` буде повертати "
+"всі роди, які відповідають імені Maxillaria. В цьому випадку домен є gen, "
+"оператор є = і значення є Maxillaria."
 
 #: ../../searching.rst:58
 msgid ""
@@ -119,12 +131,21 @@ msgid ""
 "all values that end in max. The string %max%a would search for all value "
 "that contain max and end in a."
 msgstr ""
+"Рядок пошуку ``gen like max%`` буде повертати всі роди, чиї імена "
+"починаються з \"Max\". В цьому випадку доменом знову є gen, оператором є "
+"like, що дозволяє  \"вибірковий\" пошук і значенням є max%. Знак відсотка "
+"використовується в якості джокера, так якщо ви шукаєте max% то шукаються всі "
+"значення, які починаються з max. Якщо ви шукаєте %max шукаються всі "
+"значення, які закінчуються на max. Рядок %max% шукатиме всі значення, які "
+"містять max і в кінці а."
 
 #: ../../searching.rst:66
 msgid ""
 "For more information about the different search domain and their short-hand "
 "aliases, see search-domains_ ."
 msgstr ""
+"Для отримання додаткової інформації про інші домени пошуку і їх "
+"стенографічні псевдонімами, дивіться search-domains_ ."
 
 #: ../../searching.rst:69
 msgid ""
@@ -133,10 +154,14 @@ msgid ""
 "the string gen and the search string ``gen like`` will search for the string"
 " gen and the string like."
 msgstr ""
+"Якщо вираз недійсний він, як правило, використовується в якості пошуку "
+"значень пошуку. Наприклад, пошук рядка ``gen=`` буде виконувати пошук за "
+"значенням для рядка gen а рядок пошуку ``gen like`` буде шукати рядок gen і "
+"рядок like."
 
 #: ../../searching.rst:76
 msgid "Search by Query"
-msgstr ""
+msgstr "Пошук по запиту"
 
 #: ../../searching.rst:78
 msgid ""
@@ -144,38 +169,45 @@ msgid ""
 "across relations, specific columns and join search using boolean operators "
 "like AND and OR."
 msgstr ""
+"Запити дозволяють найбільший контроль над пошуком. З запитами ви можете "
+"здійснювати пошук по відносинам, конкретним стовпцям і об'єднати пошук з "
+"використанням логічних операторів, таких як AND і OR."
 
 #: ../../searching.rst:82
 msgid "An example of a query would be::"
-msgstr ""
+msgstr "Приклад запиту буде::"
 
 #: ../../searching.rst:86
 msgid ""
 "This query would return all the plants whose family are Fabaceae and are "
 "located in Block 10."
 msgstr ""
+"Цей запит буде повертати всі рослини, чия сім'я Fabaceae і розташованих в "
+"Block 10."
 
 #: ../../searching.rst:89
 msgid ""
 "Searching with queries usually requires some knowledge of the Bauble "
 "internals and database table layouts."
 msgstr ""
+"Пошук за допомогою запитів, як правило, вимагає знання організації Bauble і "
+"макетів таблиць бази даних."
 
 #: ../../searching.rst:92
 msgid "A couple of useful examples:"
-msgstr ""
+msgstr "Кілька корисних прикладів:"
 
 #: ../../searching.rst:94
 msgid "Which locations are in use::"
-msgstr ""
+msgstr "Які місця в використанні::"
 
 #: ../../searching.rst:98
 msgid "Which genera are associated to at least one accession::"
-msgstr ""
+msgstr "Які роди пов'язані для щонайменше, одного приєднання::"
 
 #: ../../searching.rst:105
 msgid "Domains"
-msgstr ""
+msgstr "Домени"
 
 #: ../../searching.rst:107
 msgid ""
@@ -183,38 +215,40 @@ msgid ""
 "default. The default columns are used when searching by value and "
 "expression. The queries do not use the default columns."
 msgstr ""
+"Нижче наведено загальний домен пошуку і стовпів, вони здійснюють пошук за "
+"замовчуванням."
 
 #: ../../searching.rst:113
 msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
-msgstr ""
+msgstr "family, fam: Search :class:`bauble.plugins.plants.Family`"
 
 #: ../../searching.rst:115
 msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-msgstr ""
+msgstr "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
 
 #: ../../searching.rst:117
 msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-msgstr ""
+msgstr "species, sp: Search :class:`bauble.plugins.plants.Species`"
 
 #: ../../searching.rst:119
 msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-msgstr ""
+msgstr "geography: Search :class:`bauble.plugins.plants.Geography`"
 
 #: ../../searching.rst:121
 msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-msgstr ""
+msgstr "acc: Search :class:`bauble.plugins.garden.Accession`"
 
 #: ../../searching.rst:123
 msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-msgstr ""
+msgstr "plant: Search :class:`bauble.plugins.garden.Plant`"
 
 #: ../../searching.rst:125
 msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-msgstr ""
+msgstr "location, loc: Search :class:`bauble.plugins.garden.Location`"
 
 #: ../../searching.rst:128
 msgid "The Query Builder"
-msgstr ""
+msgstr "Query Builder"
 
 #: ../../searching.rst:130
 msgid ""
@@ -222,6 +256,10 @@ msgid ""
 " click interface.  To open the Query Builder click the to the left of the "
 "search entry or select :menuselection:`Tools-->Query Builder` from the menu."
 msgstr ""
+"Query Builder дозволяє будувати складні пошукові запити через вказування і "
+"натискання в інтерфейсі. Для того, щоб відкрити Query Builder натисніть "
+"зліва від входу пошуку або виберіть :menuselection:`Tools-->Query Builder` в "
+"меню."
 
 #: ../../searching.rst:135
 msgid ""
@@ -230,6 +268,10 @@ msgid ""
 "feeling of correct queries before you start typing them by hand, something "
 "that you might prefer if you are a fast typer."
 msgstr ""
+"Query Builder компонує запит, який буде зрозумілий стратегії пошукового "
+"запиту, описаної вище. Ви можете використовувати Query Builder щоб отримати "
+"відчуття правильних запитів, перш ніж почати вводити їх вручну, щось чому ви "
+"напевно-що надаєте перевагу, якщо ви скоро друкуєте."
 
 #: ../../searching.rst:140
 msgid ""
@@ -237,6 +279,9 @@ msgid ""
 " domain will determine the type of data that is returned and the properties "
 "that you can search."
 msgstr ""
+"Після відкриття Query Builder необхідно вибрати домен пошуку. Домен пошуку "
+"буде визначити тип даних, що повертаються і властивості, які ви можете "
+"шукати."
 
 #: ../../searching.rst:146
 msgid ""
@@ -244,6 +289,8 @@ msgid ""
 "would be the columns on the table.  Often the table/domain and "
 "properties/columns are the same but not always."
 msgstr ""
+"Домен пошуку схожий на таблицю в базі даних і властивості стовпців в "
+"таблиці. Часто таблиця/домен і властивості/стовпці однакові, але не завжди."
 
 #: ../../searching.rst:150
 msgid ""
@@ -252,12 +299,18 @@ msgid ""
 "how you want to make the search comparison.  Finally you must enter a value "
 "to compare to the search property."
 msgstr ""
+"Після обрання домену пошуку ви можете вибрати властивість домену для "
+"порівняння значень. Оператор пошуку може бути змінений, як ви хочете, щоб "
+"зробити порівняння пошуку. Нарешті, ви повинні ввести значення для "
+"порівняння з властивостями пошуку."
 
 #: ../../searching.rst:157
 msgid ""
 "If the search property you have selected can only have specific values then "
 "a list of possible values will be provided for you to choose from."
 msgstr ""
+"Якщо ви вибрали властивість пошуку то це може мати тільки певні значення, "
+"список можливих значень буде надано для вас для вибору."
 
 #: ../../searching.rst:160
 msgid ""
@@ -265,7 +318,13 @@ msgid ""
 "will add more search properties.  Select And/Or next to the property name "
 "choose how the properties will be combined in the search query."
 msgstr ""
+"Якщо  необхідно кілька властивостей пошуку, натисніть на знак плюс що "
+"додасть більше властивостей пошуку. Виберіть And/Or поруч з ім'ям вибраних "
+"властивостей, для визначення, як властивості будуть об'єднані в пошуковому "
+"запиті."
 
 #: ../../searching.rst:165
 msgid "When you are done building your query click OK to perform the search."
 msgstr ""
+"Коли ви закінчите створення свого запиту натисніть кнопку OK, щоб виконати "
+"пошук."
