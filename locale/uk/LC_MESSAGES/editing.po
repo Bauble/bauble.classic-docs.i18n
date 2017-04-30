@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-21 19:06+0000\n"
+"PO-Revision-Date: 2017-04-30 17:49+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-editing/uk/>\n"
@@ -100,19 +100,23 @@ msgstr "Сім'я"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
-msgstr ""
+msgstr "Редактор сім'ї дозволяє додавати або змінювати ботанічну сім'ю."
 
 #: ../../editing.rst:42
 msgid ""
 "The *Family* field on the editor will change the name of the family. The "
 "Family field is required."
 msgstr ""
+"Поле *Сім'я* в редакторі змінює ім'я сім'ї. Потрібно заповнити поле сім'ї."
 
 #: ../../editing.rst:45
+#, fuzzy
 msgid ""
 "The *Qualifier* field will change the family qualifier.  The value can "
 "either be *sensu lato*, *sensu stricto* or nothing."
 msgstr ""
+"Поле * Класифікатор * змінює сімейний специфікатор. Значення може мати *"
+"широке тлумачення*, *вузьке тлумачення* або ніякого."
 
 #: ../../editing.rst:48
 msgid ""
@@ -124,21 +128,29 @@ msgid ""
 "synonym to the list.  To remove a synonym select the synonym from the list "
 "and click on the Remove button."
 msgstr ""
+"*Синоніми* дозволяють вам додавати інші сім'ї, як синоніми з редагованою "
+"сім'єю. Для додавання нового типу синонімів введіть його в ім'я сім'ї. Ви "
+"повинні вибрати сім'ю зі списку доробок. Після того, як ви виберете сім'ю, "
+"яку ви хочете, додати в якості синоніма натисніть на кнопку Додати в список "
+"синонімів, і це додасть обраний синонім до списку. Щоб видалити синонім "
+"виберіть синонім зі списку і натисніть на кнопку Видалити."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid ""
 "To cancel your changes without saving then click on the *Cancel* button."
-msgstr ""
+msgstr "Щоб відмітити зміни без збереження натисніть на кнопку *Скасувати*."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
-msgstr ""
+msgstr "Для того, щоб зберегти сім'ю з якою ви працюєте, натисніть *OK*."
 
 #: ../../editing.rst:60
 msgid ""
 "To save the family you are working on and add a genus to it then click on "
 "the *Add Genera* button."
 msgstr ""
+"Для того, щоб зберегти сім'ю з якою ви працюєте і додати рід натисніть на "
+"кнопку *Додати рід*."
 
 #: ../../editing.rst:63
 msgid ""
@@ -146,6 +158,9 @@ msgid ""
 " the *Next* button on the bottom.  This will save the current family and "
 "open a new blank family editor."
 msgstr ""
+"Для того, щоб додати ще одну сім'ю, коли ви закінчили редагування поточної "
+"натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточну сім'ю і "
+"відкрити новий порожній редактор сім'ї."
 
 #: ../../editing.rst:69
 msgid "Genus"
@@ -153,7 +168,7 @@ msgstr "Рід"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
-msgstr ""
+msgstr "Редактор родів дозволяє додавати або змінювати ботанічний рід."
 
 #: ../../editing.rst:73
 msgid ""
@@ -162,16 +177,20 @@ msgid ""
 "families to choose from.  The family name must already exist in the database"
 " before you can set it as the family for the genus."
 msgstr ""
+"Поле *Сім'я* в редакторі роду дозволяє вибрати сім'ю для роду. Коли ви "
+"починаєте вводити ім'я сім'ї він буде показувати список сімей, щоб вибрати з "
+"нього. Сім'я вже повинна існувати в базі даних, перш ніж ви можете "
+"встановити її в якості імені сім'ї для роду."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
-msgstr ""
+msgstr "Поле *Рід* поле дозволяє встановити рід для цього запису."
 
 #: ../../editing.rst:80
 msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
-msgstr ""
+msgstr "Поле *Автор* дозволяє задати ім'я або абревіатуру автора (ів) для роду."
 
 #: ../../editing.rst:83
 msgid ""
@@ -183,16 +202,24 @@ msgid ""
 " to the list.  To remove a synonym select the synonym from the list and "
 "click on the Remove button."
 msgstr ""
+"*Синоніми* дозволяють вам додавати інший рід, як синоніми з редагованими "
+"родами. Для додавання нового типу синонімів введіть його в ім'я роду. Ви "
+"повинні вибрати рід зі списку доробок. Після того, як ви виберете рід, який "
+"ви хочете, додати в якості синоніма натисніть на кнопку Додати в список "
+"синонімів, і це додасть обраний синонім до списку. Щоб видалити синонім "
+"виберіть синонім зі списку і натисніть на кнопку Видалити."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
-msgstr ""
+msgstr "Для того, щоб зберегти рід з яким ви працюєте, натисніть *OK*."
 
 #: ../../editing.rst:95
 msgid ""
 "To save the genus you are working on and add a species to it then click on "
 "the *Add Species* button."
 msgstr ""
+"Для того, щоб зберегти рід з яким ви працюєте і додати до нього вид "
+"натисніть на кнопку *Додати Вид*."
 
 #: ../../editing.rst:98
 msgid ""
@@ -200,10 +227,14 @@ msgid ""
 "the *Next* button on the bottom.  This will save the current genus and open "
 "a new blank genus editor."
 msgstr ""
+"Для того, щоб додати ще один рід, коли ви закінчили редагування поточного "
+"натисніть на кнопку *Далі* в низу. Це дозволить зберегти поточний рід і "
+"відкрити новий порожній редактор роду."
 
 #: ../../editing.rst:104
+#, fuzzy
 msgid "Species/Taxon"
-msgstr ""
+msgstr "Види/Таксон"
 
 #: ../../editing.rst:106
 msgid ""
@@ -267,27 +298,28 @@ msgstr "Колекція"
 
 #: ../../editing.rst:144
 msgid "A Collection."
-msgstr ""
+msgstr "Колекція."
 
 #: ../../editing.rst:148
 msgid "Donation"
-msgstr ""
+msgstr "Пожертвування"
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Пожертвування."
 
 #: ../../editing.rst:154
 msgid "Plant"
-msgstr ""
+msgstr "Рослина"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
-msgstr ""
+msgstr "Редактор рослин."
 
 #: ../../editing.rst:158
+#, fuzzy
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Створення декількох рослин"
 
 #: ../../editing.rst:159
 msgid ""
