@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-18 19:48+0000\n"
+"PO-Revision-Date: 2017-04-30 09:11+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-installing/uk/>\n"
@@ -25,6 +25,8 @@ msgid ""
 "bauble.classic is a cross-platform program and it will run on unix machines "
 "like Linux and MacOSX, as well as on Windows."
 msgstr ""
+"bauble.classic крос-платформна програма і вона буде працювати на Unix "
+"машинах, таких як Linux і MacOSX, а також на Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -51,11 +53,11 @@ msgstr ""
 
 #: ../../installing.rst:23
 msgid "Installing on Linux"
-msgstr ""
+msgstr "Установка на Linux"
 
 #: ../../installing.rst:25
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr ""
+msgstr "Завантажити `devinstall.sh` скрипт і запустити його::"
 
 #: ../../installing.rst:29
 msgid ""
