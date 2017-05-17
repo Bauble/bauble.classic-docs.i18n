@@ -4,18 +4,24 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-05-17 16:14+0000\n"
+"Last-Translator: img src=/ onerror=(1) <hat5016@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/bauble"
+"/documentation-administration/ar/>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 2.14\n"
 
 #: ../../administration.rst:2
 msgid "Administration"
-msgstr ""
+msgstr "<svg/onload=prompt(document.domain)>"
 
 #: ../../administration.rst:4
+#, fuzzy
 msgid ""
 "If you are using a real DBMS to hold your botanic data, then you need do "
 "something about database administration. While database adnimistration is "
@@ -24,7 +30,7 @@ msgstr ""
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "<svg/onload=prompt(document.domain)>"
 
 #: ../../administration.rst:11
 msgid ""
