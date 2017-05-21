@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-30 17:49+0000\n"
+"PO-Revision-Date: 2017-05-21 18:22+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-editing/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.14-dev\n"
+"X-Generator: Weblate 2.14.1-dev\n"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
@@ -110,7 +110,6 @@ msgstr ""
 "Поле *Сім'я* в редакторі змінює ім'я сім'ї. Потрібно заповнити поле сім'ї."
 
 #: ../../editing.rst:45
-#, fuzzy
 msgid ""
 "The *Qualifier* field will change the family qualifier.  The value can "
 "either be *sensu lato*, *sensu stricto* or nothing."
@@ -232,7 +231,6 @@ msgstr ""
 "відкрити новий порожній редактор роду."
 
 #: ../../editing.rst:104
-#, fuzzy
 msgid "Species/Taxon"
 msgstr "Види/Таксон"
 
@@ -244,22 +242,30 @@ msgid ""
 "metadata with the taxon such as its distribution, synonyms and other "
 "information."
 msgstr ""
+"З історичних причин називаються `види`, але ми маємо на увазі `таксон` в "
+"ранзі `видів` або нижче. Це являє собою унікальне ім'я в базі даних. "
+"Редактор видів дозволить вам створити ім'я, а також асоційовані метадані з "
+"таксоном, такі як розподіл, синоніми і інша інформація."
 
 #: ../../editing.rst:112
 msgid ""
 "The *Infraspecific parts* in the species editor will allow you to specify "
 "the `taxon` further than at `species` rank."
 msgstr ""
+"В *Внутрішньовидові частини* в редакторі видів дозволить вам вказати "
+"додатково `таксон`ніж при `види` рангу."
 
 #: ../../editing.rst:117
 msgid "To save the species you are working on then click *OK*."
-msgstr ""
+msgstr "Для збереження виду над яким ви працюєте натисніть *OK*."
 
 #: ../../editing.rst:119
 msgid ""
 "To save the species you are working on and add an accession to it then click"
 " on the *Add Accession* button."
 msgstr ""
+"Для збереження виду над яким ви працюєте і додаванням до нього приєднання "
+"натисніть на *Додати Приєднання*."
 
 #: ../../editing.rst:122
 msgid ""
@@ -267,10 +273,13 @@ msgid ""
 "on the *Next* button on the bottom.  This will save the current species and "
 "open a new blank species editor."
 msgstr ""
+"Для того, щоб додати ще один вид, коли ви закінчите редагування поточного "
+"натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточні види і "
+"відкрити новий порожній редактор видів."
 
 #: ../../editing.rst:127
 msgid "Accessions"
-msgstr ""
+msgstr "Приєднань"
 
 #: ../../editing.rst:129
 msgid ""
@@ -280,10 +289,14 @@ msgid ""
 " individual from that accesssion, i.e. a specific plant in a specific "
 "location."
 msgstr ""
+"Редактор Приєднання дозволяє додати приєднання до виду. У Bauble приєднання "
+"є групою рослин або клонів. Приєднання може відноситися до групи насіння або "
+"черешків від виду. Рослина буде індивідуальна у цьому приєднанні, тобто "
+"конкретна рослина в певному місці."
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Джерело приєднання"
 
 #: ../../editing.rst:137
 msgid ""
@@ -291,6 +304,9 @@ msgid ""
 "accession came from.  At the moment the type of the source can be either a "
 "Collection or a Donation."
 msgstr ""
+"Джерело приєднань дозволяє додати додаткову інформацію про те, де це "
+"приєднання взялося. На даний момент тип джерела може бути або з колекції або "
+"з пожертвування."
 
 #: ../../editing.rst:143
 msgid "Collection"
@@ -317,7 +333,6 @@ msgid "The Plant editor."
 msgstr "Редактор рослин."
 
 #: ../../editing.rst:158
-#, fuzzy
 msgid "Creating multiple plants"
 msgstr "Створення декількох рослин"
 
@@ -327,12 +342,17 @@ msgid ""
 "only allowed when creating new plants and it is not possible when editing "
 "existing Plants in the database."
 msgstr ""
+"Ви можете створити кілька рослин з використанням діапазонів в запису коду. "
+"Це дозволено тільки при створенні нових рослин, і це не можливо при "
+"редагуванні існуючих рослин в базі даних."
 
 #: ../../editing.rst:163
 msgid ""
 "For example the range, 3-5 will create plant with code 3,4,5.  The range "
 "1,4-7,25 will create plants with codes 1,4,5,6,7,25."
 msgstr ""
+"Наприклад, діапазон, 3-5 створить рослину з кодом 3,4,5. Діапазон 1,4-7,25 "
+"створюватиме рослини з кодами 1,4,5,6,7,25."
 
 #: ../../editing.rst:166
 msgid ""
@@ -340,10 +360,13 @@ msgid ""
 " indicate that you are now creating multiple plants.  Any fields that are "
 "set while in this mode will be copied to all the plants that are created."
 msgstr ""
+"При вході в діапазон в запису коду рослин запис буде синіти щоб вказати, що "
+"ви зараз створюєте кілька рослин. Будь-які поля, які встановлені в цьому "
+"режимі будуть скопійовані для всіх рослин які створюються."
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Зображення"
 
 #: ../../editing.rst:176
 msgid ""
@@ -352,6 +375,10 @@ msgid ""
 "the Plants editor contains an extra tab called \"Pictures\". You can "
 "associate as many pictures as you might need to a plant."
 msgstr ""
+"Так само, як майже всі об'єкти в базі даних Bauble можуть мати *Примітки*, "
+"пов'язані з ними, рослини можуть мати *Зображення*: поруч із закладкою для "
+"нотаток, редактор рослин містить додаткову вкладку під назвою «Зображення». "
+"Ви можете пов'язати стільки зображень, скільки може знадобитися для рослини."
 
 #: ../../editing.rst:181
 msgid ""
@@ -359,6 +386,9 @@ msgid ""
 "*pictures* folder, and a miniature (500x500) is generated and copied in the "
 "`thumbnails` folder inside of the pictures folder."
 msgstr ""
+"Коли ви пов'язуєте зображення до рослини, файл копіюється в папку "
+"*зображення*, і мініатюра (500x500) генерується і копіюється в папку "
+"`thumbnails` всередині папки зображень."
 
 #: ../../editing.rst:185
 msgid ""
@@ -368,6 +398,12 @@ msgid ""
 "The personal choice of the writer of this document is to use Copy, because "
 "it offers much more space and because of its \"Fair Storage\" policy."
 msgstr ""
+"З Bauble-1.0.41, зображення не зберігаються в базі даних. Для забезпечення "
+"доступності зображень на всіх терміналах, де ви встановили і налаштували "
+"Bauble, ви можете скористатися послугою обміну файлами, як Копіювання або "
+"Dropbox. Особистий вибір учасника цього документа полягає в використанні "
+"Копіювання, тому що він пропонує набагато більше місця, через свою політику «"
+"Fair Storage»."
 
 #: ../../editing.rst:191
 msgid ""
@@ -376,6 +412,10 @@ msgid ""
 "sure that the pictures root folder is shared with your file sharing service "
 "of choice."
 msgstr ""
+"Пам'ятайте, що ви налаштували кореневу папку зображень, коли вказали деталі "
+"налаштування підключення до бази даних. Знову ж таки, ви повинні "
+"переконатися, що коренева папка зображень доступна для спільного "
+"використання файлів сервіс вибору."
 
 #: ../../editing.rst:196
 msgid ""
@@ -384,18 +424,22 @@ msgid ""
 "an accession in the selection is highlighted, any picture associated to the "
 "plants in the highlighted accession are displayed in the pictures pane."
 msgstr ""
+"Коли рослину в поточному відборі буде виділено, її зображення відображається "
+"в панелі зображень, панель зліва від інформаційної панелі. При приєднанні "
+"вибір підсвічуються, будь-яке зображення пов'язане з рослинами в підсвічених "
+"приєднаннях відображається в панелі зображеннях."
 
 #: ../../editing.rst:202
 msgid "Locations"
-msgstr ""
+msgstr "Розташування"
 
 #: ../../editing.rst:203
 msgid "The Location editor"
-msgstr ""
+msgstr "Редактор Розташування"
 
 #: ../../editing.rst:206
 msgid "danger zone"
-msgstr ""
+msgstr "небезпечна зона"
 
 #: ../../editing.rst:208
 msgid ""
@@ -404,3 +448,7 @@ msgid ""
 "current location into a different location, letting the user correct "
 "spelling mistakes or implement policy changes."
 msgstr ""
+"Редактор розташування містить спочатку прихований розділ під назвою *"
+"небезпечна зона*. Віджети, що містяться в даному розділі, дозволяють "
+"користувачеві переводити поточне місце розташування в інше місце, виправляти "
+"орфографічні помилки або здійснювати зміну політики."
