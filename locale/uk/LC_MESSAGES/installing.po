@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Bauble 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:07-0500\n"
-"PO-Revision-Date: 2017-04-30 09:11+0000\n"
+"PO-Revision-Date: 2017-05-23 18:37+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/bauble"
 "/documentation-installing/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.14-dev\n"
+"X-Generator: Weblate 2.14.1-dev\n"
 
 #: ../../installing.rst:2
 msgid "Installation"
@@ -36,6 +36,10 @@ msgid ""
 "these packages installed then Bauble should be able to install the rest of "
 "its dependencies by itself."
 msgstr ""
+"Для установки Bauble спочатку потрібно установити його пакети, які не можуть "
+"бути встановлені автоматично. До них відносяться virtualenvwrapper, PyGTK і "
+"pip. Python і GTK +, ви, ймовірно, вже маєте. Як тільки у вас є ці пакети "
+"встановлені, то Bauble буде в змозі встановити решту пакетів самостійно."
 
 #: ../../installing.rst:13
 msgid ""
@@ -44,12 +48,18 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on your "
 "system."
 msgstr ""
+"Якщо ви будете слідувати цим крокам установки, ви будете працювати з Bauble "
+"у віртуальному середовищі Python, всі залежності Python, встановлені "
+"локально, не суперечать один одному з будь-якою іншою програмою Python що ви "
+"можете мати у вашій системі."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Bauble, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
+"якщо пізніше ви вирішите видалити Bauble, ви просто видалите віртуальне "
+"середовище, яке є каталогом, з усім його вмістом."
 
 #: ../../installing.rst:23
 msgid "Installing on Linux"
@@ -64,6 +74,8 @@ msgid ""
 "Please not that the script will not help you install any extra database "
 "connector. This you will do in a later step."
 msgstr ""
+"Будь ласка, це не той скрипт що допоможе вам встановити додатковий роз'єм "
+"бази даних. Це ви будете робити на більш пізньому етапі."
 
 #: ../../installing.rst:32
 msgid ""
@@ -75,26 +87,36 @@ msgid ""
 "remaining dependencies, and finally it creates a startup script in your "
 "`~/bin` folder."
 msgstr ""
+"Ви можете вивчити сценарій щоб побачити, які кроки виконуються для вас. "
+"Коротше кажучи буде встановлювати залежності, які не можуть бути задоволені "
+"в віртуальному середовищі, що створить віртуальне середовище з ім'ям `bacl`, "
+"загрузити джерела і підключити git перевірку для `bauble-1.0` відділення (це "
+"можна розглядати як виробничу лінію), яка будує bauble, завантаження всіх "
+"інших залежностей, і, нарешті, він створює скрипт запуску в `~ / bin` папці."
 
 #: ../../installing.rst:40
 msgid "If the script ends without error, you can now start bauble::"
-msgstr ""
+msgstr "Якщо сценарій завершується без помилок, ви можете запустити bauble::"
 
 #: ../../installing.rst:44
 msgid "or update bauble to the latest released production patch::"
-msgstr ""
+msgstr "або оновити bauble до останнього випущеного виробничого патча::"
 
 #: ../../installing.rst:48
 msgid ""
 "The same script you can use to switch to a different production line, but at"
 " the moment there's only `bauble-1.0`."
 msgstr ""
+"Той же сценарій ви можете використовувати для перемикання на іншу виробничу "
+"лінію, але на даний момент є тільки `bauble-1.0`."
 
 #: ../../installing.rst:51
 msgid ""
 "on Unity, open a terminal, start bauble, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
 msgstr ""
+"на Unity, відкрийте термінал, запустіть bauble, його значок буде "
+"відображатися в панелі запуску, тепер ви можете це `lock to launcher`."
 
 #: ../../installing.rst:54
 msgid ""
@@ -103,6 +125,10 @@ msgid ""
 " like to use a database backend other than the default SQLite backend then "
 "you will also need to install a database connector."
 msgstr ""
+"Якщо ви хочете використовувати за замовчуванням `SQLite <http://sqlite.org/>`"
+"_базу даних або ви не знаєте, що це значить, то ви можете пропустити цей "
+"крок. Якщо ви хочете використовувати базу даних бекенд, крім SQLite бекенда "
+"за замовчуванням, то вам також необхідно встановити з'єднувач бази даних."
 
 #: ../../installing.rst:59
 msgid ""
@@ -110,32 +136,39 @@ msgid ""
 "database then activate the virtual environment and install psycopg2 with the"
 " following commands::"
 msgstr ""
+"Якщо ви хотіли б використовувати `PostgreSQL <http://www.postgresql.org>`"
+"_базу даних тоді активуйте віртуальне середовище і встановіть psycopg2 з "
+"наступними командами::"
 
 #: ../../installing.rst:66
 msgid ""
 "You might need solve dependencies. How to do so, depends on which Linux "
 "flavour you are using. Check with your distribution documentation."
 msgstr ""
+"Вам, можливо, буде потрібно визначити залежності. Як зробити так, залежить "
+"від того, який Linux ви використовуєте. Зверніться до документації розподілу."
 
 #: ../../installing.rst:70 ../../installing.rst:115 ../../installing.rst:233
 #: ../../installing.rst:275
 msgid "Next..."
-msgstr ""
+msgstr "Далі..."
 
 #: ../../installing.rst:71 ../../installing.rst:116 ../../installing.rst:234
 #: ../../installing.rst:276
 msgid ":ref:`connecting`."
-msgstr ""
+msgstr ":ref:`connecting`."
 
 #: ../../installing.rst:74
 msgid "Installing on MacOSX"
-msgstr ""
+msgstr "Установка на MacOSX"
 
 #: ../../installing.rst:76
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on Linux "
 "(sort of)."
 msgstr ""
+"MacOSX являється середовищем unix, більшість речей буде працювати так само, "
+"як і на Linux (різновид)."
 
 #: ../../installing.rst:79
 msgid ""
@@ -143,6 +176,9 @@ msgid ""
 " one would want to support, and only the current and its immediately "
 "preceding release are kept up-to-date by Apple-the-firm."
 msgstr ""
+"Трудність полягає в тому, що існує не одна а безліч версій MacOSX, що б всіх "
+"їх підтримати, і тільки поточний і попередній випуск up-to-date Apple-the-"
+"firm."
 
 #: ../../installing.rst:83
 msgid ""
@@ -150,26 +186,33 @@ msgid ""
 "MacOSX 10.5 and we assume similar problems would present themselves on older"
 " OSX versions.  Bauble has been successfully tested with 10.7 and 10.9."
 msgstr ""
+"За останніми нашими тестуваннями, деякі з залежностей не можуть бути "
+"встановлені на MacOSX 10.5 і ми припускаємо, що подібні проблеми будуть і на "
+"більш старих версіях OSX. Bauble була успішно протестована з 10,7 і 10,9."
 
 #: ../../installing.rst:87
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
+"Перш за все, вам потрібно речі, які є невід'ємною частиною unix середовища, "
+"але які відсутні в off-the-shelf mac:"
 
 #: ../../installing.rst:90
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version supported "
 "on your mac."
 msgstr ""
+"інструменти розробника: xcode. перевірте сторінку Вікіпедії яка версія "
+"підтримується на mac."
 
 #: ../../installing.rst:92
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
-msgstr ""
+msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
 
 #: ../../installing.rst:94
 msgid "with the above installed, run::"
-msgstr ""
+msgstr "з вище встановлено, запустити::"
 
 #: ../../installing.rst:98
 msgid ""
@@ -177,24 +220,31 @@ msgid ""
 "will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
+"переконайтеся, що ви розумієте виявлені проблеми, і виправте їх. pygtk "
+"знадобиться xquartz і brew не дозволить залежність автоматично. або "
+"встановіть xquartz, використовуючи brew або якщо ви вважаєте за краще::"
 
 #: ../../installing.rst:104
 msgid "then install the remaining dependencies::"
-msgstr ""
+msgstr "тоді встановіть решту залежностей::"
 
 #: ../../installing.rst:109
 msgid "follow all instructions on how to activate what you have installed."
 msgstr ""
+"дотримуватися всіх інструкцій про те, як активувати то, що ви встановили."
 
 #: ../../installing.rst:111
 msgid ""
 "the rest is just as on a normal unix machine, and we have a `devinstall.sh` "
 "script for it. Read the above Linux instructions, follow them, enjoy."
 msgstr ""
+"інше так само, як на звичайній машині unix, і у нас є `devinstall.sh`скрипт "
+"для цього. Прочитайте вище інструкції Linux, слідуйте за ними, "
+"насолоджуйтесь."
 
 #: ../../installing.rst:119
 msgid "Installing on Windows"
-msgstr ""
+msgstr "Установка на Windows"
 
 #: ../../installing.rst:121
 msgid ""
@@ -204,11 +254,17 @@ msgid ""
 "latest version of bauble on Windows: download and install the dependencies "
 "and then install Bauble from the source package."
 msgstr ""
+"Інсталятор Windows використовується для \"batteries-included\" установки, "
+"встановлює все необхідне для запуску Bauble. Поточний супроводжуючий "
+"bauble.classic не може запускати додатки Windows. Якщо ви хочете, щоб "
+"запустити останню версію bauble на Windows: завантажте і встановіть "
+"залежність, а потім встановіть Bauble з вихідного пакета."
 
 #: ../../installing.rst:127
 msgid ""
 "Please report any trouble and help with packaging will be very welcome."
 msgstr ""
+"Повідомлення про виявлені проблеми і допомога з пакуванням дуже вітається."
 
 #: ../../installing.rst:130
 msgid ""
@@ -216,34 +272,41 @@ msgid ""
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
+"Bauble була протестована і як відомо, працює на W-XP, W-7 і W-8. Хоча і "
+"працює нормально на інших версіях Windows, Bauble не була ретельно "
+"протестована на них."
 
 #: ../../installing.rst:144
 msgid "the installation steps on Windows:"
-msgstr ""
+msgstr "кроки по установці на Windows:"
 
 #: ../../installing.rst:146
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from:"
 msgstr ""
+"загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і включає в "
+"себе ``vi``) з:"
 
 #: ../../installing.rst:149
 msgid "https://git-scm.com/download/win"
-msgstr ""
+msgstr "https://git-scm.com/download/win"
 
 #: ../../installing.rst:153
 msgid ""
 "all default options are fine, except we need git to be executable from the "
 "command prompt:"
 msgstr ""
+"всі опції за замовчуванням в порядку, за винятком git повинен бути "
+"виконуваним з командного рядка:"
 
 #: ../../installing.rst:158
 msgid "download and install Python 2.x (32bit) from:"
-msgstr ""
+msgstr "завантажити та встановити Python 2.x (32bit) з:"
 
 #: ../../installing.rst:160
 msgid "http://www.python.org"
-msgstr ""
+msgstr "http://www.python.org"
 
 #: ../../installing.rst:164
 msgid ""
@@ -251,47 +314,57 @@ msgid ""
 "**not** run on Python 3.x.  If you are interested in helping port to Python "
 "3.x, please contact the Bauble maintainers."
 msgstr ""
+"Bauble була розроблена і апробована з використанням Python 2.x. Це, "
+"безумовно, **не ** працюватиме на Python 3.x, будь ласка, зв'яжіться з "
+"розробниками Bauble."
 
 #: ../../installing.rst:168
 msgid "when installing Python, do put Python in the PATH:"
-msgstr ""
+msgstr "при установці Python, помістити Python в PATH:"
 
 #: ../../installing.rst:172
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit python). "
 "be sure you download the \"all in one\" version::"
 msgstr ""
+"завантажити ``pygtk`` з наступного джерела. (для цього потрібно 32-бітний "
+"python). переконайтеся, що ви завантажили \"все в одному\" версію::"
 
 #: ../../installing.rst:179
 msgid "make a complete install, selecting everything:"
-msgstr ""
+msgstr "зробити повну установку, вибравши все:"
 
 #: ../../installing.rst:183
 msgid ""
 "(optional) download and install a database connector other than ``sqlite3``."
 msgstr ""
+"(за бажанням), завантажити і встановити з'єднувач бази даних, окрім `` "
+"sqlite3``."
 
 #: ../../installing.rst:186
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using pip, "
 "so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
+"У Windows не так легко встановити ``psycopg2`` з джерел, використайте pip, "
+"щоб \"avoid the gory details\" і скомпільованих пакет із:"
 
 #: ../../installing.rst:189
 msgid "http://initd.org/psycopg/docs/install.html"
-msgstr ""
+msgstr "http://initd.org/psycopg/docs/install.html"
 
 #: ../../installing.rst:193
 msgid "**REBOOT**"
-msgstr ""
+msgstr "**ПЕРЕЗАВАНТАЖЕННЯ**"
 
 #: ../../installing.rst:195
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
+"Гей, це Windows, вам необхідно перезавантажити, щоб зміни вступили в силу!"
 
 #: ../../installing.rst:197
 msgid "download and run the batch file::"
-msgstr ""
+msgstr "завантажте та запустіть пакетний файл::"
 
 #: ../../installing.rst:201
 msgid ""
@@ -299,18 +372,25 @@ msgid ""
 "directory, under ``Local\\github\\Bauble``, checkout the ``bauble-1.0`` "
 "production line, create a virtual environment and install bauble into it."
 msgstr ""
+"це буде тягнути ``bauble.classic`` репозиторій на github в вашому домашньому "
+"каталозі, під ``Local\\github\\Bauble``, перевірте ``bauble-1.0`` виробничу "
+"лінію, створіть віртуальне середовище і встановіть bauble в нього."
 
 #: ../../installing.rst:205
 msgid ""
 "you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
+"ви також можете запустити ``devinstall.bat`` передаючи в якості аргументу "
+"числову частину виробничої лінії якою ви хочете слідувати."
 
 #: ../../installing.rst:208
 msgid ""
 "download the batch file you will use to stay up-to-date with the production "
 "line you chose to follow::"
 msgstr ""
+"завантажити пакетний файл, який буде використовуватися up-to-date виробничої "
+"лінії якій ви вирішили слідувати::"
 
 #: ../../installing.rst:213
 msgid ""
@@ -318,12 +398,17 @@ msgid ""
 " Bauble will check on the development site and alert you of any newer bauble"
 " release within your chosen production line."
 msgstr ""
+"Якщо у вас встановлена сучасна Bauble, то коли ви запускаєте програму, "
+"Bauble перевірятиме сайт розробника і попередить вас про випуск нових "
+"версій  bauble в межах обраної виробничої лінії."
 
 #: ../../installing.rst:217
 msgid ""
 "any time you want to update your installation, just start the command prompt"
 " and run ``bauble-update.bat``"
 msgstr ""
+"в будь-який час ви можете оновити свою установку, просто відкрийте командний "
+"рядок і запустіть ``bauble-update.bat``"
 
 #: ../../installing.rst:220
 msgid ""
@@ -331,6 +416,8 @@ msgid ""
 "installation procedure copies to the ``Scripts`` directory of the virtual "
 "environment::"
 msgstr ""
+"Тепер ви можете запустити bauble за допомогою ``bauble.lnk`` ярлика, що "
+"процедура установки копіює в каталог ``Scripts`` віртуального середовища::"
 
 #: ../../installing.rst:226
 msgid ""
@@ -339,42 +426,47 @@ msgid ""
 "<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive you"
 " will need to include the directory you extracted to in your PATH."
 msgstr ""
+"Якщо ви хочете створювати і друкувати звіти в форматі PDF з використанням "
+"генератора звітів  Bauble за замовчуванням, то вам необхідно буде "
+"завантажити і встановити `Apache FOP <http://xmlgraphics.apache.org/fop/>`_. "
+"Після розпакування архіву FOP вам потрібно буде включати каталог "
+"розпакування в свій PATH."
 
 #: ../../installing.rst:239
 msgid "Troubleshooting the Install"
-msgstr ""
+msgstr "Пошук і усунення несправностей установки"
 
 #: ../../installing.rst:241
 msgid "What are the packages that are installed by Bauble:"
-msgstr ""
+msgstr "Пакети встановлені Bauble:"
 
 #: ../../installing.rst:243
 msgid "The following packages are required by Bauble"
-msgstr ""
+msgstr "Наступні пакети потрібні Bauble"
 
 #: ../../installing.rst:245
 msgid "SQLAlchemy"
-msgstr ""
+msgstr "SQLAlchemy"
 
 #: ../../installing.rst:246
 msgid "lxml"
-msgstr ""
+msgstr "lxml"
 
 #: ../../installing.rst:248
 msgid "The following packages are optional:"
-msgstr ""
+msgstr "Наступні пакети не є обов'язковими:"
 
 #: ../../installing.rst:250
 msgid "Mako - required by the template based report generator"
-msgstr ""
+msgstr "Mako - потрібно генератор звітів на основі шаблону"
 
 #: ../../installing.rst:251
 msgid "gdata - required by the Picasa photos InfoBox"
-msgstr ""
+msgstr "gdata - потрібно Picasa фотографії InfoBox"
 
 #: ../../installing.rst:254
 msgid "Couldn't install lxml."
-msgstr ""
+msgstr "Не вдалося встановити lxml."
 
 #: ../../installing.rst:256
 msgid ""
@@ -384,10 +476,14 @@ msgid ""
 "Windows there should be a precompiled version available at "
 "http://pypi.python.org/pypi/lxml/2.1.1"
 msgstr ""
+"Пакети lxml повинні компілюватись з С компілятором. Якщо у вас немає "
+"переконайтеся, що встановлені  libxml і libxsl пакети. Установіть пакети "
+"Cython. У Linux вам доведеться встановити gcc пакет. У Windows повинна бути "
+"прекомпілірована версія доступна на http://pypi.python.org/pypi/lxml/2.1.1"
 
 #: ../../installing.rst:263
 msgid "Couldn't install gdata."
-msgstr ""
+msgstr "Не вдалося встановити gdata."
 
 #: ../../installing.rst:265
 msgid ""
@@ -395,15 +491,20 @@ msgid ""
 "Package Index but doesn't work properly with the easy_install command.  You "
 "can download the latest gdata package from:"
 msgstr ""
+"З якоїсь причини пакет gdata від Google перераховує себе в Python Package "
+"Index, але не працює належним чином з командою easy_install. Завантажте "
+"останній пакет gdata від:"
 
 #: ../../installing.rst:270
 msgid "http://code.google.com/p/gdata-python-client/downloads/list"
-msgstr ""
+msgstr "http://code.google.com/p/gdata-python-client/downloads/list"
 
 #: ../../installing.rst:272
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it to."
 msgstr ""
+"Розпакуйте його і запустіть ``python setup.py installw`` в папці "
+"розпакування."
 
 #: ../../installing.rst:134
 msgid ""
@@ -412,19 +513,23 @@ msgid ""
 "download links stops working, please ring the bell, so we can update the "
 "information here."
 msgstr ""
+"Наведені прямі посилання для завантаження для всіх необхідних компонентів. "
+"Вони були випробувані в вересні 2015 року, але все змінюється з часом. Якщо "
+"яка-небудь з ланок прямого завантаження перестає працювати, будь ласка, "
+"зателефонуйте, що б ми могли оновити інформацію."
 
 #: ../../installing.rst:151
 msgid "`Direct link to download git`_"
-msgstr ""
+msgstr "`Пряме посилання на завантаження git`_"
 
 #: ../../installing.rst:162
 msgid "`Direct link to download Python`_"
-msgstr ""
+msgstr "`Пряме посилання на завантаження Python`_"
 
 #: ../../installing.rst:177
 msgid "`Direct link to download PyGTK`_"
-msgstr ""
+msgstr "`Пряме посилання на завантаження PyGTK`_"
 
 #: ../../installing.rst:191
 msgid "`Direct link to download psycopg2`_"
-msgstr ""
+msgstr "`Пряме посилання на завантаження psycopg2`_"
