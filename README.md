@@ -1,3 +1,5 @@
+outdated information, please check [Ghini/ghini.desktop-docs.i18n](https://github.com/Ghini/ghini.desktop-docs.i18n)
+
 # Bauble Classic : documentation internationalization
 
 ## how does this work
